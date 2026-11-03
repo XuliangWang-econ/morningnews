@@ -1,9 +1,11 @@
 import sys
 import re
+import time
 import yaml
 import httpx
 import feedparser
-from typing import List, Dict
+from datetime import datetime, timezone, timedelta
+from typing import List, Dict, Optional
 from src.models import RawArticle
 
 # 确保在 Windows 控制台输出 Unicode 字符时不崩溃
@@ -19,11 +21,42 @@ def clean_html_tags(raw_html: str) -> str:
     clean = re.sub(r"<[^>]+>", "", raw_html)
     return " ".join(clean.split()).strip()
 
-def parse_rss_content(content_str: str, source_name: str, max_items: int = 10) -> List[RawArticle]:
+def extract_published_datetime(entry) -> Optional[datetime]:
+    if getattr(entry, "published_parsed", None):
+        try:
+            return datetime.fromtimestamp(time.mktime(entry.published_parsed), tz=timezone.utc)
+        except Exception:
+            pass
+    if getattr(entry, "updated_parsed", None):
+        try:
+            return datetime.fromtimestamp(time.mktime(entry.updated_parsed), tz=timezone.utc)
+        except Exception:
+            pass
+    return None
+
+def is_within_max_age(pub_dt: Optional[datetime], max_age_hours: int = 36) -> bool:
+    if pub_dt is None:
+        # 如果源本身完全不带日期，默认保留
+        return True
+    now = datetime.now(timezone.utc)
+    # 如果文章发布时间早于当前时间 36 小时以前，视为陈旧内容过滤掉
+    age_seconds = (now - pub_dt).total_seconds()
+    if age_seconds > max_age_hours * 3600:
+        return False
+    return True
+
+def parse_rss_content(content_str: str, source_name: str, max_items: int = 10, max_age_hours: int = 36) -> List[RawArticle]:
     feed = feedparser.parse(content_str)
     articles: List[RawArticle] = []
     
-    for entry in feed.entries[:max_items]:
+    for entry in feed.entries:
+        if len(articles) >= max_items:
+            break
+            
+        pub_dt = extract_published_datetime(entry)
+        if not is_within_max_age(pub_dt, max_age_hours=max_age_hours):
+            continue
+
         title = clean_html_tags(getattr(entry, "title", ""))
         url = getattr(entry, "link", "")
         summary = clean_html_tags(getattr(entry, "summary", getattr(entry, "description", "")))
@@ -33,7 +66,8 @@ def parse_rss_content(content_str: str, source_name: str, max_items: int = 10) -
             title=title,
             summary=summary[:300],
             url=url,
-            source_name=source_name
+            source_name=source_name,
+            published_at=pub_dt
         ))
     return articles
 
