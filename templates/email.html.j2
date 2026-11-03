@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>今日晨报 - {{ digest.date_str }}</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f6f7f9; margin: 0; padding: 20px 0; color: #1f2937; }
+    .container { max-width: 640px; margin: 0 auto; background: #ffffff; border-radius: 8px; overflow: hidden; border: 1px solid #e5e7eb; }
+    .header { background: #111827; color: #ffffff; padding: 24px; }
+    .date-badge { font-size: 12px; letter-spacing: 1px; color: #9ca3af; text-transform: uppercase; margin-bottom: 6px; }
+    .headline-quote { font-size: 18px; font-weight: 600; line-height: 1.4; color: #f3f4f6; margin: 0; }
+    .content { padding: 24px; }
+    .section-title { font-size: 15px; font-weight: 700; color: #111827; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #3b82f6; padding-bottom: 6px; margin: 24px 0 16px 0; }
+    .news-card { margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid #f3f4f6; }
+    .news-title { font-size: 15px; font-weight: 600; color: #111827; margin: 0 0 6px 0; }
+    .news-summary { font-size: 14px; line-height: 1.6; color: #4b5563; margin: 0 0 6px 0; }
+    .news-impact { font-size: 13px; line-height: 1.5; color: #1e40af; background: #eff6ff; padding: 6px 10px; border-radius: 4px; margin: 6px 0; }
+    .news-meta { font-size: 12px; color: #9ca3af; }
+    .news-meta a { color: #3b82f6; text-decoration: none; }
+    .quick-list { margin: 0; padding-left: 20px; font-size: 13px; color: #4b5563; line-height: 1.7; }
+    .footer { background: #f9fafb; padding: 18px; text-align: center; font-size: 12px; color: #9ca3af; border-top: 1px solid #e5e7eb; }
+    .footer a { color: #3b82f6; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="date-badge">MORNING BRIEFING · {{ digest.date_str }}</div>
+      <p class="headline-quote">“{{ digest.headline_quote }}”</p>
+    </div>
+    <div class="content">
+      {% if digest.macro_markets %}
+      <div class="section-title">📊 欧美财经与宏观市场</div>
+      {% for item in digest.macro_markets %}
+      <div class="news-card">
+        <h3 class="news-title">{{ item.title }}</h3>
+        <p class="news-summary">{{ item.summary }}</p>
+        <div class="news-impact">💡 <strong>看点：</strong>{{ item.impact }}</div>
+        <div class="news-meta">来源: <a href="{{ item.url }}" target="_blank">{{ item.source_name }} ↗</a></div>
+      </div>
+      {% endfor %}
+      {% endif %}
+
+      {% if digest.global_affairs %}
+      <div class="section-title">🌍 国际焦点与综合要闻</div>
+      {% for item in digest.global_affairs %}
+      <div class="news-card">
+        <h3 class="news-title">{{ item.title }}</h3>
+        <p class="news-summary">{{ item.summary }}</p>
+        <div class="news-impact">💡 <strong>看点：</strong>{{ item.impact }}</div>
+        <div class="news-meta">来源: <a href="{{ item.url }}" target="_blank">{{ item.source_name }} ↗</a></div>
+      </div>
+      {% endfor %}
+      {% endif %}
+
+      {% if digest.finland_nordic %}
+      <div class="section-title">🇫🇮 芬兰与北欧观察</div>
+      {% for item in digest.finland_nordic %}
+      <div class="news-card">
+        <h3 class="news-title">{{ item.title }}</h3>
+        <p class="news-summary">{{ item.summary }}</p>
+        <div class="news-impact">💡 <strong>看点：</strong>{{ item.impact }}</div>
+        <div class="news-meta">来源: <a href="{{ item.url }}" target="_blank">{{ item.source_name }} ↗</a></div>
+      </div>
+      {% endfor %}
+      {% endif %}
+
+      {% if digest.quick_bites %}
+      <div class="section-title">⚡ 一句话快讯速览</div>
+      <ul class="quick-list">
+        {% for bite in digest.quick_bites %}
+        <li>{{ bite }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    <div class="footer">
+      本早报由个人自动化流水线自动生成 · <a href="{{ site_url }}" target="_blank">在线 Web 仪表盘与往期归档 ↗</a>
+    </div>
+  </div>
+</body>
+</html>
