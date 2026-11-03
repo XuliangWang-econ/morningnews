@@ -1,5 +1,9 @@
 import os
 import sys
+
+# 确保项目根目录在 sys.path 中，支持 python src/main.py 直接运行
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import argparse
 from datetime import datetime
 from dotenv import load_dotenv
