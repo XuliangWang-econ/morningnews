@@ -1,0 +1,27 @@
+finance_markets:
+  - name: "Financial Times (FT)"
+    url: "https://www.ft.com/rss/home/us"
+  - name: "Wall Street Journal (WSJ Markets)"
+    url: "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+  - name: "CNBC Top News"
+    url: "https://search.cnbc.com/rs/search/view.html?partnerId=2000&keywords=markets&sort=date"
+  - name: "MarketWatch"
+    url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+
+global_news:
+  - name: "South China Morning Post (SCMP)"
+    url: "https://www.scmp.com/rss/91/feed"
+  - name: "Nikkei Asia"
+    url: "https://asia.nikkei.com/rss/feed/nar"
+  - name: "Reuters World"
+    url: "https://www.reutersagency.com/feed/?taxonomy=markets&post_type=best"
+  - name: "BBC News World"
+    url: "http://feeds.bbci.co.uk/news/world/rss.xml"
+  - name: "Lianhe Zaobao (国际)"
+    url: "https://www.zaobao.com.sg/rss/realtime/world"
+
+finland_nordic:
+  - name: "Yle News (芬兰广播公司)"
+    url: "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS"
+  - name: "Helsinki Times"
+    url: "https://www.helsinkitimes.fi/finland?format=feed&type=rss"
