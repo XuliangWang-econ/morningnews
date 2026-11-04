@@ -2,8 +2,8 @@ name: Daily Morning News Pipeline
 
 on:
   schedule:
-    # 每天 UTC 04:30 (即芬兰时间 06:30 冬令时 / 07:30 夏令时)
-    - cron: '30 4 * * *'
+    # 避开 :00 和 :30 的 GitHub 全球高峰拥堵时间，设定在 UTC 04:25 (对应芬兰冬令时 06:25)
+    - cron: '25 4 * * *'
   workflow_dispatch: # 支持在 GitHub Actions 网页手动点击触发
 
 permissions:
