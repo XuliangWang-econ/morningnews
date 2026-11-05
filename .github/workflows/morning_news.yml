@@ -6,7 +6,17 @@ on:
     - cron: '23 4 * * *'
     # 备用触发：UTC 04:43 (芬兰冬令时 06:43) - 双重保险容灾（若主触发被 GitHub 漏掉，自动补刀）
     - cron: '43 4 * * *'
-  workflow_dispatch: # 支持网页手动点击随时强制运行
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force dispatch even if today was already sent'
+        type: boolean
+        required: false
+        default: false
+
+concurrency:
+  group: morning-news
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -29,6 +39,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run Test Suite
+        run: |
+          pytest -v
+
       - name: Run Morning News Pipeline
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
@@ -39,18 +53,24 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
-          SITE_URL: ${{ secrets.SITE_URL }}
+          SITE_URL: ${{ secrets.SITE_URL || 'https://XuliangWang-econ.github.io/morningnews' }}
         run: |
-          # 如果是手动网页点击，加上 --force 参数强制重新生成
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
             python src/main.py --force
           else
             python src/main.py
           fi
 
       - name: Deploy to GitHub Pages (gh-pages)
+        if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           keep_files: true
+
+      - name: Pipeline Failure Summary
+        if: failure()
+        run: |
+          echo "### ⚠️ Morning News Pipeline Failed" >> $GITHUB_STEP_SUMMARY
+          echo "The automated morning news run encountered an error. Please inspect the workflow run logs." >> $GITHUB_STEP_SUMMARY

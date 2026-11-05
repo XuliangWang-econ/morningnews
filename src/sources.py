@@ -1,10 +1,11 @@
 import sys
 import re
-import time
+import html
+import calendar
 import yaml
 import httpx
 import feedparser
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from typing import List, Dict, Optional
 from src.models import RawArticle
 
@@ -19,17 +20,21 @@ def clean_html_tags(raw_html: str) -> str:
     if not raw_html:
         return ""
     clean = re.sub(r"<[^>]+>", "", raw_html)
+    clean = html.unescape(clean)
     return " ".join(clean.split()).strip()
 
 def extract_published_datetime(entry) -> Optional[datetime]:
     if getattr(entry, "published_parsed", None):
         try:
-            return datetime.fromtimestamp(time.mktime(entry.published_parsed), tz=timezone.utc)
+            # feedparser 提供的 published_parsed 是 UTC 9 元组，用 calendar.timegm 转换为 UTC 时间戳
+            secs = calendar.timegm(entry.published_parsed)
+            return datetime.fromtimestamp(secs, tz=timezone.utc)
         except Exception:
             pass
     if getattr(entry, "updated_parsed", None):
         try:
-            return datetime.fromtimestamp(time.mktime(entry.updated_parsed), tz=timezone.utc)
+            secs = calendar.timegm(entry.updated_parsed)
+            return datetime.fromtimestamp(secs, tz=timezone.utc)
         except Exception:
             pass
     return None
@@ -39,14 +44,14 @@ def is_within_max_age(pub_dt: Optional[datetime], max_age_hours: int = 36) -> bo
         # 如果源本身完全不带日期，默认保留
         return True
     now = datetime.now(timezone.utc)
-    # 如果文章发布时间早于当前时间 36 小时以前，视为陈旧内容过滤掉
+    # 如果文章发布时间早于当前时间 max_age_hours 以前，视为陈旧内容过滤掉
     age_seconds = (now - pub_dt).total_seconds()
     if age_seconds > max_age_hours * 3600:
         return False
     return True
 
-def parse_rss_content(content_str: str, source_name: str, max_items: int = 10, max_age_hours: int = 36) -> List[RawArticle]:
-    feed = feedparser.parse(content_str)
+def parse_rss_content(content_bytes_or_str, source_name: str, max_items: int = 10, max_age_hours: int = 36) -> List[RawArticle]:
+    feed = feedparser.parse(content_bytes_or_str)
     articles: List[RawArticle] = []
     
     for entry in feed.entries:
@@ -75,22 +80,31 @@ def load_sources_config(config_path: str = "config/sources.yaml") -> Dict[str, L
     with open(config_path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
-def fetch_feed(source_info: Dict, timeout_secs: float = 12.0, max_items: int = 10) -> List[RawArticle]:
+def fetch_feed(source_info: Dict, timeout_secs: float = 12.0, max_items: int = 10, retries: int = 2) -> List[RawArticle]:
     name = source_info.get("name", "Unknown")
     url = source_info.get("url", "")
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
         "Accept": "application/rss+xml, application/xml, text/xml, */*"
     }
-    try:
-        with httpx.Client(timeout=timeout_secs, follow_redirects=True, headers=headers) as client:
-            resp = client.get(url)
-            resp.raise_for_status()
-            return parse_rss_content(resp.text, source_name=name, max_items=max_items)
-    except Exception as exc:
-        safe_msg = str(exc).encode("ascii", "replace").decode("ascii")
-        print(f"[WARN] Failed to fetch feed '{name}': {safe_msg}")
-        return []
+    
+    last_err: Optional[Exception] = None
+    for attempt in range(1, retries + 1):
+        try:
+            with httpx.Client(timeout=timeout_secs, follow_redirects=True, headers=headers) as client:
+                resp = client.get(url)
+                resp.raise_for_status()
+                # 使用 resp.content 字节流让 feedparser 自主探测编码，避免多语言乱码
+                return parse_rss_content(resp.content, source_name=name, max_items=max_items)
+        except Exception as exc:
+            last_err = exc
+            if attempt < retries:
+                # 瞬时错误短暂重试
+                continue
+    
+    safe_msg = str(last_err).encode("ascii", "replace").decode("ascii")
+    print(f"[WARN] Failed to fetch feed '{name}' after {retries} attempts: {safe_msg}")
+    return []
 
 def fetch_all_categories(config_path: str = "config/sources.yaml") -> Dict[str, List[RawArticle]]:
     config = load_sources_config(config_path)

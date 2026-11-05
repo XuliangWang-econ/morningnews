@@ -14,6 +14,7 @@
       --primary: #2563eb;
       --badge-bg: #eff6ff;
       --badge-text: #1d4ed8;
+      --nav-bg: #f1f5f9;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -25,15 +26,20 @@
         --primary: #3b82f6;
         --badge-bg: #1e293b;
         --badge-text: #60a5fa;
+        --nav-bg: #1e293b;
       }
     }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 24px 16px; line-height: 1.6; }
     .wrapper { max-width: 760px; margin: 0 auto; }
-    header { margin-bottom: 32px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+    header { margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+    .top-meta { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
     .badge { font-size: 13px; font-weight: 600; color: var(--primary); text-transform: uppercase; letter-spacing: 0.5px; }
-    h1 { font-size: 26px; margin: 8px 0; font-weight: 700; line-height: 1.3; }
-    .quote-box { background: var(--card-bg); border-left: 4px solid var(--primary); border: 1px solid var(--border); border-left-width: 4px; padding: 14px 18px; border-radius: 6px; font-size: 16px; font-weight: 500; margin: 16px 0; }
-    .section-title { font-size: 18px; font-weight: 700; margin: 28px 0 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    .archive-nav select { font-size: 12px; padding: 4px 8px; border-radius: 4px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); cursor: pointer; }
+    .quote-box { background: var(--card-bg); border-left: 4px solid var(--primary); border: 1px solid var(--border); border-left-width: 4px; padding: 14px 18px; border-radius: 6px; font-size: 16px; font-weight: 500; margin: 12px 0 16px; }
+    .quick-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
+    .quick-nav a { font-size: 13px; text-decoration: none; background: var(--nav-bg); color: var(--text); padding: 5px 10px; border-radius: 6px; border: 1px solid var(--border); transition: background 0.15s; }
+    .quick-nav a:hover { background: var(--badge-bg); color: var(--primary); }
+    .section-title { font-size: 18px; font-weight: 700; margin: 32px 0 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 8px; scroll-margin-top: 20px; }
     .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 18px; margin-bottom: 14px; }
     .card-title { font-size: 16px; font-weight: 600; margin: 0 0 8px; }
     .card-desc { font-size: 14px; color: var(--text-muted); margin: 0 0 10px; }
@@ -44,53 +50,74 @@
     .quick-bites-box ul { margin: 0; padding-left: 20px; }
     .quick-bites-box li { margin-bottom: 8px; font-size: 14px; color: var(--text-muted); }
     footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); text-align: center; font-size: 13px; color: var(--text-muted); }
+    .archive-list { margin-top: 12px; font-size: 12px; }
+    .archive-list a { color: var(--primary); text-decoration: none; margin: 0 4px; }
   </style>
 </head>
 <body>
   <div class="wrapper">
     <header>
-      <div class="badge">早报仪表盘 · {{ digest.date_str }}</div>
+      <div class="top-meta">
+        <div class="badge">早报仪表盘 · {{ digest.date_str }}</div>
+        {% if archive_dates %}
+        <div class="archive-nav">
+          <label for="archive-select" style="font-size: 12px; color: var(--text-muted);">往期归档：</label>
+          <select id="archive-select" onchange="if(this.value) window.location.href=this.value;">
+            <option value="">选择历史日期...</option>
+            {% for d in archive_dates %}
+            <option value="archive/{{ d }}.html">{{ d }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        {% endif %}
+      </div>
       <div class="quote-box">“{{ digest.headline_quote }}”</div>
+      <div class="quick-nav">
+        <a href="#macro_markets">📊 欧美财经</a>
+        <a href="#global_affairs">🌍 国际焦点</a>
+        <a href="#finland_nordic">🇫🇮 芬兰与北欧</a>
+        <a href="#quick_bites">⚡ 一句话快讯</a>
+      </div>
     </header>
 
     {% if digest.macro_markets %}
-    <div class="section-title">📊 欧美财经与宏观商业</div>
+    <div id="macro_markets" class="section-title">📊 欧美财经与宏观商业</div>
     {% for item in digest.macro_markets %}
     <div class="card">
       <div class="card-title">{{ item.title }}</div>
       <div class="card-desc">{{ item.summary }}</div>
       <div class="card-impact">💡 <strong>看点：</strong>{{ item.impact }}</div>
-      <div class="card-meta"><a href="{{ item.url }}" target="_blank">来源: {{ item.source_name }} ↗</a></div>
+      <div class="card-meta"><a href="{{ item.url }}" target="_blank" rel="noopener">来源: {{ item.source_name }} ↗</a></div>
     </div>
     {% endfor %}
     {% endif %}
 
     {% if digest.global_affairs %}
-    <div class="section-title">🌍 国际焦点与大事</div>
+    <div id="global_affairs" class="section-title">🌍 国际焦点与大事</div>
     {% for item in digest.global_affairs %}
     <div class="card">
       <div class="card-title">{{ item.title }}</div>
       <div class="card-desc">{{ item.summary }}</div>
       <div class="card-impact">💡 <strong>看点：</strong>{{ item.impact }}</div>
-      <div class="card-meta"><a href="{{ item.url }}" target="_blank">来源: {{ item.source_name }} ↗</a></div>
+      <div class="card-meta"><a href="{{ item.url }}" target="_blank" rel="noopener">来源: {{ item.source_name }} ↗</a></div>
     </div>
     {% endfor %}
     {% endif %}
 
     {% if digest.finland_nordic %}
-    <div class="section-title">🇫🇮 芬兰与北欧观察</div>
+    <div id="finland_nordic" class="section-title">🇫🇮 芬兰与北欧观察</div>
     {% for item in digest.finland_nordic %}
     <div class="card">
       <div class="card-title">{{ item.title }}</div>
       <div class="card-desc">{{ item.summary }}</div>
       <div class="card-impact">💡 <strong>看点：</strong>{{ item.impact }}</div>
-      <div class="card-meta"><a href="{{ item.url }}" target="_blank">来源: {{ item.source_name }} ↗</a></div>
+      <div class="card-meta"><a href="{{ item.url }}" target="_blank" rel="noopener">来源: {{ item.source_name }} ↗</a></div>
     </div>
     {% endfor %}
     {% endif %}
 
     {% if digest.quick_bites %}
-    <div class="section-title">⚡ 一句话快讯</div>
+    <div id="quick_bites" class="section-title">⚡ 一句话快讯</div>
     <div class="quick-bites-box">
       <ul>
         {% for b in digest.quick_bites %}
@@ -101,7 +128,15 @@
     {% endif %}
 
     <footer>
-      个人早报平台 · 每天自动更新
+      <div>个人早报平台 · 每天自动更新</div>
+      {% if archive_dates %}
+      <div class="archive-list">
+        历史归档：
+        {% for d in archive_dates[:7] %}
+        <a href="archive/{{ d }}.html">[{{ d }}]</a>
+        {% endfor %}
+      </div>
+      {% endif %}
     </footer>
   </div>
 </body>

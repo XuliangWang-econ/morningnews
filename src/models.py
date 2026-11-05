@@ -23,3 +23,4 @@ class MorningDigest(BaseModel):
     global_affairs: List[NewsItem] = Field(default_factory=list, description="国际重要焦点事件")
     finland_nordic: List[NewsItem] = Field(default_factory=list, description="芬兰本地与北欧观察")
     quick_bites: List[str] = Field(default_factory=list, description="3-5条 一句话速览短快讯")
+    email_sent: bool = Field(default=False, description="是否已成功通过邮件推送")
