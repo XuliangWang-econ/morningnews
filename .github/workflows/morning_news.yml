@@ -40,8 +40,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Test Suite
+        env:
+          PYTHONPATH: .
         run: |
-          pytest -v
+          python -m pytest -v
 
       - name: Run Morning News Pipeline
         env:
@@ -54,8 +56,9 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
           SITE_URL: ${{ secrets.SITE_URL || 'https://XuliangWang-econ.github.io/morningnews' }}
+          FORCE_RUN: ${{ inputs.force }}
         run: |
-          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+          if [ "$FORCE_RUN" = "true" ]; then
             python src/main.py --force
           else
             python src/main.py
