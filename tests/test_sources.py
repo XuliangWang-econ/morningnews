@@ -1,7 +1,11 @@
 import pytest
+from datetime import datetime, timezone
+from email.utils import format_datetime
 from src.sources import parse_rss_content, load_sources_config
 
-SAMPLE_RSS = """<?xml version="1.0" encoding="UTF-8"?>
+def get_sample_rss():
+    now_rfc822 = format_datetime(datetime.now(timezone.utc))
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
     <title>Sample Feed</title>
@@ -9,14 +13,15 @@ SAMPLE_RSS = """<?xml version="1.0" encoding="UTF-8"?>
       <title>ECB Holds Rates Steady</title>
       <link>https://example.com/ecb-rates</link>
       <description>&lt;p&gt;The ECB kept benchmark rates unchanged today.&lt;/p&gt;</description>
-      <pubDate>Mon, 03 Nov 2026 08:00:00 GMT</pubDate>
+      <pubDate>{now_rfc822}</pubDate>
     </item>
   </channel>
 </rss>
 """
 
 def test_parse_rss_content():
-    articles = parse_rss_content(SAMPLE_RSS, source_name="Test Source", max_items=5)
+    sample_rss = get_sample_rss()
+    articles = parse_rss_content(sample_rss, source_name="Test Source", max_items=5)
     assert len(articles) == 1
     assert articles[0].title == "ECB Holds Rates Steady"
     assert articles[0].url == "https://example.com/ecb-rates"

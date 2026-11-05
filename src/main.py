@@ -6,6 +6,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import argparse
 from datetime import datetime
+import httpx
 from dotenv import load_dotenv
 
 from src.sources import fetch_all_categories, load_sources_config, fetch_feed
@@ -20,7 +21,24 @@ def get_current_date_str() -> str:
     now = datetime.now()
     return f"{now.strftime('%Y年%m月%d日')} {weekdays[now.weekday()]}"
 
-def run_pipeline(dry_run: bool = False, no_email: bool = False, test_sources: bool = False) -> int:
+def check_already_sent_today(date_str: str, site_url: str = "") -> bool:
+    """检查今天是否已经成功发布并发信过，避免双重 Cron 触发导致重复发信"""
+    if not site_url:
+        return False
+    try:
+        url = site_url.rstrip("/") + "/data/latest.json"
+        headers = {"User-Agent": "MorningNewsBot/1.0"}
+        with httpx.Client(timeout=5.0, follow_redirects=True) as client:
+            resp = client.get(url, headers=headers)
+            if resp.status_code == 200:
+                data = resp.json()
+                if data.get("date_str") == date_str:
+                    return True
+    except Exception:
+        pass
+    return False
+
+def run_pipeline(dry_run: bool = False, no_email: bool = False, test_sources: bool = False, force: bool = False) -> int:
     if test_sources:
         print("[INFO] Testing sources connectivity...")
         config = load_sources_config()
@@ -35,6 +53,13 @@ def run_pipeline(dry_run: bool = False, no_email: bool = False, test_sources: bo
         return 0
 
     date_str = get_current_date_str()
+    site_url = os.getenv("SITE_URL", "")
+
+    # 防重复发信机制：如果今天已经成功生成发布过，且非强制模式，则跳过
+    if not force and not dry_run and check_already_sent_today(date_str, site_url):
+        print(f"[INFO] Morning news for {date_str} has already been sent and published today. Skipping duplicate dispatch.")
+        return 0
+
     print(f"[INFO] Starting Morning News pipeline for {date_str}...")
 
     # 1. 抓取所有源
@@ -49,7 +74,6 @@ def run_pipeline(dry_run: bool = False, no_email: bool = False, test_sources: bo
     print(f"      LLM Digest generated: '{digest.headline_quote}'")
 
     # 3. 渲染并保存 Web 产物
-    site_url = os.getenv("SITE_URL", "")
     print("[3/4] Rendering Web dashboard and saving artifacts to public/...")
     save_web_artifacts(digest, output_dir="public", site_url=site_url)
 
@@ -70,9 +94,10 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Run pipeline and save web artifacts without sending email")
     parser.add_argument("--no-email", action="store_true", help="Skip sending email")
     parser.add_argument("--test-sources", action="store_true", help="Test news sources connectivity only")
+    parser.add_argument("--force", action="store_true", help="Force run even if today's digest was already sent")
     args = parser.parse_args()
 
-    sys.exit(run_pipeline(dry_run=args.dry_run, no_email=args.no_email, test_sources=args.test_sources))
+    sys.exit(run_pipeline(dry_run=args.dry_run, no_email=args.no_email, test_sources=args.test_sources, force=args.force))
 
 if __name__ == "__main__":
     main()
