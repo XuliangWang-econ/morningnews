@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>今日晨报 · 2026年11月03日 星期二</title>
+  <title>今日晨报 · 2026年11月05日 星期四</title>
   <style>
     :root {
       --bg: #f8fafc;
@@ -14,6 +14,7 @@
       --primary: #2563eb;
       --badge-bg: #eff6ff;
       --badge-text: #1d4ed8;
+      --nav-bg: #f1f5f9;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -25,15 +26,20 @@
         --primary: #3b82f6;
         --badge-bg: #1e293b;
         --badge-text: #60a5fa;
+        --nav-bg: #1e293b;
       }
     }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 24px 16px; line-height: 1.6; }
     .wrapper { max-width: 760px; margin: 0 auto; }
-    header { margin-bottom: 32px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+    header { margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+    .top-meta { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
     .badge { font-size: 13px; font-weight: 600; color: var(--primary); text-transform: uppercase; letter-spacing: 0.5px; }
-    h1 { font-size: 26px; margin: 8px 0; font-weight: 700; line-height: 1.3; }
-    .quote-box { background: var(--card-bg); border-left: 4px solid var(--primary); border: 1px solid var(--border); border-left-width: 4px; padding: 14px 18px; border-radius: 6px; font-size: 16px; font-weight: 500; margin: 16px 0; }
-    .section-title { font-size: 18px; font-weight: 700; margin: 28px 0 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    .archive-nav select { font-size: 12px; padding: 4px 8px; border-radius: 4px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); cursor: pointer; }
+    .quote-box { background: var(--card-bg); border-left: 4px solid var(--primary); border: 1px solid var(--border); border-left-width: 4px; padding: 14px 18px; border-radius: 6px; font-size: 16px; font-weight: 500; margin: 12px 0 16px; }
+    .quick-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
+    .quick-nav a { font-size: 13px; text-decoration: none; background: var(--nav-bg); color: var(--text); padding: 5px 10px; border-radius: 6px; border: 1px solid var(--border); transition: background 0.15s; }
+    .quick-nav a:hover { background: var(--badge-bg); color: var(--primary); }
+    .section-title { font-size: 18px; font-weight: 700; margin: 32px 0 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 8px; scroll-margin-top: 20px; }
     .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 18px; margin-bottom: 14px; }
     .card-title { font-size: 16px; font-weight: 600; margin: 0 0 8px; }
     .card-desc { font-size: 14px; color: var(--text-muted); margin: 0 0 10px; }
@@ -44,183 +50,164 @@
     .quick-bites-box ul { margin: 0; padding-left: 20px; }
     .quick-bites-box li { margin-bottom: 8px; font-size: 14px; color: var(--text-muted); }
     footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); text-align: center; font-size: 13px; color: var(--text-muted); }
+    .archive-list { margin-top: 12px; font-size: 12px; }
+    .archive-list a { color: var(--primary); text-decoration: none; margin: 0 4px; }
   </style>
 </head>
 <body>
   <div class="wrapper">
     <header>
-      <div class="badge">早报仪表盘 · 2026年11月03日 星期二</div>
-      <div class="quote-box">“DeepSeek冲击波令AI基建股重挫、避险货币走强，市场在恐慌与基本面之间重新定价；地缘与北欧政策信号同步升温。”</div>
+      <div class="top-meta">
+        <div class="badge">早报仪表盘 · 2026年11月05日 星期四</div>
+        
+        <div class="archive-nav">
+          <label for="archive-select" style="font-size: 12px; color: var(--text-muted);">往期归档：</label>
+          <select id="archive-select" onchange="if(this.value) window.location.href=this.value;">
+            <option value="">选择历史日期...</option>
+            
+            <option value="archive/2026-11-05.html">2026-11-05</option>
+            
+          </select>
+        </div>
+        
+      </div>
+      <div class="quote-box">““蓝色浪潮”重塑美国政治与市场：美股债金齐涨、油价因美伊停战预期重挫，亚洲芯片股则在AI监管阴影下承压。”</div>
+      <div class="quick-nav">
+        <a href="#macro_markets">📊 欧美财经</a>
+        <a href="#global_affairs">🌍 国际焦点</a>
+        <a href="#finland_nordic">🇫🇮 芬兰与北欧</a>
+        <a href="#quick_bites">⚡ 一句话快讯</a>
+      </div>
     </header>
 
     
-    <div class="section-title">📊 欧美财经与宏观商业</div>
+    <div id="macro_markets" class="section-title">📊 欧美财经与宏观商业</div>
     
     <div class="card">
-      <div class="card-title">DeepSeek引发AI基建股全面抛售，纳指领跌、英伟达重挫16%</div>
-      <div class="card-desc">WSJ报道，美国股市普遍走低，纳斯达克领跌，AI基础设施制造商遭遇陡峭下跌，许多个股出现两位数跌幅，英伟达下跌16%。市场担忧中国初创公司DeepSeek的新AI模型冲击美国AI龙头估值。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>抛售集中于算力与芯片链，显示市场对AI资本开支叙事和竞争格局的敏感度上升；后续关注业绩指引、推理需求与模型效率对算力需求的再定价。</div>
-      <div class="card-meta"><a href="https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main" target="_blank">来源: Wall Street Journal (WSJ Markets) ↗</a></div>
+      <div class="card-title">民主党中期选举大胜引发“蓝色浪潮”，美股创8月以来最佳单日，美债收益率与美元走低、黄金站上4000美元</div>
+      <div class="card-desc">美国中期选举中民主党大胜、国会进入分裂政府格局后，美股录得8月以来最佳单日涨幅；10年期美债收益率下滑，美元与收益率走低推动黄金站上4000美元。市场同时继续消化AI板块波动与政策制衡预期。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>市场将“蓝色浪潮”解读为财政扩张与激进贸易政策受到制衡，但特朗普仍握否决权，实际立法空间有限。后续关注国会权力分配、AI监管议程、财政谈判以及美债收益率与美元走势对全球资产定价的传导。</div>
+      <div class="card-meta"><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOVEtJOG9HYUZYU0lNTFl5cUE4cEVLN2FsMlVWYUN6cGdSMnpJVDdOVVRsUE8zNUZJSEltczZNM2h2OXZuUVFtTV9uSzcwekdVaGRsTU5YTjYwRmhXVnNHclhfVU5Ed3ZFeHBZY1I0TWszTnVPNktoUG5kSGh4aHhGcTVVc2c?oc=5" target="_blank" rel="noopener">来源: Financial Times / WSJ / CNBC / Bloomberg ↗</a></div>
     </div>
     
     <div class="card">
-      <div class="card-title">WSJ观点：DeepSeek不会击沉美国AI巨头，恐慌被夸大</div>
-      <div class="card-desc">WSJ评论认为，推动英伟达、博通等科技巨头遭抛售的恐慌被夸大。DeepSeek带来的成本与效率冲击需与算力需求、生态壁垒分开评估。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>若市场从叙事冲击回到盈利与订单验证，AI龙头可能分化；关注资本开支指引、推理需求增长及芯片出口管制变化。</div>
-      <div class="card-meta"><a href="https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main" target="_blank">来源: Wall Street Journal (WSJ Markets) ↗</a></div>
+      <div class="card-title">油价延续暴跌，前一日重挫8%后继续下滑，因美伊战争结束希望升温</div>
+      <div class="card-desc">在有关结束美伊战争希望升温的报道推动下，油价在前一交易日重挫8%后延续跌势。WSJ与Bloomberg均将本轮下跌归因于地缘风险溢价快速消退。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>油价急跌缓解全球通胀压力，但打击能源股与产油国财政预期。若停火取得实质进展，伊朗原油出口恢复将重塑供需格局，后续关注OPEC+反应、制裁执行及地缘局势反复风险。</div>
+      <div class="card-meta"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPQlB2Q1M3aHY0UjIwVUczU09aRnVsVDhTSDVncElSMGVwRDE0a3lPLUNXbVN0R25iZHZkOXRtMkg5QTZ5VFNTRi1uTDZfd3pfVlZqUFEyaHZ6R0RPSDltbmRRdWMxbC1JcEV4UGxiYmFESjJWb1QtSkhaNW5kWlF1WkJHenZDLXJZdjJDWjYxcGsxd1RXMHI3N0R1a0Q?oc=5" target="_blank" rel="noopener">来源: Bloomberg / WSJ ↗</a></div>
     </div>
     
     <div class="card">
-      <div class="card-title">黄金收跌1.4%、白银跌2.5%，美联储利率决议成焦点</div>
-      <div class="card-desc">Comex黄金收跌1.4%，过去三个交易日中两日下跌；白银收跌2.5%，过去四个交易日中三日下跌。素材链接标题显示美联储利率决议受到关注。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>贵金属短线受利率预期与美元波动压制，若决议偏鹰将放大实际利率上行压力；但避险与央行购金仍构成中期支撑。</div>
-      <div class="card-meta"><a href="https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main" target="_blank">来源: Wall Street Journal (WSJ Markets) ↗</a></div>
+      <div class="card-title">韩国芯片股遭抛售触发主板交易暂停，亚洲半导体股承压，民主党胜选加剧AI监管担忧</div>
+      <div class="card-desc">韩国芯片股遭遇抛售并触发主板交易暂停，亚洲半导体股随之承压，因民主党中期选举胜利加剧市场对AI与科技行业监管审查的担忧。资金出现从芯片股向汽车等板块的轮动。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>AI交易面临政策风险重估，韩国与亚洲科技股波动性上升。若美国国会推进AI监管或科技反垄断议程，半导体供应链与估值将承压，关注板块轮动持续性与韩国市场稳定性。</div>
+      <div class="card-meta"><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQMDVEZEhiNzNCVmZRZkVlZ090dlo5WjZLRW1oekR3cTJGc3FrWXk1aWVCekZKWGlXWWg1Z2pSYjVJMkhzaVJkbUJ6UXhuNnZlbzNWbWVIWTBUdzFhbUgzZU5lVTdGRVJDZlppN3pwbjBjSnVqemt1R2psZWhWMG1IZFdzSFpQTDVvTl82WUVmOA?oc=5" target="_blank" rel="noopener">来源: WSJ / Nikkei Asia / Bloomberg ↗</a></div>
     </div>
     
     <div class="card">
-      <div class="card-title">日元与瑞郎走强，DeepSeek消息推升避险需求</div>
-      <div class="card-desc">日元和瑞郎兑美元走强，投资者在中国初创公司DeepSeek的新AI模型冲击美国科技股后寻求避险。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>汇市正在定价科技股回撤与全球关税担忧的叠加风险；若风险资产波动延续，低收益避险货币仍可能阶段性占优。</div>
-      <div class="card-meta"><a href="https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main" target="_blank">来源: Wall Street Journal (WSJ Markets) ↗</a></div>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">阿拉比卡咖啡创纪录，美哥关税争端扰动供应预期</div>
-      <div class="card-desc">阿拉比卡咖啡价格升至纪录水平，交易员消化特朗普撤销对哥伦比亚加征关税和经济制裁威胁的消息。标题指向美国与哥伦比亚关税争端。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>咖啡价格对政策消息高度敏感，若关税威胁反复，供应链与通胀预期可能再受扰动；关注哥伦比亚出口与北美库存。</div>
-      <div class="card-meta"><a href="https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main" target="_blank">来源: Wall Street Journal (WSJ Markets) ↗</a></div>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">美国天然气下跌，天气预报变化削弱寒潮预期</div>
-      <div class="card-desc">美国天然气期货下跌，周末更新使2月初天气预报的寒意有所减弱。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>天气驱动型波动仍是近月气价主线，取暖需求预期下修将压制短线价格；关注库存与出口流量。</div>
-      <div class="card-meta"><a href="https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main" target="_blank">来源: Wall Street Journal (WSJ Markets) ↗</a></div>
+      <div class="card-title">高通股价下跌：失去苹果业务与高存储成本双压销售</div>
+      <div class="card-desc">高通股价下跌，因公司同时面临失去苹果基带订单与存储成本高企压制智能手机需求的双重压力。该股承压反映消费电子需求与供应链成本压力仍在。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>这凸显消费电子需求疲软与供应链成本上升对芯片股的挤压。后续关注苹果自研进度、存储价格周期，以及高通汽车与IoT业务能否对冲手机业务压力。</div>
+      <div class="card-meta"><a href="https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories" target="_blank" rel="noopener">来源: MarketWatch ↗</a></div>
     </div>
     
     
 
     
-    <div class="section-title">🌍 国际焦点与大事</div>
+    <div id="global_affairs" class="section-title">🌍 国际焦点与大事</div>
     
     <div class="card">
-      <div class="card-title">中国最高军衔将领张升民会见俄防长，系晋升政治局后首次公开外事</div>
-      <div class="card-desc">SCMP报道，中国中央军委副主席张升民周二在北京会见俄罗斯国防部长别洛乌索夫，这是他成为政治局委员后首次公开报道会见外国官员。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>中俄军事外交在高层的延续性受关注，尤其在俄乌冲突与西方制裁背景下；后续看联合演训、军技合作与对外信号。</div>
-      <div class="card-meta"><a href="https://www.scmp.com/news/china/military/article/3373176/top-chinese-general-meets-russian-defence-minister-days-after-politburo-appointment" target="_blank">来源: South China Morning Post (SCMP) ↗</a></div>
+      <div class="card-title">美国中期选举余波：万斯罕见公开批评特朗普，将共和党败选归咎于伊朗战争</div>
+      <div class="card-desc">美国中期选举共和党败选后，副总统万斯罕见公开将失利归咎于伊朗战争，对特朗普提出尖锐批评；民主党虽赢得国会，但特朗普仍握否决权，立法议程受限。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>这是近年现任总统与副总统之间最尖锐的公开裂痕之一，暴露共和党路线与2028年初选之争。民主党将推动调查与象征性立法，但实际政策需跨过总统否决门槛，后续关注党内重组与外交政策辩论。</div>
+      <div class="card-meta"><a href="https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">来源: BBC News ↗</a></div>
     </div>
     
     <div class="card">
-      <div class="card-title">以色列反对派寻求组阁推翻内塔尼亚胡，阿拉伯议员成关键</div>
-      <div class="card-desc">由加迪·艾森科特领导的反对派阵营周二承诺尽快组阁以赶内塔尼亚胡下台，但在是否与阿拉伯议员结盟上仍存分歧。一周前选举结果悬而未决。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>组阁算术取决于阿拉伯政党支持，可能决定以色列政治走向与加沙及地区政策；关注总统授权与联盟谈判。</div>
-      <div class="card-meta"><a href="https://www.scmp.com/news/world/middle-east/article/3373175/israel-arab-lawmakers-key-unseating-netanyahu-amid-divided-opposition" target="_blank">来源: South China Morning Post (SCMP) ↗</a></div>
+      <div class="card-title">法国全国性罢工与示威来袭，马克龙政策面临生活成本考验</div>
+      <div class="card-desc">法国周四迎来全国性罢工和示威，工会要求政府支持受生活成本上涨困扰的家庭，公共部门员工参与罢工。这是数周社会动荡后的新考验，距总统选举约五个月。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>马克龙政府的财政空间与社会改革议程受到挤压，极左与极右势力借生活成本议题造势。关注交通、教育、医疗中断情况，以及政府是否在预算与购买力政策上让步。</div>
+      <div class="card-meta"><a href="https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs" target="_blank" rel="noopener">来源: France 24 ↗</a></div>
     </div>
     
     <div class="card">
-      <div class="card-title">武汉法院审理对密苏里州535亿美元新冠诽谤案</div>
-      <div class="card-desc">中国法院开始审理北京和武汉机构对美国密苏里州提起的诽谤案，涉及新冠相关指控。武汉中院称周五举行听证，法律程序继续。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>案件象征中美疫情责任叙事与法律战升级，实际执行可能性有限但外交与舆论影响大；关注后续裁决与美方反应。</div>
-      <div class="card-meta"><a href="https://www.scmp.com/news/china/politics/article/3373161/chinese-court-hears-us535-billion-covid-defamation-case-against-us-state-missouri" target="_blank">来源: South China Morning Post (SCMP) ↗</a></div>
+      <div class="card-title">黄之锋因国安法下“勾结外国势力”被判10年监禁</div>
+      <div class="card-desc">香港民主活动人士黄之锋因国安法下“勾结外国势力”被判处10年监禁；法院摘要称其9月认罪，涉及寻求外国对香港和中国实施制裁，30岁的他此前已因其他案件服刑。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>案件将加剧香港与西方在国安法与人权议题上的摩擦，并影响国际商业界对香港法治环境的评估。后续关注上诉进展、外交反应及对异见者的震慑效应。</div>
+      <div class="card-meta"><a href="https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">来源: BBC News / Nikkei Asia / France 24 / SCMP ↗</a></div>
     </div>
     
     <div class="card">
-      <div class="card-title">蔡崇信在乌镇峰会力推开源AI，称是可持续产业唯一路径</div>
-      <div class="card-desc">阿里巴巴集团主席蔡崇信周二在世界互联网大会乌镇峰会表示，开源是创建可持续人工智能产业的唯一可行路径，阿里正加倍投入开源AI战略。背景是美国施压。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>在中美AI竞争与出口管制下，开源成为中国厂商扩大生态与全球开发者影响力的策略；关注模型发布、算力约束与海外监管。</div>
-      <div class="card-meta"><a href="https://www.scmp.com/tech/tech-trends/article/3373155/alibabas-joe-tsai-champions-open-source-ai-wuzhen-summit-amid-us-pushback" target="_blank">来源: South China Morning Post (SCMP) ↗</a></div>
+      <div class="card-title">中国发布第五次全体会议决议，并称贸易壁垒阻碍技术进口、推高顺差</div>
+      <div class="card-desc">新华社发布中国第五次全体会议决议英文摘录；中国同时表示贸易壁垒阻碍技术进口，是其贸易顺差扩大的原因之一。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>北京将技术进口受限作为贸易失衡论据，强化自主创新与反制叙事。在中美欧科技摩擦延续背景下，出口管制、供应链本地化与贸易谈判是后续看点。</div>
+      <div class="card-meta"><a href="https://www.scmp.com/plus/news/china/politics/article/3373366/chinas-fifth-plenum-resolution" target="_blank" rel="noopener">来源: South China Morning Post / Nikkei Asia ↗</a></div>
     </div>
     
     <div class="card">
-      <div class="card-title">中国测试穿浪隐身三体船，非传统海军舰队扩张</div>
-      <div class="card-desc">社交媒体照片显示中国似乎在海上测试一种隐身新三体船，可能采用倒置穿浪船体，反映发展非传统海军平台的努力。图片周日首次出现在微博。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>若属实，显示无人、隐身与多体船技术探索，提升近海侦察与打击选项；关注后续卫星图像与官方披露。</div>
-      <div class="card-meta"><a href="https://www.scmp.com/news/china/military/article/3373134/china-tests-wave-piercing-stealth-trimaran-unconventional-naval-fleet-grows" target="_blank">来源: South China Morning Post (SCMP) ↗</a></div>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">印度海军在索马里附近解救被劫伊朗渔船及20名船员</div>
-      <div class="card-desc">印度国防部周二称，印度海军在索马里附近解救一艘被劫伊朗渔船Azini及20名船员，行动持续逾48小时，在阿拉伯海完成。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>反映红海与阿拉伯海航运安全压力外溢至索马里海域；关注海盗活动与多国海军护航合作。</div>
-      <div class="card-meta"><a href="https://www.scmp.com/news/world/africa/article/3373168/indian-navy-frees-hijacked-iranian-fishing-crew-somalia" target="_blank">来源: South China Morning Post (SCMP) ↗</a></div>
+      <div class="card-title">梅拉尼娅将在白宫主持俄乌官员会面，阿布扎比谈判前展开人道外交</div>
+      <div class="card-desc">俄罗斯与乌克兰官员，包括人权负责人，将于周四在白宫会见美国第一夫人梅拉尼娅·特朗普，随后阿布扎比将举行旨在结束乌克兰战争的会谈。数周前她曾协助促成部分停火以疏散平民。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>第一夫人罕见介入俄乌外交，但实质突破仍取决于俄乌及美方立场。关注阿布扎比会谈能否形成可持续停火框架、人道走廊安排，以及美方斡旋角色的变化。</div>
+      <div class="card-meta"><a href="https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house" target="_blank" rel="noopener">来源: France 24 ↗</a></div>
     </div>
     
     
 
     
-    <div class="section-title">🇫🇮 芬兰与北欧观察</div>
+    <div id="finland_nordic" class="section-title">🇫🇮 芬兰与北欧观察</div>
     
     <div class="card">
-      <div class="card-title">Yle调查：WhatsApp向成年男性推荐芬兰儿童视频</div>
-      <div class="card-desc">Yle调查发现，WhatsApp的消息服务将成年男性引导至关注芬兰儿童生活的账号。报道称10岁儿童视频被推荐给成年男子。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>触及未成年人隐私与平台算法责任，可能推动芬兰及欧盟对推荐系统与年龄验证的监管审视；关注Meta回应与数据保护机构动作。</div>
-      <div class="card-meta"><a href="https://yle.fi/a/74-20254820?origin=rss" target="_blank">来源: Yle News (芬兰国家公共广播) ↗</a></div>
+      <div class="card-title">芬兰政府以95比77挺过信任投票，但执政党NCP支持率跌至历史低</div>
+      <div class="card-desc">芬兰总理奥尔波政府以95票对77票挺过反对党因生活成本上升提出的不信任动议；同时Yle民调显示执政联盟民族联合党（NCP）支持率跌至历史低，芬兰人党成为政府内最受欢迎政党。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>执政联盟内部力量对比生变，生活成本与财政整顿将继续考验政府。NCP支持流失可能影响下届议会选举前的政策妥协与联盟稳定，芬兰人党影响力上升值得关注。</div>
+      <div class="card-meta"><a href="https://yle.fi/a/74-20255113?origin=rss" target="_blank" rel="noopener">来源: Yle News ↗</a></div>
     </div>
     
     <div class="card">
-      <div class="card-title">芬兰拒绝在冰球世锦赛对阵俄罗斯</div>
-      <div class="card-desc">芬兰决定不在德国五月举行的冰球世锦赛上与俄罗斯比赛。此前体育仲裁法庭裁定俄队可重返国际冰球赛事，引发芬兰政界谴责。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>体育政治与对俄制裁立场交织，芬兰维持强硬路线；关注国际冰联赛程调整与其他国家队立场。</div>
-      <div class="card-meta"><a href="https://yle.fi/a/74-20254773?origin=rss" target="_blank">来源: Yle News (芬兰国家公共广播) ↗</a></div>
+      <div class="card-title">芬兰总统斯图布与埃及、卡塔尔和阿联酋领导人通话讨论乌克兰</div>
+      <div class="card-desc">芬兰总统亚历山大·斯图布周二与埃及、卡塔尔和阿联酋领导人通电话，讨论乌克兰问题。此次通话是芬兰在中东方向开展外交协调的一部分。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>芬兰在俄乌外交中寻求海湾国家支持，或涉及人道、能源与停火斡旋。关注北欧国家在美欧与全球南方之间的桥梁角色，以及后续是否形成具体调解倡议。</div>
+      <div class="card-meta"><a href="https://yle.fi/a/74-20255007?origin=rss" target="_blank" rel="noopener">来源: Yle News ↗</a></div>
     </div>
     
     <div class="card">
-      <div class="card-title">欧洲超市冷柜黑客事件或波及芬兰商店</div>
-      <div class="card-desc">芬兰部分K店检测到制冷故障，原因正在调查，可能与欧洲超市冷柜黑客事件有关。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>零售冷链设备联网化带来网络安全暴露，若确认攻击将影响食品保存与运营成本；关注K集团与供应商排查。</div>
-      <div class="card-meta"><a href="https://yle.fi/a/74-20254670?origin=rss" target="_blank">来源: Yle News (芬兰国家公共广播) ↗</a></div>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">民调：多数芬兰人反对与俄罗斯关系正常化</div>
-      <div class="card-desc">最新民调显示多数芬兰人反对与俄罗斯关系正常化。此前总统斯图布上周与普京通电话。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>民意对俄强硬限制芬兰外交回旋空间，即使高层接触恢复也难快速转向；关注边境、安全与能源政策。</div>
-      <div class="card-meta"><a href="https://yle.fi/a/74-20254575?origin=rss" target="_blank">来源: Yle News (芬兰国家公共广播) ↗</a></div>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">芬兰现货电价周一跳涨，北欧水电储备下降与中东危机推升</div>
-      <div class="card-desc">芬兰现货电价周一上涨，受北欧水电储备减少和中东持续危机影响。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>电价对水电与地缘风险敏感，冬季需求上升可能加剧波动；关注北欧电力市场与输电能力。</div>
-      <div class="card-meta"><a href="https://yle.fi/a/74-20254524?origin=rss" target="_blank">来源: Yle News (芬兰国家公共广播) ↗</a></div>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">濒危塞马环斑海豹数量增至近550只</div>
-      <div class="card-desc">芬兰濒危塞马环斑海豹种群增至近550只，估计出生116只幼崽，略高于2025年。它是全球最稀有濒危海豹之一。</div>
-      <div class="card-impact">💡 <strong>看点：</strong>保护措施初见成效但种群仍脆弱，气候变暖与冰况影响繁殖；关注栖息地保护与渔业协调。</div>
-      <div class="card-meta"><a href="https://yle.fi/a/74-20254269?origin=rss" target="_blank">来源: Yle News (芬兰国家公共广播) ↗</a></div>
+      <div class="card-title">一名芬兰公民在美国因涉嫌2024年选举非法投票被捕</div>
+      <div class="card-desc">美国移民和海关执法局（ICE）称，一名芬兰公民因涉嫌在2024年美国选举中登记并投票被捕。案件涉及非公民投票与移民执法。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>案件涉及美国选举诚信与移民执法，可能影响芬兰侨民社群。后续关注司法进展、美方对非公民投票指控的处理尺度，以及是否引发对海外公民投票资格的更广泛审查。</div>
+      <div class="card-meta"><a href="https://yle.fi/a/74-20254956?origin=rss" target="_blank" rel="noopener">来源: Yle News ↗</a></div>
     </div>
     
     
 
     
-    <div class="section-title">⚡ 一句话快讯</div>
+    <div id="quick_bites" class="section-title">⚡ 一句话快讯</div>
     <div class="quick-bites-box">
       <ul>
         
-        <li>美国天然气期货因天气预报变化而下跌。</li>
+        <li>法国血液机构EFS称储存血液的冷库遭黑客攻击，事件影响血液储存并引发对幕后攻击者的猜测。（BBC）</li>
         
-        <li>QXO在多次被拒后向Beacon股东发起敌意收购。</li>
+        <li>英国议员警告，若继续推迟议会大厦修复，这座数百年历史的建筑可能面临“巴黎圣母院式”火灾等灾难性故障。（SCMP）</li>
         
-        <li>Diversified Energy与Permian Basin运营商Maverick Natural Resources达成交易。</li>
+        <li>麦当劳测试新的价值菜单，以在快餐折扣战中提供“清晰且有吸引力”的价值主张。（MarketWatch）</li>
         
-        <li>MarketWatch称预测市场在选举日可能对民主党表现信心过足。</li>
+        <li>菲律宾驻美特使称，民主党中期选举大胜后，美国针对移民的拘留规则可能调整，许多在美菲律宾人或受影响。（SCMP）</li>
         
-        <li>香港预计下周初受强东北季风影响，气温或跌破20摄氏度。</li>
-        
-        <li>韩国法院因统一教领袖韩鹤子违反保释条件秘密访问总部，撤销其保释。</li>
-        
-        <li>芬兰政界谴责体育仲裁法庭允许俄罗斯队重返国际冰球赛事。</li>
-        
-        <li>芬兰周二冷空气来袭，早晨降雨转雪，下午预计转晴。</li>
+        <li>芬兰裔美国家庭的16岁少年Cameron无法入读高中，原本旨在帮助此类学生的项目反而成为障碍。（Yle）</li>
         
       </ul>
     </div>
     
 
     <footer>
-      个人早报平台 · 每天自动更新
+      <div>个人早报平台 · 每天自动更新</div>
+      
+      <div class="archive-list">
+        历史归档：
+        
+        <a href="archive/2026-11-05.html">[2026-11-05]</a>
+        
+      </div>
+      
     </footer>
   </div>
 </body>
