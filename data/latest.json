@@ -1,116 +1,95 @@
 {
-  "date_str": "2026年11月07日 星期六",
-  "headline_quote": "3.2万亿美元AI抛售后的脆弱反弹：通胀黏性与AI债务裂痕，正共同考验华尔街与美联储的年末抉择。",
+  "date_str": "2026年11月08日 星期日",
+  "headline_quote": "AI降温与政治变局交织：美股债市在中期选举后重新定价，中东与欧洲安全风险同步升温",
   "macro_markets": [
     {
-      "title": "AI交易遭遇3.2万亿美元抛售风暴，纳指跌入回调区间后微弱反弹",
-      "summary": "过去一周，围绕AI估值与债务融资的担忧引发华尔街剧烈抛售，美国科技股累计市值蒸发约3.2万亿美元，纳斯达克指数跌入回调区间；周五英伟达、AMD等芯片股带动大盘展开微弱反弹。华尔街日报称这是“把AI投资者推向悬崖边缘的狂野一周”，金融时报则将本轮动荡形容为“华尔街对AI的全仓押注如何爆雷”。",
-      "impact": "市场分歧在于这是健康调整还是AI资本开支周期的拐点。投资者正密切关注AI相关债券利差、数据中心融资成本与12月美联储决议；若波动率持续高企，年末市场流动性将更为脆弱，被动基金赎回与期权对冲可能放大下行。",
-      "source_name": "金融时报、华尔街日报、彭博、CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNal9maVBCTklTM3c5R3RmTk5iTF9qS3NPay1SUm9rT0s3RHRJdUpwbHMzeFFqczhIbjlvWnE2bXEzb2pJMzBIdWQzb18tcXZCVkFrVW1vQ3hGYTRDRUdmUVFkdjl6MlVfOWhHdGp5WTkxUjd0Q0F0SmV5dlpONkk0ekFSNXM?oc=5"
+      "title": "民主党中期选举获胜后美债收益率下行，美元指数周涨0.46%",
+      "summary": "WSJ报道，民主党在中期选举中获胜后，美国国债收益率走低。同期WSJ美元指数本周上涨0.46%至97.52。",
+      "impact": "政治权力格局变化强化了市场对财政扩张受限、美联储政策路径及行业监管转向的预期。债市走强与美元韧性并存，反映避险与政策重定价并行，后续关注国会新格局下的财政谈判与医疗、科技监管。",
+      "source_name": "Wall Street Journal",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdkVMZXBIOElzYmpRaVNwbmNZOWxvT1ZsUWgwamhobmRBNklNOGZGSGNWNG5jZjZPTUtPT2c2V0ZTNmM0SU1MNGdhV2plaVZNbDVOclUzSXMxa3NGM3ZQMl9feDdEQWhramMzMnVycHpCTm1haEFhRFZnYnpNb0hJcjVOR3pTazJ5b1FXeHFkQWRNRUszNEZFVkpmYVNoOWJKclNnM3JYTnY4bWVrdEhkalNxMGIxR2ttRFI3czliVjVXaVh4SHpNSEVR?oc=5"
     },
     {
-      "title": "美联储戴利警告美国仍处“高通胀跑步机”，12月加息窗口未关闭",
-      "summary": "旧金山联储主席戴利表示，最新就业报告是“美国工人的好消息”，但通胀正持续挤压家庭财务，美国仍处在“高通胀跑步机”上，进一步加息的可能性存在。华尔街日报指出，强劲就业数据意味着通胀与市场表现将共同决定美联储12月的政策选择。",
-      "impact": "若市场重新定价加息预期，美债收益率曲线与美元将首当其冲，并对高估值科技股和AI融资链条构成二次压力。12月议息会议前的CPI与PCE数据，将成为风险资产方向的关键变量。",
-      "source_name": "CNBC、华尔街日报",
-      "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+      "title": "伯克希尔三季度回购翻倍至96亿美元，利润下滑",
+      "summary": "FT与CNBC报道，伯克希尔·哈撒韦第三季度加速股票回购，回购规模超过翻倍至96亿美元；同期经营利润与整体利润承压。",
+      "impact": "在估值高企与盈利放缓背景下，伯克希尔以大规模回购释放资本配置信号，也凸显其现金储备与防御属性。市场关注巴菲特接班安排及后续资本部署节奏。",
+      "source_name": "Financial Times / CNBC",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html"
     },
     {
-      "title": "AI信用市场拉响警报：CoreWeave债券收益率突破16%，数据中心债务压顶",
-      "summary": "CNBC报道，被称为AI“信用卡”的CoreWeave债券收益率已升破16%，反映投资者对数据中心建设放缓的担忧；MarketWatch指出，今年AI相关债务发行已淹没投资者组合且表现不佳，而融资需求只会进一步上升。",
-      "impact": "AI资本开支正从股权叙事转向债务约束。若收益率继续走高，数据中心项目内部收益率与科技公司自由现金流将承压，并可能通过CLO与私募信贷渠道外溢至更广泛的信用市场，成为下一轮系统性风险的观察窗口。",
-      "source_name": "CNBC、MarketWatch",
-      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+      "title": "科技股抛售后市场相关性创纪录低位，策略师称回调提供买入机会",
+      "summary": "MarketWatch指出，个股相关性近期降至纪录低位，均值回归可能对市场不利；Bloomberg报道，华尔街策略师将本轮股票抛售视为新的买入理由。",
+      "impact": "AI交易降温引发板块轮动，亚洲从中国到印度的“被遗忘交易”重新活跃。相关性极端低位意味着分散化效果脆弱，若宏观冲击回归，联动抛售风险上升。",
+      "source_name": "MarketWatch / Bloomberg",
+      "url": "https://www.marketwatch.com/story/this-market-signal-called-the-tech-selloff-now-its-sending-another-warning-f7f8eb9b?mod=mw_rss_topstories"
     },
     {
-      "title": "Anthropic推进IPO，目标估值1.5万亿美元；买方心理价位低至1.1万亿",
-      "summary": "金融时报报道，Anthropic将推进IPO，目标估值达1.5万亿美元；彭博则称IPO潜在买家认为合理估值最低可至1.1万亿美元，显示一级市场对顶级AI公司的定价分歧巨大。",
-      "impact": "这将成为AI估值争论的试金石：若发行定价接近1.5万亿美元，可能重新点燃风险偏好；若缩水至1.1万亿美元附近，则将确认AI估值中枢下移。承销团构成、锁定期安排与散户配售比例值得重点关注。",
-      "source_name": "金融时报、彭博",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbjV5NWJDbm9FZ2VFTmNEWHdHVUt5ODJwdlZOQjgzZTdJdkFwN0FzQkNsVFdENVJ3MnZybWFvTXltVVFwYVUyWVY4UjRsaFlFajdwMk9QV1gyRmx2UzFpOTlzaWpZdGRrRG1HVTY1c2lMbGJ1eURCQ2E5M1ljSWZNanViUXI?oc=5"
+      "title": "加密货币行业准备迎接与特朗普关系清算",
+      "summary": "FT报道，加密行业正为与特朗普政治关系的潜在清算做准备。与此同时，Meta债券发行显示科技债务的新现实。",
+      "impact": "政治风向变化可能影响加密监管、执法与机构采用节奏；科技巨头债务融资环境变化则反映AI资本开支周期下信用市场的重新定价。",
+      "source_name": "Financial Times / Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUllPOWhUX0NhZXFBdTFtc0NUUHRLYzJZa3pKem11UHI1MThveDZwZ0VsTjhLTUVFV0ktcTFwUHZzQk8yanQ3bnZ1Q05YcGtZeVE4ZmlSR1dIcXV3WkFjcUlpeGVLbExwUDlWSmh6SnF5RmJHclczLVE1OERhQV94dmVkYUU?oc=5"
     },
     {
-      "title": "大宗商品分化：中国连续两年增持黄金，Trafigura抢购铜，油价因中东外交预期回落",
-      "summary": "彭博报道，随着金价回落，中国央行将黄金增持纪录延长至两年，储备多元化趋势延续；Trafigura在亚洲大举扫货铜，因中国面临供应紧张；华尔街日报称原油期货因市场对中东外交抱有希望而下滑，但贵金属本周仍录得周线涨幅。",
-      "impact": "央行购金与铜供应瓶颈反映储备多元化与能源转型需求，而油价的地缘溢价正在被外交预期压缩。后续关注OPEC+产量回应、中国实物需求与铜库存去化速度，这将决定大宗商品能否继续充当组合对冲工具。",
-      "source_name": "彭博、华尔街日报",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVdJdkgwZnBIUEhYS0ZGcUpvYVFmWW5tVlZqVFlRSkJuOWUyU3Z2Zi1sZ3F1S3BuMmFrSUtuSDhDbWkzWS1lM2Q0OE14WTVkaEk0SnZMOExTRDFUV3h1dUNvejhVTkRmdjVLb1VKUU40ZlliTTVXenVaN3M5ZEpoZVFqMW9WemRDWGV2YmNCeGpVci0zU2p4a0xhRUhYaDB4ZC13bHNISUdOc3J2RUNKUg?oc=5"
+      "title": "中国2026年料领跑全球能源投资，AI需求推升矿业轮胎等实体需求",
+      "summary": "Bloomberg援引央视报道称，中国将在2026年引领全球能源投资。Nikkei Asia报道，普利司通因AI驱动需求扩大巨型矿业轮胎产能。",
+      "impact": "能源转型与AI基础设施投资形成共振，带动上游资源、装备与运输需求。中国能源资本开支的全球溢出效应值得关注。",
+      "source_name": "Bloomberg / Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVNBelR6QURBUWMxQVp4SHlEUW9Nc1lhQVluWjgwSFh4cUlqdXhPeE96dXFvcUVmV3BrTFYtVXF6XzNEZU5Mc1k4dUxsa2hWamNRUkhsdGtfQjFCd1JfSkpJRnc1VDFGdU1GT29XSFllQ0hOTExvaEFtc1I5cHM2ZGl1aTFNQ1NMYnhoa084a2doRlQ2aVl2VnpzbzJqVWJkZ2pNdGNVeVJ6Zk5oU1NmTmk5Yw?oc=5"
     }
   ],
   "global_affairs": [
     {
-      "title": "美中军事外交现解冻信号：赫格塞斯与帕帕罗或“很快”访华；马尼拉酝酿第二次南海诉讼",
-      "summary": "南华早报引述美中关系全国委员会主席欧伦斯称，美国防长赫格塞斯与太平洋司令部司令帕帕罗可能“很快”访问中国；同时，菲律宾安全分析人士透露，马尼拉正为针对北京的第二起南海法律诉讼准备必要法律文件。",
-      "impact": "若防长级互访成行，将是两军沟通机制修复的重要标志；但菲律宾法律战升级可能使南海摩擦在东盟轮值主席年重新升温，考验美菲同盟与中美缓和能否并行推进。",
-      "source_name": "南华早报",
-      "url": "https://www.scmp.com/news/china/military/article/3373649/trumps-war-secretary-hegseth-and-pacific-command-chief-paparo-may-soon-visit-china"
+      "title": "波兰克拉科夫主广场枪击致6死，袭击者住所另发现3具遗体",
+      "summary": "BBC与FT报道，波兰克拉科夫主广场发生随机枪击，造成6人死亡；随后在袭击者家中发现3具遗体。",
+      "impact": "这是欧洲核心城市罕见的大规模随机枪击事件，将推升波兰及欧盟内部对公共安全、枪支管控与极端主义威胁的讨论。事件细节仍在调查中。",
+      "source_name": "BBC / Financial Times",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "新西兰大选初步计票：两大主要政党陷入僵局",
-      "summary": "日经亚洲报道，新西兰议会选举初步计票显示两大主要政党势均力敌、难分胜负，组阁谈判与联合政府前景成为焦点。",
-      "impact": "僵局意味着政策不确定性延长，涉及财政赤字路径、央行独立性与对华贸易政策；若需小党支持，民粹与环保议题可能显著抬高组阁成本，并影响纽元与国债市场情绪。",
-      "source_name": "日经亚洲",
-      "url": "https://asia.nikkei.com/politics/new-zealand-s-two-main-parties-deadlocked-in-early-election-counting"
+      "title": "沙特利雅得阿美大厦遭袭受损，也门胡塞武装称沙特空袭致33死",
+      "summary": "SCMP与France 24报道，利雅得阿美行政大楼因拦截导弹后的碎片受损，无人员伤亡；此前沙特领导的联军空袭也门萨那附近，胡塞武装称至少33人死亡。",
+      "impact": "中东冲突外溢至沙特金融区，能源设施与航运安全风险上升。巴基斯坦与伊朗的霍尔木兹协议也面临液化天然气油轮遇袭后的考验。",
+      "source_name": "South China Morning Post / France 24",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3373700/saudi-aramco-building-riyadh-damaged-attempted-attack"
     },
     {
-      "title": "特朗普提名斯蒂芬·米勒出任白宫幕僚长，准备与国会正面交锋",
-      "summary": "BBC报道，特朗普提拔忠诚的党派斗士斯蒂芬·米勒担任白宫幕僚长，此举预示其政府将与国会发生更多冲突。",
-      "impact": "米勒以强硬的移民与行政令路线著称，其任命意味着白宫将更倾向以行政权力推进议程；在民主党掌控国会部分权力的背景下，政府停摆、预算对抗与调查攻防的风险上升。",
-      "source_name": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss"
+      "title": "以色列总统授权反对派领导人艾森科特组阁",
+      "summary": "BBC报道，以色列总统将组阁权交给反对派领导人艾森科特。上周选举中，内塔尼亚胡阵营与对手均未获得多数。",
+      "impact": "组阁谈判将决定以色列政治走向与加沙、伊朗政策的连续性。联合政府构建难度大，可能触发新一轮选举。",
+      "source_name": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "也门塔伊兹市场遭袭至少30人死亡，胡塞与政府互相指责",
-      "summary": "法国24台报道，也门塔伊兹省一处市场遭袭，至少30人死亡；胡塞武装指责沙特空袭，政府军与地方当局则称是胡塞武装无差别射击，该省持续爆发激烈冲突。",
-      "impact": "平民伤亡可能加剧红海航运风险与人道危机，并干扰联合国斡旋进程；能源市场对中东地缘风险的外交预期因此更为敏感，油价的地缘溢价面临重新定价。",
-      "source_name": "法国24台",
-      "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market"
+      "title": "巴拉圭参议院弹劾培尼亚，银行倒闭引发政治危机",
+      "summary": "France 24报道，巴拉圭参议院弹劾总统圣地亚哥·培尼亚，而非接受其辞职提议。培尼亚因Ueno银行倒闭被控，最初被软禁，后转至军事设施。近300万客户账户被冻结。",
+      "impact": "拉美“明星经济体”的金融治理与政治稳定性受挫，可能影响投资者信心与区域金融市场。后续关注司法程序与银行处置。",
+      "source_name": "France 24",
+      "url": "https://www.france24.com/en/video/20261108-paraguay-senate-impeached-pe%C3%B1a-rather-than-accept-his-offer-to-resign"
     },
     {
-      "title": "巴拉圭总统因银行倒闭危机遭弹劾并被软禁",
-      "summary": "BBC报道，巴拉圭总统圣地亚哥·培尼亚因银行业危机导致数百万人无法取款而被弹劾，目前处于软禁状态。",
-      "impact": "这是拉美罕见的因金融系统崩溃引发的政治剧变，可能触发主权债务与存款担保问题，并影响南方共同市场的区域政策协调；邻国与IMF的应急介入值得关注。",
-      "source_name": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss"
+      "title": "美国悬赏2000万美元征集伊朗核计划信息",
+      "summary": "BBC报道，美国提供2000万美元奖励，征集有关伊朗核计划的信息。特朗普多次提出重启对伊朗核设施打击的可能性。",
+      "impact": "美伊紧张关系升级，核谈判前景与中东能源风险溢价再度受到关注。",
+      "source_name": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss"
     }
   ],
   "finland_nordic": [
     {
-      "title": "芬兰安全警察Supo官员出庭受审：被控使用退休间谍，涉史上最大刑事案件",
-      "summary": "Yle报道，芬兰安全警察（Supo）官员因使用退休间谍——其中包括一名欧洲大奖得主——于周五在赫尔辛基地方法院出庭，这是芬兰安全警察历史上最大的刑事案件。",
-      "impact": "案件将检验芬兰情报监督制度与保密边界。在芬兰加入北约、情报立法扩张的背景下，该案对情报来源保护、退休人员管理及问责机制具有标志性意义。",
-      "source_name": "Yle",
-      "url": "https://yle.fi/a/74-20255548?origin=rss"
-    },
-    {
-      "title": "盲人顾客被触摸屏支付终端“拒之门外”",
-      "summary": "Yle报道，盲人顾客Riikka Hänninen在为导盲犬购买食物时，因商店触摸屏支付终端无法操作而无法付款。",
-      "impact": "无障碍支付问题凸显芬兰零售数字化与欧盟《无障碍法案》的合规缺口，银行与支付终端厂商可能面临监管压力与设备改造需求，也可能推动语音支付等替代方案加速落地。",
-      "source_name": "Yle",
-      "url": "https://yle.fi/a/74-20255486?origin=rss"
-    },
-    {
-      "title": "赫尔辛基有轨电车或更换涂装，预计耗资120万欧元",
-      "summary": "Yle报道，赫尔辛基有轨电车可能更换颜色，预计成本约120万欧元；此举正值票价近期上涨之后。",
-      "impact": "在市政财政与公共交通票价敏感期，形象工程支出易引发政治争议；若推进，需与HSL票务收入、服务水平和绿色出行目标捆绑论证。",
-      "source_name": "Yle",
-      "url": "https://yle.fi/a/74-20255473?origin=rss"
-    },
-    {
-      "title": "本周芬兰：Finnair航班遭恶作剧炸弹威胁，仇恨犯罪报告创历史新高",
-      "summary": "Yle周度视频回顾显示，芬兰航空（Finnair）航班遭虚假炸弹威胁，同时芬兰仇恨犯罪报告数量创下历史新高，成为本周头条。",
-      "impact": "航空安全与社情民意同时承压，内政部与警方或将加强机场筛查与仇恨犯罪监测；相关事件对芬兰旅游与航空业信心构成短期扰动。",
-      "source_name": "Yle",
-      "url": "https://yle.fi/a/74-20255529?origin=rss"
+      "title": "暂无芬兰与北欧突发要闻",
+      "summary": "本轮24至36小时信源采样中未包含芬兰与北欧地区的最新一手报道。",
+      "impact": "建议持续关注Yle、Helsinki Times对芬兰经济、能源安全与北欧政治动态的更新。",
+      "source_name": "Yle / Helsinki Times",
+      "url": ""
     }
   ],
   "quick_bites": [
-    "马斯克为SpaceX重大收购敞开大门，拟挑战电信巨头。（MarketWatch）",
-    "欧洲航空公司遭遇新一波炸弹威胁，暂未发现与针对媒体机构的威胁存在关联。（BBC）",
-    "澳门首例国家安全案件宣判，活动人士欧锦新（Au Kam-san）被判12年半。（日经亚洲）",
-    "教皇在肺癌手术后三周展开拉美三国访问，首站乌拉圭呼吁全民医疗。（法国24台、BBC）",
-    "日本未受保存款规模达8900亿美元，继承推高账户余额。（日经亚洲）"
+    "扎波罗热核电站再次依赖备用电源，乌克兰核安全风险持续。",
+    "越南领导人苏林访问日本，数十年双边关系进入新阶段。",
+    "新西兰选举氛围异常低迷，选民对主要政党支持流失，形成多年来最胶着选情。",
+    "腾讯AI首席科学家警告：AI将很快掌握生物学，带来新的安全风险。",
+    "2026年达喀尔青奥会：塞内加尔在海滩摔跤项目收获两枚金牌。"
   ],
   "email_sent": true
 }
