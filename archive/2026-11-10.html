@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今日晨报 · 2026年11月10日 星期二</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --primary: #2563eb;
+      --badge-bg: #eff6ff;
+      --badge-text: #1d4ed8;
+      --nav-bg: #f1f5f9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0f19;
+        --card-bg: #111827;
+        --text: #f8fafc;
+        --text-muted: #94a3b8;
+        --border: #1f2937;
+        --primary: #3b82f6;
+        --badge-bg: #1e293b;
+        --badge-text: #60a5fa;
+        --nav-bg: #1e293b;
+      }
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 24px 16px; line-height: 1.6; }
+    .wrapper { max-width: 760px; margin: 0 auto; }
+    header { margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+    .top-meta { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+    .badge { font-size: 13px; font-weight: 600; color: var(--primary); text-transform: uppercase; letter-spacing: 0.5px; }
+    .archive-nav select { font-size: 12px; padding: 4px 8px; border-radius: 4px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); cursor: pointer; }
+    .quote-box { background: var(--card-bg); border-left: 4px solid var(--primary); border: 1px solid var(--border); border-left-width: 4px; padding: 14px 18px; border-radius: 6px; font-size: 16px; font-weight: 500; margin: 12px 0 16px; }
+    .quick-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
+    .quick-nav a { font-size: 13px; text-decoration: none; background: var(--nav-bg); color: var(--text); padding: 5px 10px; border-radius: 6px; border: 1px solid var(--border); transition: background 0.15s; }
+    .quick-nav a:hover { background: var(--badge-bg); color: var(--primary); }
+    .section-title { font-size: 18px; font-weight: 700; margin: 32px 0 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 8px; scroll-margin-top: 20px; }
+    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 18px; margin-bottom: 14px; }
+    .card-title { font-size: 16px; font-weight: 600; margin: 0 0 8px; }
+    .card-desc { font-size: 14px; color: var(--text-muted); margin: 0 0 10px; }
+    .card-impact { font-size: 13px; background: var(--badge-bg); color: var(--badge-text); padding: 8px 12px; border-radius: 4px; margin-bottom: 10px; }
+    .card-meta a { font-size: 12px; color: var(--primary); text-decoration: none; font-weight: 500; }
+    .card-meta a:hover { text-decoration: underline; }
+    .quick-bites-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 16px 20px; }
+    .quick-bites-box ul { margin: 0; padding-left: 20px; }
+    .quick-bites-box li { margin-bottom: 8px; font-size: 14px; color: var(--text-muted); }
+    footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); text-align: center; font-size: 13px; color: var(--text-muted); }
+    .archive-list { margin-top: 12px; font-size: 12px; }
+    .archive-list a { color: var(--primary); text-decoration: none; margin: 0 4px; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="top-meta">
+        <div class="badge">早报仪表盘 · 2026年11月10日 星期二</div>
+        
+        <div class="archive-nav">
+          <label for="archive-select" style="font-size: 12px; color: var(--text-muted);">往期归档：</label>
+          <select id="archive-select" onchange="if(this.value) window.location.href=this.value;">
+            <option value="">选择历史日期...</option>
+            
+            <option value="archive/2026-11-10.html">2026-11-10</option>
+            
+          </select>
+        </div>
+        
+      </div>
+      <div class="quote-box">“AI 牛市迎来融资大考，美联储重提加息半步；阿布扎比俄乌美三方谈判重启，为全球风险资产与地缘格局定调。”</div>
+      <div class="quick-nav">
+        <a href="#macro_markets">📊 欧美财经</a>
+        <a href="#global_affairs">🌍 国际焦点</a>
+        <a href="#finland_nordic">🇫🇮 芬兰与北欧</a>
+        <a href="#quick_bites">⚡ 一句话快讯</a>
+      </div>
+    </header>
+
+    
+    <div id="macro_markets" class="section-title">📊 欧美财经与宏观商业</div>
+    
+    <div class="card">
+      <div class="card-title">AI 交易遭遇融资担忧，防御股与新兴市场成资金避风港</div>
+      <div class="card-desc">CoreWeave 的融资问题令 AI 基础设施交易的资金来源再度成为焦点，投资者开始涌入防御性股票，并转向新兴市场寻找估值洼地。高盛 CEO 所罗门表示，尽管 AI 股票出现重置、数据中心面临政治不确定性，投资者对 AI 基础设施的需求依然强劲。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>AI 资本开支正从由叙事驱动转向由融资约束定价：信用违约互换市场热度上升、数据中心政治风险抬头，意味着高估值科技股对利率与融资条件更敏感。后续关注 AI 相关发行人的 CDS 利差与 IPO 窗口。</div>
+      <div class="card-meta"><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQd3VfUTc0TlgyYnlWbDM0TnktNE9xWlVQaTdqMkxjMlFNNWFyWkhIRGloWlE0am9LMEl0UFlsOXlaeFRTVjdpcDFQMTFpSEtFWm80NDZzVXlJRmpRU21wcXhvZ0o5UFhaTUUyOExpMlMydHdrT3M4ZHNXYjl0ZnVRRHgzeHFqdDdfVzQ3emlPR0YtSmtlQzQzaFA5N2s?oc=5" target="_blank" rel="noopener">来源: Wall Street Journal / Financial Times / Bloomberg / CNBC ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">美联储沃勒暗示 12 月加息，半步加息进入选项</div>
+      <div class="card-desc">美联储理事沃勒表示倾向于在 12 月加息，并根据通胀数据决定是否支持一次性加息 50 个基点；最新劳工部数据偏热，强化了紧缩预期。此前市场对 Nvidia 调查与 AI 回调的担忧，被“通胀可能迫使美联储更鹰派”取代。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>如果 12 月出现半步加息，美债收益率曲线与美元将重新定价，成长股估值承压。短线关注通胀分项、就业数据与点阵图信号；对 AI 高杠杆叙事而言，融资成本上升是最直接的阻力。</div>
+      <div class="card-meta"><a href="https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories" target="_blank" rel="noopener">来源: MarketWatch / CNBC ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">油价跌至十周低位，布伦特回落至 90 美元附近</div>
+      <div class="card-desc">特朗普淡化对伊朗进一步打击的必要性，称相关行动“极不可能”，国际油价应声跌至十周低点，布伦特原油回落至每桶 90 美元附近。与此同时，霍尔木兹海峡燃油流量上升、中国原油进口从波斯湾回暖，供应端压力有所缓解。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>地缘风险溢价快速回吐，利好航空、运输与消费板块，但削弱能源股盈利预期。后续看点是美伊局势是否反复、OPEC+ 产量政策以及亚洲需求修复能否持续。</div>
+      <div class="card-meta"><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVdMbllYT0JtVGNxZ2ZKdlpxUjBLMWJESlU0emF1eDk0NDdweHBndXV1MEtYV0I3UlZVTTljS1NoUnBLX1VpMVUwVE5jNmM2OU9iMEV5WklTUENZdTlqTUpGMS1nRlNpNzVyclZxbTJGM3B2ODcwem5xNVhVX1I4NldLVUs?oc=5" target="_blank" rel="noopener">来源: Wall Street Journal / Financial Times / Bloomberg ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">Anthropic 启动万亿级 IPO，AI 融资盛宴与焦虑并存</div>
+      <div class="card-desc">Anthropic 正式为 IPO 铺路，估值可能超过 1 万亿美元，预计下周启动，最高募资 630 亿美元；此前曾误将 IPO 条款发送给银行，暴露出市场对 AI 投资的紧张情绪。SpaceX 创纪录 IPO 的指数影响同样成为讨论焦点。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>巨型 AI IPO 将检验公开市场对 AI 资产的真实承接力，并可能引发指数纳入与被动资金配置效应。如果定价顺利，将为 AI 资本开支提供股权融资闭环；如果遇冷，则可能放大 AI 交易的回调压力。</div>
+      <div class="card-meta"><a href="https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories" target="_blank" rel="noopener">来源: MarketWatch / Financial Times ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">Nvidia 遭调查冲击股价，AI 龙头治理风险升温</div>
+      <div class="card-desc">Nvidia 因公司启动调查而股价下滑，市场同时关注 CEO 黄仁勋相关传闻以及公司与地缘政治的交集；预测市场对黄仁勋短期内离职的定价仍然较低。投资者被提醒应关注 AI 需求、订单与估值，而非管理层八卦。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>AI 龙头治理与地缘风险可能加大半导体板块波动，但在 AI 交易仍然成立的前提下，回调也被视为买入机会。关注调查进展、对华出口限制与数据中心订单能见度。</div>
+      <div class="card-meta"><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxObmFxVTlOckJLV2RONUpFZEdQSHphRDFDRlgyZlhtZ2R5UUNOUm1lb1pMTlF6S0p3Y1h1OERrOWV2TjAxbUVKRUlFUU9zcXQwNENhNFVsSGJic0MtRU94bVJlSHBoemptN1hyRjJWLVNLQTgyYUZpdDR6SGVTVEhOcnhVc2JtUUlCczRWQ3I0VEJXZGFDN0pZ?oc=5" target="_blank" rel="noopener">来源: Wall Street Journal / CNBC / MarketWatch ↗</a></div>
+    </div>
+    
+    
+
+    
+    <div id="global_affairs" class="section-title">🌍 国际焦点与大事</div>
+    
+    <div class="card">
+      <div class="card-title">俄乌美三方阿布扎比谈判重启，聚焦未来安全保障</div>
+      <div class="card-desc">俄罗斯、乌克兰与美国代表团在阿联酋阿布扎比开启为期两天的三方会谈，为 2 月以来首次；美方称交战双方展现出“一定灵活性”，谈判重点是为乌克兰建立未来安全保障机制。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>这是近五年来最具实质意义的外交接触之一，但领土与安全保障核心分歧仍大。如果取得框架性进展，将影响欧洲能源、防务与重建预期；如果破裂，制裁与军援节奏可能再度收紧。</div>
+      <div class="card-meta"><a href="https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">来源: BBC / France 24 ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">特朗普称 FBI 调查 Nvidia CEO 与“中国间谍”绯闻</div>
+      <div class="card-desc">美国总统特朗普表示，FBI 正在调查 Nvidia 首席执行官黄仁勋与一名被指为中国间谍的女性之间的绯闻，并称周一已与黄仁勋通话询问此事。该消息将全球最有价值的芯片公司推入地缘政治与治理风暴中心。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>事件叠加 Nvidia 自身调查，可能加剧美国对华科技出口管制与公司治理审查，并影响 AI 芯片供应链信心。市场需评估调查是否升级为正式法律程序，以及对管理层稳定性的冲击。</div>
+      <div class="card-meta"><a href="https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">来源: BBC ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">美国防长赫格塞思称弹劾动议为“闹剧”</div>
+      <div class="card-desc">美国国防部长赫格塞思称，因其在伊朗战争中的权力滥用指控而发起的弹劾动议是一场“政治闹剧”，并表示不会成功；他将此举称为即将离任的国会对手针对特朗普的政治表演。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>国防高层与国会冲突升级，可能影响伊朗行动授权、军费拨款与盟友协调。结合油价对伊朗风险的敏感反应，华盛顿内部政治不确定性仍是能源与防务市场的重要变量。</div>
+      <div class="card-meta"><a href="https://www.france24.com/en/americas/20261110-live-pentagon-chief-pete-hegseth-calls-move-to-impeach-him-a-farce" target="_blank" rel="noopener">来源: France 24 ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">印尼副总统吉布兰将辞职，东南亚政治格局生变</div>
+      <div class="card-desc">印尼总统办公室表示，副总统吉布兰将辞职。作为总统佐科之子、现总统普拉博沃的副手，其去职发生在东南亚地缘与经济政策敏感期。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>印尼政局变动可能影响新首都建设、镍与关键矿产下游化政策及外资信心。市场关注继任者人选与政策连续性，以及东盟在中美之间的平衡策略是否调整。</div>
+      <div class="card-meta"><a href="https://asia.nikkei.com/politics/indonesian-vp-gibran-to-resign-presidential-office-says" target="_blank" rel="noopener">来源: Nikkei Asia ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">以色列新议会宣誓就职，内塔尼亚胡面临组阁挑战</div>
+      <div class="card-desc">以色列新议会宣誓就职，内塔尼亚胡的主要政治对手甘迪·艾森科特获得优先组阁机会，可能终结内塔尼亚胡的总理生涯；各党派正就联合政府展开竞争。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>以色列政局可能转向中间派联合政府，影响加沙战后安排、伊朗政策与地区外交。如果组阁僵局延长，则可能触发新一轮选举，并加大中东风险溢价波动。</div>
+      <div class="card-meta"><a href="https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">来源: BBC ↗</a></div>
+    </div>
+    
+    
+
+    
+    <div id="finland_nordic" class="section-title">🇫🇮 芬兰与北欧观察</div>
+    
+    <div class="card">
+      <div class="card-title">芬兰维和部队撤离黎巴嫩，UNIFIL 任务走向终结</div>
+      <div class="card-desc">随着联合国驻黎巴嫩临时部队（UNIFIL）任务接近结束，芬兰维和人员开始回国；自 1982 年以来已有超过 1.7 万名芬兰人参与该任务。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>芬兰在中东多边安全事务中的角色收缩，反映 UNIFIL 在黎以边境安全安排中的不确定性。后续关注芬兰是否将资源转向北约框架下的波罗的海防务与危机管理。</div>
+      <div class="card-meta"><a href="https://yle.fi/a/74-20256145?origin=rss" target="_blank" rel="noopener">来源: Yle News ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">芬兰加密货币交易申报率不足六分之一，税务监管将收紧</div>
+      <div class="card-desc">芬兰税务局称，不到六分之一的芬兰加密货币交易者申报了相关交易；从明年起，税务当局将从芬兰经纪商及外国平台获取加密交易数据。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>加密资产税务合规缺口将推动申报与追缴，可能影响散户交易行为与平台合规成本。对北欧金融科技与数字资产行业而言，透明化趋势将加速。</div>
+      <div class="card-meta"><a href="https://yle.fi/a/74-20256084?origin=rss" target="_blank" rel="noopener">来源: Yle News ↗</a></div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title">芬兰民众反对养老金削减，民调显示社会民主党支持者最抵触</div>
+      <div class="card-desc">一项民调显示，芬兰民众普遍反对养老金削减，其中社会民主党支持者的反对比例最高。养老金改革正成为芬兰财政可持续性与政治博弈的核心议题。</div>
+      <div class="card-impact">💡 <strong>看点：</strong>老龄化与财政压力下，养老金改革势在必行，但民意阻力将限制政府空间。后续关注三方谈判、劳动力市场协议及 2027 年预算框架中的改革力度。</div>
+      <div class="card-meta"><a href="https://yle.fi/a/74-20256001?origin=rss" target="_blank" rel="noopener">来源: Yle News ↗</a></div>
+    </div>
+    
+    
+
+    
+    <div id="quick_bites" class="section-title">⚡ 一句话快讯</div>
+    <div class="quick-bites-box">
+      <ul>
+        
+        <li>阿里巴巴芯片设计部门 T-Head 以保密方式提交香港 IPO 申请，推进中国 AI 自给自足战略。</li>
+        
+        <li>软银因 AI 希望遭遇新挫折而录得上半财年亏损；马斯克此前称其“违约”燃气轮机订单，Q2 财报显示接近事实。</li>
+        
+        <li>泰国收紧大型数据中心环境规则，东南亚 AI 基础设施扩张面临更高合规门槛。</li>
+        
+        <li>本田押注混合动力作为美国电动化主力至 2030 年代初，调整纯电节奏。</li>
+        
+        <li>法国学生封锁数十所高中并誓言继续抗议，生活成本示威外溢至教育系统。</li>
+        
+      </ul>
+    </div>
+    
+
+    <footer>
+      <div>个人早报平台 · 每天自动更新</div>
+      
+      <div class="archive-list">
+        历史归档：
+        
+        <a href="archive/2026-11-10.html">[2026-11-10]</a>
+        
+      </div>
+      
+    </footer>
+  </div>
+</body>
+</html>
