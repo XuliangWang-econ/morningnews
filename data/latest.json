@@ -1,109 +1,116 @@
 {
-  "date_str": "2026年11月10日 星期二",
-  "headline_quote": "AI 牛市迎来融资大考，美联储重提加息半步；阿布扎比俄乌美三方谈判重启，为全球风险资产与地缘格局定调。",
+  "date_str": "2026年11月11日 星期三",
+  "headline_quote": "AI乐观情绪重燃与美联储加息预期相互博弈，全球市场在债市抛售与科技股反弹之间寻找方向；地缘政治与无人机活动让北欧安全议题再度升温。",
   "macro_markets": [
     {
-      "title": "AI 交易遭遇融资担忧，防御股与新兴市场成资金避风港",
-      "summary": "CoreWeave 的融资问题令 AI 基础设施交易的资金来源再度成为焦点，投资者开始涌入防御性股票，并转向新兴市场寻找估值洼地。高盛 CEO 所罗门表示，尽管 AI 股票出现重置、数据中心面临政治不确定性，投资者对 AI 基础设施的需求依然强劲。",
-      "impact": "AI 资本开支正从由叙事驱动转向由融资约束定价：信用违约互换市场热度上升、数据中心政治风险抬头，意味着高估值科技股对利率与融资条件更敏感。后续关注 AI 相关发行人的 CDS 利差与 IPO 窗口。",
-      "source_name": "Wall Street Journal / Financial Times / Bloomberg / CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd3VfUTc0TlgyYnlWbDM0TnktNE9xWlVQaTdqMkxjMlFNNWFyWkhIRGloWlE0am9LMEl0UFlsOXlaeFRTVjdpcDFQMTFpSEtFWm80NDZzVXlJRmpRU21wcXhvZ0o5UFhaTUUyOExpMlMydHdrT3M4ZHNXYjl0ZnVRRHgzeHFqdDdfVzQ3emlPR0YtSmtlQzQzaFA5N2s?oc=5"
+      "title": "AI乐观情绪推动科技股反弹，但债市因美联储加息押注继续承压",
+      "summary": "纳斯达克期货在AI乐观情绪回归带动下上涨，美国科技股有望延续反弹，英伟达等AI龙头的估值波动成为市场焦点。与此同时，美国国债期货下跌，市场对美联储进一步加息的押注升温，科技股上涨与债券下跌形成鲜明分化。",
+      "impact": "市场正在重新定价美联储路径：若12月加息预期继续强化，长久期科技股估值将面临压力；但AI资本开支与产业趋势仍为风险资产提供支撑。短期关注英伟达估值回落至15年低位后是否形成价值支撑，以及AI交易拥挤度下降后的资金再配置。",
+      "source_name": "Bloomberg / WSJ / FT / MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFpBLVFiSmhuZGxNdjZ4WUE1eEZZVzlpcElqQ3FpX2hfRVVkaVdncm5Ic3J4TFdMVTVPODFqV1dYWTJORmx5c3lTMHg1ZUtiZml2ZUVOZm1WQnlCa2lKcUt3M0tjQUsyVVNxQlVySk5TbHRqZHczYVFDTnU0OGZjMjBBWUFqZ2JpNFNhb05nX01EU3dX?oc=5"
     },
     {
-      "title": "美联储沃勒暗示 12 月加息，半步加息进入选项",
-      "summary": "美联储理事沃勒表示倾向于在 12 月加息，并根据通胀数据决定是否支持一次性加息 50 个基点；最新劳工部数据偏热，强化了紧缩预期。此前市场对 Nvidia 调查与 AI 回调的担忧，被“通胀可能迫使美联储更鹰派”取代。",
-      "impact": "如果 12 月出现半步加息，美债收益率曲线与美元将重新定价，成长股估值承压。短线关注通胀分项、就业数据与点阵图信号；对 AI 高杠杆叙事而言，融资成本上升是最直接的阻力。",
-      "source_name": "MarketWatch / CNBC",
-      "url": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories"
+      "title": "美国通胀超预期升温，美债收益率跳升后假日暂停交易",
+      "summary": "美国最新通胀数据高于预期，推动国债收益率大幅跳升，并引发债市抛售；随后因市场假日，美债交易暂时停歇。此前涌入债券避险的交易员在反转中受挫，债市波动显著放大。",
+      "impact": "通胀黏性叠加美联储官员鹰派表态，使“更高更久”的利率预期重新主导市场。收益率上行将抬高企业融资成本、压制房地产与高估值资产，并可能加剧全球资本回流美元资产。后续关注通胀分项走势与12月议息会议前的官员指引。",
+      "source_name": "WSJ / Bloomberg / MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdmZHLWI2UExZVlVtSjJ5aEF0eC0yQkFKSHZFa04yWkxPSE5ieDhodjR6Z0ozQjRObjlIU3Q1alpYZEdxazlHbUg0UWpVV0ZNNnluNFBZbVdkZTY3NGFUdVpuRDJxTFI4STA1WXNmSmt5bEZOSEs5QWhEbWlVcVR5ZE1OcjFvbzFPaWo3VmFSdlZnUDZ6d2xIS3RYTHp4RlU?oc=5"
     },
     {
-      "title": "油价跌至十周低位，布伦特回落至 90 美元附近",
-      "summary": "特朗普淡化对伊朗进一步打击的必要性，称相关行动“极不可能”，国际油价应声跌至十周低点，布伦特原油回落至每桶 90 美元附近。与此同时，霍尔木兹海峡燃油流量上升、中国原油进口从波斯湾回暖，供应端压力有所缓解。",
-      "impact": "地缘风险溢价快速回吐，利好航空、运输与消费板块，但削弱能源股盈利预期。后续看点是美伊局势是否反复、OPEC+ 产量政策以及亚洲需求修复能否持续。",
-      "source_name": "Wall Street Journal / Financial Times / Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVdMbllYT0JtVGNxZ2ZKdlpxUjBLMWJESlU0emF1eDk0NDdweHBndXV1MEtYV0I3UlZVTTljS1NoUnBLX1VpMVUwVE5jNmM2OU9iMEV5WklTUENZdTlqTUpGMS1nRlNpNzVyclZxbTJGM3B2ODcwem5xNVhVX1I4NldLVUs?oc=5"
+      "title": "美联储理事沃勒：12月加息可能性大，不排除加息50个基点",
+      "summary": "美联储理事沃勒表示，他倾向于在12月加息，并可根据通胀数据决定是否支持一次性加息50个基点。此番表态进一步强化了市场对美联储年内继续收紧政策的预期。",
+      "impact": "沃勒的鹰派言论为美元提供支撑，并加剧日元等非美货币的贬值压力。若50个基点加息进入政策选项，短端美债收益率与美元指数可能进一步上行，全球风险资产波动率将抬升。关注后续CPI与就业数据是否支持更大幅度的紧缩。",
+      "source_name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
     },
     {
-      "title": "Anthropic 启动万亿级 IPO，AI 融资盛宴与焦虑并存",
-      "summary": "Anthropic 正式为 IPO 铺路，估值可能超过 1 万亿美元，预计下周启动，最高募资 630 亿美元；此前曾误将 IPO 条款发送给银行，暴露出市场对 AI 投资的紧张情绪。SpaceX 创纪录 IPO 的指数影响同样成为讨论焦点。",
-      "impact": "巨型 AI IPO 将检验公开市场对 AI 资产的真实承接力，并可能引发指数纳入与被动资金配置效应。如果定价顺利，将为 AI 资本开支提供股权融资闭环；如果遇冷，则可能放大 AI 交易的回调压力。",
-      "source_name": "MarketWatch / Financial Times",
-      "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories"
+      "title": "AI新股与估值分化：Anthropic上市锁定风险与英伟达估值争议",
+      "summary": "市场关注Anthropic IPO的估值计算及其上市锁定期可能引发的AI板块回调风险；同时英伟达估值跌至15年低位，引发“抄底还是接飞刀”的争论。CoreWeave则因第三季度营收超预期和90亿美元预付款安排缓解债务担忧，股价上涨。",
+      "impact": "AI交易正从普涨转向基本面与资产负债表分化。Anthropic上市若定价过高，锁定期到期可能带来供给冲击；英伟达的低估值是否具备吸引力取决于AI资本开支可持续性。CoreWeave的融资创新说明AI基础设施公司正通过预付款与结构化融资缓解高杠杆压力。",
+      "source_name": "Bloomberg / FT / MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMWFqMldhdkNxd1lUQWlpaWV3cXdHRVVIT083bXhkTjlJNWVGR3BPT19uSWtHVjVlUXYtaWpYRG1haXpES0VGalM4QVdSTzdZak05MTNUZm5acGVLZmhpR05zVHhfMVVuRWQzU2xsNDYzR1FfM0k3TE1HX0ZqZV8zWGpZblN1Nmlqc2dtSTQ0T01uQS1CVThDaW96akRGN1VuR3dTS20yYW51WGx4Y3NteEZZdw?oc=5"
     },
     {
-      "title": "Nvidia 遭调查冲击股价，AI 龙头治理风险升温",
-      "summary": "Nvidia 因公司启动调查而股价下滑，市场同时关注 CEO 黄仁勋相关传闻以及公司与地缘政治的交集；预测市场对黄仁勋短期内离职的定价仍然较低。投资者被提醒应关注 AI 需求、订单与估值，而非管理层八卦。",
-      "impact": "AI 龙头治理与地缘风险可能加大半导体板块波动，但在 AI 交易仍然成立的前提下，回调也被视为买入机会。关注调查进展、对华出口限制与数据中心订单能见度。",
-      "source_name": "Wall Street Journal / CNBC / MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmFxVTlOckJLV2RONUpFZEdQSHphRDFDRlgyZlhtZ2R5UUNOUm1lb1pMTlF6S0p3Y1h1OERrOWV2TjAxbUVKRUlFUU9zcXQwNENhNFVsSGJic0MtRU94bVJlSHBoemptN1hyRjJWLVNLQTgyYUZpdDR6SGVTVEhOcnhVc2JtUUlCczRWQ3I0VEJXZGFDN0pZ?oc=5"
+      "title": "欧元区债市新分化：法国与比利时融资成本承压",
+      "summary": "欧元区债券市场出现新的分化，法国和比利时在财政与政治风险溢价上升背景下，借贷成本相对其他核心国家承压。与此同时，日本散户投资者创纪录地买入日本国债，成为全球债市资金流向的另类注脚。",
+      "impact": "欧元区内部利差扩大反映市场对财政纪律与政治稳定性的重新定价，可能增加南欧与高债务国家的再融资压力。日本资金回流本土国债则可能削弱其海外资产配置需求，对全球期限溢价产生影响。关注欧央行对利差走阔的口头干预及各国预算进展。",
+      "source_name": "FT / Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcmR3YlNDMVZzUVhwMmg1d1pDQ1ZnN1IwUHBMemZBaHdJekc0ZmVxYTVPeHUwNEY2TGZ4bzc3T202NFlGSVB4VnBHQjIzLXYwVzNxSndCMGplOEs2MjcxWXBZM2dDYi1vSnNjaGpUWjI3bk9lZzN0bGJGMUc2VjNhNzY5YXo?oc=5"
     }
   ],
   "global_affairs": [
     {
-      "title": "俄乌美三方阿布扎比谈判重启，聚焦未来安全保障",
-      "summary": "俄罗斯、乌克兰与美国代表团在阿联酋阿布扎比开启为期两天的三方会谈，为 2 月以来首次；美方称交战双方展现出“一定灵活性”，谈判重点是为乌克兰建立未来安全保障机制。",
-      "impact": "这是近五年来最具实质意义的外交接触之一，但领土与安全保障核心分歧仍大。如果取得框架性进展，将影响欧洲能源、防务与重建预期；如果破裂，制裁与军援节奏可能再度收紧。",
-      "source_name": "BBC / France 24",
-      "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+      "title": "美国司法部指控三名伊朗支持嫌疑人策划袭击，包括英国RAF Fairford事件",
+      "summary": "美国司法部表示，三名伊朗支持的嫌疑人参与了一系列袭击图谋，其中包括在英国美军使用的RAF Fairford空军基地附近发生的一起重大事件。案件凸显伊朗代理网络在欧洲的安全威胁。",
+      "impact": "该案可能加剧美伊对抗与欧洲安全警戒，并影响英国与美国的防务协作。若伊朗被进一步指认为幕后支持者，可能引发新的制裁或军事回应，并扰动中东与全球能源市场风险溢价。关注后续起诉细节及欧洲各国的安保升级。",
+      "source_name": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "特朗普称 FBI 调查 Nvidia CEO 与“中国间谍”绯闻",
-      "summary": "美国总统特朗普表示，FBI 正在调查 Nvidia 首席执行官黄仁勋与一名被指为中国间谍的女性之间的绯闻，并称周一已与黄仁勋通话询问此事。该消息将全球最有价值的芯片公司推入地缘政治与治理风暴中心。",
-      "impact": "事件叠加 Nvidia 自身调查，可能加剧美国对华科技出口管制与公司治理审查，并影响 AI 芯片供应链信心。市场需评估调查是否升级为正式法律程序，以及对管理层稳定性的冲击。",
-      "source_name": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
+      "title": "中国能否在习特会前帮助打破伊朗“不战不和”僵局",
+      "summary": "伊朗再次提及中国在结束其与美国“不战不和”僵局中的潜在作用，并承诺采取具体步骤深化与北京的关系。相关表态发生在中美领导人预计下周会晤之前，德黑兰强调其与中国日益增长的纽带。",
+      "impact": "伊朗试图将中国纳入其与美国的博弈框架，可能使中美会晤增加中东议题维度。若中国发挥调解作用，将提升其全球外交影响力，但也可能面临与美国立场协调的压力。关注习特会是否形成关于伊朗问题的共识或临时安排。",
+      "source_name": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374110/can-china-help-break-deadlock-irans-neither-war-nor-peace-xi-trump-summit"
     },
     {
-      "title": "美国防长赫格塞思称弹劾动议为“闹剧”",
-      "summary": "美国国防部长赫格塞思称，因其在伊朗战争中的权力滥用指控而发起的弹劾动议是一场“政治闹剧”，并表示不会成功；他将此举称为即将离任的国会对手针对特朗普的政治表演。",
-      "impact": "国防高层与国会冲突升级，可能影响伊朗行动授权、军费拨款与盟友协调。结合油价对伊朗风险的敏感反应，华盛顿内部政治不确定性仍是能源与防务市场的重要变量。",
+      "title": "美国众议院暂时阻止弹劾国防部长赫格塞思",
+      "summary": "美国众议院共和党人团结一致，暂时阻止了针对国防部长皮特·赫格塞思的弹劾努力。特朗普对结果表示欢迎，称赞赫格塞思是“伟大的美国爱国者”，但民主党明年仍可再次尝试。",
+      "impact": "投票结果反映共和党内部对特朗普内阁的强力护航，短期缓解赫格塞思的职位风险，但政治对立仍在积累。国防预算、军事人事与对外政策可能继续成为党派斗争焦点。关注后续是否有新的伦理或履职争议发酵。",
+      "source_name": "BBC News / France 24",
+      "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "中国相关关键矿产价格波动导致全球四分之一储能项目延迟",
+      "summary": "一份新报告显示，主要由中国市场塑造的关键矿产价格波动，正在延迟或破坏全球近四分之一的储能投资。约23%的储能项目受到影响，凸显战略材料已成为地缘政治摩擦点。",
+      "impact": "锂、钴、镍等关键矿产价格剧烈波动，直接削弱储能项目可融资性与投资决策。中国在加工与定价环节的影响力使供应链安全成为欧美政策焦点，可能推动更多本土化采购、战略储备与长期承购协议。关注各国关键矿产联盟与价格稳定机制。",
+      "source_name": "South China Morning Post",
+      "url": "https://www.scmp.com/economy/global-economy/article/3374064/china-linked-critical-minerals-price-swings-delay-1-4-energy-storage-projects-report"
+    },
+    {
+      "title": "埃塞俄比亚西部靠近苏丹边境暴力冲突至少65人死亡",
+      "summary": "埃塞俄比亚西部靠近苏丹边境地区发生暴力冲突，至少65人死亡。法国24电视台驻埃塞俄比亚记者报道了相关情况，地区安全与人道局势引发关注。",
+      "impact": "冲突可能与苏丹内战外溢、地方族群矛盾及边境治理薄弱有关，进一步威胁东非稳定。人道援助通道与难民流动可能受影响，并加大区域组织调解压力。关注埃塞俄比亚联邦政府与地方武装的后续表态。",
       "source_name": "France 24",
-      "url": "https://www.france24.com/en/americas/20261110-live-pentagon-chief-pete-hegseth-calls-move-to-impeach-him-a-farce"
-    },
-    {
-      "title": "印尼副总统吉布兰将辞职，东南亚政治格局生变",
-      "summary": "印尼总统办公室表示，副总统吉布兰将辞职。作为总统佐科之子、现总统普拉博沃的副手，其去职发生在东南亚地缘与经济政策敏感期。",
-      "impact": "印尼政局变动可能影响新首都建设、镍与关键矿产下游化政策及外资信心。市场关注继任者人选与政策连续性，以及东盟在中美之间的平衡策略是否调整。",
-      "source_name": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/indonesian-vp-gibran-to-resign-presidential-office-says"
-    },
-    {
-      "title": "以色列新议会宣誓就职，内塔尼亚胡面临组阁挑战",
-      "summary": "以色列新议会宣誓就职，内塔尼亚胡的主要政治对手甘迪·艾森科特获得优先组阁机会，可能终结内塔尼亚胡的总理生涯；各党派正就联合政府展开竞争。",
-      "impact": "以色列政局可能转向中间派联合政府，影响加沙战后安排、伊朗政策与地区外交。如果组阁僵局延长，则可能触发新一轮选举，并加大中东风险溢价波动。",
-      "source_name": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.france24.com/en/violent-clashes-near-the-sudanese-border-at-least-65-dead-in-western-ethiopia"
     }
   ],
   "finland_nordic": [
     {
-      "title": "芬兰维和部队撤离黎巴嫩，UNIFIL 任务走向终结",
-      "summary": "随着联合国驻黎巴嫩临时部队（UNIFIL）任务接近结束，芬兰维和人员开始回国；自 1982 年以来已有超过 1.7 万名芬兰人参与该任务。",
-      "impact": "芬兰在中东多边安全事务中的角色收缩，反映 UNIFIL 在黎以边境安全安排中的不确定性。后续关注芬兰是否将资源转向北约框架下的波罗的海防务与危机管理。",
+      "title": "芬兰军方怀疑无人机进入领空，部分空域与海域一度关闭",
+      "summary": "芬兰国防部表示，一架无人机疑似在周三清晨进入芬兰领空约五分钟，随后离开。芬兰因此部分关闭空域和海域，限制已于早上7:20解除。军方正在调查事件。",
+      "impact": "无人机活动发生在北欧安全环境敏感期，可能促使芬兰加强低空监视与反无人机能力。事件虽未造成直接损失，但凸显领空安全与关键基础设施防护的脆弱性。关注芬兰与北约盟国的联合调查及后续空域管理措施。",
       "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20256145?origin=rss"
+      "url": "https://yle.fi/a/74-20256373?origin=rss"
     },
     {
-      "title": "芬兰加密货币交易申报率不足六分之一，税务监管将收紧",
-      "summary": "芬兰税务局称，不到六分之一的芬兰加密货币交易者申报了相关交易；从明年起，税务当局将从芬兰经纪商及外国平台获取加密交易数据。",
-      "impact": "加密资产税务合规缺口将推动申报与追缴，可能影响散户交易行为与平台合规成本。对北欧金融科技与数字资产行业而言，透明化趋势将加速。",
+      "title": "芬兰批准特斯拉“ hands-free”辅助驾驶系统上路",
+      "summary": "芬兰已允许特斯拉的辅助驾驶系统在芬兰道路上使用，使相关车辆在实际操作中接近自动驾驶。该许可标志着芬兰对智能驾驶技术监管的进一步开放。",
+      "impact": "芬兰成为北欧智能驾驶测试与商业化的重要市场，可能带动保险、交通法规与道路基础设施适配。监管开放也将考验事故责任认定与数据安全框架。关注其他北欧国家是否跟进及特斯拉在欧洲的推广节奏。",
       "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20256084?origin=rss"
+      "url": "https://yle.fi/a/74-20256369?origin=rss"
     },
     {
-      "title": "芬兰民众反对养老金削减，民调显示社会民主党支持者最抵触",
-      "summary": "一项民调显示，芬兰民众普遍反对养老金削减，其中社会民主党支持者的反对比例最高。养老金改革正成为芬兰财政可持续性与政治博弈的核心议题。",
-      "impact": "老龄化与财政压力下，养老金改革势在必行，但民意阻力将限制政府空间。后续关注三方谈判、劳动力市场协议及 2027 年预算框架中的改革力度。",
+      "title": "THL研究：奥尔波政府政策使芬兰最贫困群体每月少80欧元",
+      "summary": "芬兰健康与福利研究所（THL）研究发现，奥尔波政府的政策使芬兰最贫困群体每月损失约80欧元，其中失业者受到的现金损失最大。研究引发对福利削减与社会不平等的讨论。",
+      "impact": "该研究为芬兰国内政策争论提供数据支撑，可能影响预算谈判与下一轮社会福利调整。若贫困群体购买力下降，内需与公共健康压力可能上升。关注政府是否推出补偿性措施及反对党的政策回应。",
       "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20256001?origin=rss"
+      "url": "https://yle.fi/a/74-20256304?origin=rss"
+    },
+    {
+      "title": "芬兰使馆一则普通闭馆通知引发全球病毒式传播",
+      "summary": "芬兰驻外使馆宣布于11月10日周二临时闭馆，这一平淡通知意外引发全球网友制作幽默反应视频，形成病毒式传播现象。事件显示社交媒体时代外交机构日常信息的意外传播力。",
+      "impact": "该现象虽属轻松文化话题，但也反映芬兰国家品牌在数字空间的可见度与亲和力。对外交机构而言，日常沟通可能意外成为公共外交素材。关注使馆后续是否借势进行形象传播。",
+      "source_name": "Yle News",
+      "url": "https://yle.fi/a/74-20256307?origin=rss"
     }
   ],
   "quick_bites": [
-    "阿里巴巴芯片设计部门 T-Head 以保密方式提交香港 IPO 申请，推进中国 AI 自给自足战略。",
-    "软银因 AI 希望遭遇新挫折而录得上半财年亏损；马斯克此前称其“违约”燃气轮机订单，Q2 财报显示接近事实。",
-    "泰国收紧大型数据中心环境规则，东南亚 AI 基础设施扩张面临更高合规门槛。",
-    "本田押注混合动力作为美国电动化主力至 2030 年代初，调整纯电节奏。",
-    "法国学生封锁数十所高中并誓言继续抗议，生活成本示威外溢至教育系统。"
+    "阿里巴巴宣布计划分拆并上市旗下芯片公司平头哥（T-Head），该公司被视为英伟达竞争对手，已于9月11日秘密提交香港上市申请。",
+    "美国汽油价格自7月以来首次跌破每加仑4美元，为消费者带来一定通胀缓解。",
+    "预测市场平台Polymarket称其年化收入已超过18亿美元，美国交易所业务增长推动规模扩张。",
+    "日产汽车表示，其中国销量下滑在10月进一步加剧，凸显外资车企在华竞争压力。",
+    "日本丸红商社押注全球增长重心南移，调整长期业务布局。"
   ],
   "email_sent": true
 }
