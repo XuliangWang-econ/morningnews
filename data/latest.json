@@ -1,116 +1,109 @@
 {
-  "date_str": "2026年11月17日 星期二",
-  "headline_quote": "英伟达财报前AI股续跌、地缘风险推升油价，乌克兰袭击克里米亚大桥与特朗普亚洲行重塑全球议程。",
+  "date_str": "2026年11月18日 星期三",
+  "headline_quote": "英伟达财报暂稳AI交易，深圳迎来中美俄历史性峰会；但美联储鹰声、AI债务泡沫警报与强美元压低铜价，市场在乐观与警惕之间摇摆。",
   "macro_markets": [
     {
-      "title": "AI股财报前续跌，市场聚焦英伟达历史性电话会",
-      "summary": "在英伟达发布财报前夕，AI相关股票再度走低，科技股整体承压。市场关注英伟达在黄仁勋退出后的管理层交接与AI需求前景，投资者期待公司就继任安排和增长可持续性给出明确信号。",
-      "impact": "英伟达财报被视为AI交易的风向标，若管理层对继任问题含糊其辞或AI资本开支指引不及预期，可能引发科技股进一步回调；反之则有望稳定市场情绪。",
-      "source_name": "Bloomberg / WSJ / MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSHFoREFNUWJRYTJxR0pTRnpHM2Q1NlhjQ1pjN0w3U1FWM09sclNuMlVNLWx4YXF0TURpOEdtSk9sc3BXTEpBakhLd21neWhod2pvZ1hRNVAtZWxNTlZmUXl4TXNJQ0MyTTFqa0tpRGVmOVpQZlRidlZzYkFLYnlNSXduLUtPSXo3QUJ0aVhlM0xWVFNh?oc=5"
+      "title": "英伟达财报安抚AI恐慌，美股期货走高但零售疲软拖累",
+      "summary": "英伟达公布强劲季度销售并淡化AI需求见顶担忧，带动纳斯达克期货与华尔街开盘走高；不过，最新零售销售数据放缓，令市场涨幅受限。英伟达同时表示不会让此前戏剧性离职的黄仁勋回归。",
+      "impact": "市场将英伟达业绩视为AI资本开支周期的关键压力测试。若后续AI订单与电力、数据中心投资继续兑现，科技股有望企稳；但零售疲软提醒投资者，高利率对消费端的滞后冲击仍在显现。",
+      "source_name": "华尔街日报 / 金融时报 / 彭博",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTk1RaThEMWNURHNaV2huZzdBTE5JMVFGNnR4aF9PYk1GRG0yV3ZxeEVxRVRya1Y5RUJCNmd3MDJXd1BFNndnTngtMk91SXNCazVzblBmeU5ZT2p6bTdzRGsxa200TXpBNkx5MllXT1plb0kteE95STFqUkpVd3NTVFZ5YV8?oc=5"
     },
     {
-      "title": "美国收紧芯片管制，亚洲股市下挫，台股遭散户强制平仓",
-      "summary": "美国进一步收紧对华芯片出口限制，亚洲股市应声下跌。巴克莱指出，台湾股市重挫背后是散户被迫强制平仓，加剧了市场抛压。与此同时，英伟达合作伙伴Megaspeed因涉嫌违规向中国转运高端AI芯片正接受美国政府调查。",
-      "impact": "芯片管制升级叠加台股杠杆资金出清，短期内亚洲科技板块波动性将维持高位；Megaspeed调查若坐实，可能进一步收紧AI芯片转口贸易渠道，影响英伟达区域销售。",
-      "source_name": "WSJ / Bloomberg / BBC",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWVVdldZOXZsVElHNUkwYWR2aGpfaVhRTFZKZ183elNOOVNNZ196a2drOXhxQTQwVGk3eWtQLXJZYjZiX2JSOXduOG1Gb2tZRUJGUDdhVXo5RW1TRloxWFRhNjFWZmhqaXFyYmRsQkxtZzFZWmpxWTNhaEQxQnJybEE1MGQ0ZmZ4UFFtSm10U0RIUE1zSUxMT3UtSW9zdXBXRzBZUnN5cXNQejJPSkE0TmliWkF4YU5S?oc=5"
+      "title": "美联储沃勒放鹰：或需以50个基点加息“震撼”市场",
+      "summary": "美联储理事沃勒表示，通胀持续高于2%目标，可能迫使央行采取更激进的紧缩立场，甚至需要一次50个基点的加息来“震撼人们”。这一表态强化了市场对货币政策重新转鹰的预期。",
+      "impact": "若美联储真以超常规幅度加息，美债收益率曲线、美元与成长股估值将首当其冲。投资者需关注后续通胀数据与官员讲话，判断这是否只是鹰派喊话而非既定政策路径。",
+      "source_name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
     },
     {
-      "title": "油价震荡：中东航运风险犹存，美国汽油价格跌至3月以来最低",
-      "summary": "受中东航运风险持续影响，油价一度反弹，但随后因中东出口恢复及四季度供应过剩预期，美国原油回落至85美元/桶附近。美国汽油零售价格降至3月以来最低水平。",
-      "impact": "供应恢复与需求预期博弈下，油价短期料维持区间波动；汽油价格回落有助于缓解美国通胀压力，但中东地缘风险仍是潜在上行催化剂。",
-      "source_name": "WSJ / CNBC / Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcGtrNWkxVGpxdjJGWnVJbzFDQXlabGJVV2I5bFhMYmJFOXAtQjR4cERNMnZabG90ZUo3cm80Zm0xdUpYallfU1kyV2FaMVFwUG5UUWR3UWNFMXU0RDJPcndiS0RuejcxWkJDU1kxbnQ2NnJPWXNBNGtGelpVd0FsbVF0emUyTVdpaEVFYlFnNmZSVTlhRUo5bzhYTkRicFpoa0loRGw0OUJQM215T0lkZUpUNDhFSHM?oc=5"
+      "title": "Anthropic冲刺IPO最后关口，VC或迎千亿美元盛宴、散户却存疑虑",
+      "summary": "Anthropic接近完成IPO前的最后障碍，早期低调风投机构有望获得约1000亿美元账面收益。但面向普通投资者的认购环节引发争议，部分散户直言“完全是炒作，预期有些膨胀”。",
+      "impact": "作为AI独角兽上市的标志性事件，Anthropic定价将检验公开市场对生成式AI高估值的真实承受力。若散户需求冷淡或首日表现不佳，可能传导至整个AI私募融资链条。",
+      "source_name": "金融时报 / 彭博 / MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNjRQOFIzcnNkZlVyM19oTEZ4eUVibDU0SVlZM1FEdmdyRkVjVDlnMHVRbEJvYlhXZV9Dd3JHOVoxN2xySzZHY3BfUHZQdXU2N3RMNzZHbWV0UDN2WmRhSTNHVjVYa2E3MVRGUEd4eG5ncWRkVmVkVEpXYzgxOUNPWXdxWW4?oc=5"
     },
     {
-      "title": "银行收紧AI相关债务敞口，市场反弹情绪升温",
-      "summary": "随着对AI泡沫的担忧加剧，多家银行正寻求控制对AI领域的债务敞口。与此同时，亚马逊与谷歌在Anthropic IPO后将合计持有其约28%的股份，显示科技巨头对AI核心资产的深度绑定。",
-      "impact": "银行风险敞口收缩可能推高AI企业融资成本，抑制部分杠杆扩张；而巨头对Anthropic的持股集中度提升，意味着AI竞争格局进一步向少数平台倾斜。",
-      "source_name": "Financial Times / Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeUw0SmxybThyaFlhRm43aWl3MVJ2dWVMbFJ1MlRQSjdic21BdzVfaGpuU0dKS2xPXzJMOTNHc2hVUDdqY3MwQ3RJdWdlSUVxYkNBd3hMVFl5cmtBMm90bVhPZkVGMElRbWJkcFZJZHBWLUE2bHc0YUh5RDl3UTZpbnRKT0s?oc=5"
+      "title": "欧洲央行警告AI借贷潮与次贷泡沫存“历史相似性”，信用主管警惕债务重定价“恐惧因素”",
+      "summary": "欧洲央行指出，当前AI相关借贷热潮与当年的次贷泡沫存在“历史相似性”，引发对杠杆与估值风险的关注。与此同时，多家信用机构负责人警告，债务正在被集中重定价，“恐惧因素”可能放大市场波动。",
+      "impact": "AI基础设施投资愈发依赖债务融资，若利率维持高位或项目回报不及预期，信用利差可能快速走阔。该风险与Anthropic等AI资产的高估值形成共振，是2027年前市场需重点监测的尾部风险。",
+      "source_name": "金融时报 / 彭博",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFY3aERKeGE0QmV1OVY5akNDaDhaVDJ2NEJjS3FZb2U4UWNMVl9tRmdYWllCaEhYVXZXUGhZTUVkcTdySzMzNktNZnE5bTc1cm1tR3JPbXA0OS0xS3V2a2VRd3M3NVVQOHVjR3I1dXEyOTAzUm91S0ZVQmgtWjVXM0NleHo?oc=5"
     },
     {
-      "title": "美联储主席沃什强调AI对经济重要性但称可能令人失望",
-      "summary": "美联储主席凯文·沃什表示AI对经济至关重要，但也警告其发展可能令人失望。同日公布的美国10月零售销售仅小幅增长，显示消费者在假日购物季前短暂休整。",
-      "impact": "沃什对AI的谨慎表态与零售数据放缓共同强化了市场对美联储政策路径的观望情绪；若AI投资回报不及预期，可能拖累未来生产率增长预期。",
-      "source_name": "CNBC / MarketWatch",
-      "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
+      "title": "美元走强压制大宗商品，铜价跌至近五个月低点",
+      "summary": "受美元升值打压，铜价延续跌势，降至近五个月最低水平。强势美元提高了以美元计价金属的持有成本，也反映市场对全球工业需求前景的谨慎。",
+      "impact": "铜价常被视为全球制造业与电网投资的风向标。其回落与AI电力需求叙事形成反差，若中国刺激政策未加码，基本金属可能继续承压；反之，任何美元回调都可能带来反弹窗口。",
+      "source_name": "彭博",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN0lFSXBXS29wZm8yR2wxSUZPYXJ0UXRoYWxpZ25sOXhOaFZSNFNnWXZIWGd6ZWFTSk12V3VSYnNSenlGWmpOM1ktNW50RmJMc2NNYV9vVXNuMGlvY25YWDdUOHEtX0swekVrQlpVV01qLW1uSzEyWE9tQ01oUk0tSGwydDVRLTMyQWZIb2NSOG1qSTV1SVJv?oc=5"
     }
   ],
   "global_affairs": [
     {
-      "title": "乌克兰袭击克里米亚大桥，俄军空袭基辅两座大桥",
-      "summary": "乌克兰以导弹和无人机袭击了连接俄罗斯与克里米亚的战略大桥，泽连斯基称此为“史无前例”的行动。俄军则对基辅两座主要桥梁发动打击，造成严重损坏。此前乌方称俄军“双击”袭击致72人死亡，救援行动遭持续阻挠。",
-      "impact": "克里米亚大桥再度遇袭将加剧俄乌冲突升级风险，双方对关键基础设施的互攻可能进一步扰乱黑海航运与能源通道；基辅桥梁受损亦影响后方补给与平民撤离。",
-      "source_name": "BBC / France 24",
-      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss"
+      "title": "特朗普抵达深圳开启中国行，与习近平、普京握手，三方峰会周四登场",
+      "summary": "美国总统特朗普周三抵达深圳，习近平在停机坪亲自迎接并拥抱，随后特朗普与俄罗斯总统普京握手。三位领导人将于周四举行首次三方峰会，全球聚焦中美俄关系与APEC议程。",
+      "impact": "此次峰会是地缘政治的重大节点，可能涉及贸易休战、乌克兰问题与亚太安全架构。若三方能在关税或供应链上释放缓和信号，市场风险偏好将获提振；反之，任何强硬表态都可能引发新一轮波动。",
+      "source_name": "南华早报 / BBC / 日经亚洲",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374951/tarmac-hug-xi-and-handshake-putin-how-trump-began-his-china-visit"
     },
     {
-      "title": "特朗普抵马尼拉开启亚洲行，Quad同意关键矿产协议",
-      "summary": "美国总统特朗普抵达马尼拉，开启为期三天的亚洲行程，寻求深化与东盟关系。期间他与Quad领导人会晤，四国同意达成关键矿产协议。白宫还推动贸易协议与稀土合作，并寻求重振Quad机制。",
-      "impact": "特朗普在中选失利后加速亚洲布局，关键矿产协议旨在降低对华供应链依赖；Quad revival若实质化，将强化印太安全与经济架构，但可能加剧中美在区域内的博弈。",
-      "source_name": "SCMP / Nikkei Asia",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3374794/trade-deal-rare-earths-and-quad-revival-day-1-trumps-asia-trip"
+      "title": "习近平在APEC呼吁更自由贸易，领导人抢在特朗普会谈前布局",
+      "summary": "在特朗普与普京会谈前，习近平在APEC场合呼吁推进更自由的贸易，并强调反对保护主义。各经济体领导人正利用峰会窗口进行双边接触，为周四三方峰会预设议程。",
+      "impact": "中方试图以自由贸易旗手姿态争取亚太中间国家，对冲美国关税压力。若会议形成具体贸易便利化承诺，将利好区域供应链；但中美结构性矛盾仍难因一次峰会化解。",
+      "source_name": "日经亚洲",
+      "url": "https://asia.nikkei.com/politics/international-relations/apec/xi-urges-freer-trade-as-apec-leaders-maneuver-ahead-of-trump-talks"
     },
     {
-      "title": "东盟马尼拉峰会聚焦网络犯罪，新加坡接任轮值主席",
-      "summary": "东盟及其主要伙伴在馬尼拉峰会上寻求就网络犯罪采取联合行动。菲律宾将东盟主席国职位移交给新加坡，分析人士预计新加坡将在数字经济一体化、AI治理和贸易扩展方面取得进展，但应对缅甸危机等政治安全问题仍具挑战。",
-      "impact": "网络犯罪合作有望成为东盟务实合作新亮点；新加坡接棒后或加速区域数字规则制定，但成员国间政治分歧仍将制约东盟在安全议题上的集体行动力。",
-      "source_name": "Nikkei Asia / SCMP",
-      "url": "https://asia.nikkei.com/politics/international-relations/asean-major-partners-seek-action-on-cybercrime-at-manila-summit"
+      "title": "科威特称击退两个月来首次伊朗袭击，巴林亦称遭袭",
+      "summary": "在美国周二空袭伊朗格什姆岛后，科威特表示击退了两个月来首次伊朗攻击，巴林也称遭到伊朗袭击。海湾局势骤然升级，地区防空与航运安全面临考验。",
+      "impact": "冲突外溢至海湾合作委员会国家，可能推升油价与航运保险费，并迫使美国加强地区军事部署。市场需关注霍尔木兹海峡通行是否受影响，以及伊朗是否进一步报复。",
+      "source_name": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "法国极右翼勒庞承诺若当选将废除马克龙养老金改革",
-      "summary": "法国极右翼总统候选人玛丽娜·勒庞表示，若当选将废除马克龙总统的养老金改革，允许数十万法国工人提前退休，并设立9000亿欧元的新退休基金。民调显示她目前是总统竞选的热门人选。",
-      "impact": "勒庞的承诺进一步加剧法国财政可持续性担忧，9000亿欧元基金规模庞大，若实施可能显著推高公共债务；养老金议题将成为2027年大选核心战场，牵动欧洲债市情绪。",
+      "title": "IAEA：朝鲜宁边浓缩设施扩建外部工程完工",
+      "summary": "国际原子能机构表示，朝鲜宁边核浓缩设施的新扩建部分自10月中旬以来已“外部完工”，该机构正通过卫星图像和公开来源监测。IAEA总干事格罗西周三就相关进展作出说明。",
+      "impact": "扩建意味着朝鲜铀浓缩能力可能进一步提升，削弱无核化谈判前景。美日韩可能加强制裁与威慑，东北亚安全风险上升，也会分散美国在APEC峰会上的外交资源。",
       "source_name": "France 24",
-      "url": "https://www.france24.com/en/france/20261117-french-far-right-candidate-le-pen-vows-end-macron-s-pension-reform-if-elected"
+      "url": "https://www.france24.com/en/asia-pacific/20261118-north-korea-completes-external-works-on-enrichment-facility-extension-says-iaea"
     },
     {
-      "title": "伊朗媒体称美国或在伊使用石墨炸弹，神秘纤维引关注",
-      "summary": "伊朗当地媒体发布的照片显示，美国部队可能在近期对伊朗基础设施使用了石墨炸弹（又称“停电炸弹”），这些武器通过造成短路而非物理摧毁来破坏电力供应。图像中基础设施现场出现神秘纤维。",
-      "impact": "若属实，将是美国对伊朗首次使用此类非动能武器，标志着对伊施压手段升级；石墨炸弹的使用可能引发国际社会对电力基础设施攻击合法性的争议，并加剧中东紧张局势。",
-      "source_name": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20261117-iran-us-graphite-blackout-bombs-infrastructure"
+      "title": "东盟与加拿大加速自贸谈判，寻求降低对美依赖",
+      "summary": "经过五年谈判，东盟与加拿大正接近达成自由贸易协定，双方希望在特朗普贸易政策不确定性上升之际深化经济联系。协定可能为企业和供应链提供更多元化的市场准入。",
+      "impact": "该协定若落地，将成为加拿大在印太布局的关键支点，也为东盟提供对冲美国关税风险的渠道。但能否真正降低对美依赖，取决于原产地规则、服务业开放与投资条款的深度。",
+      "source_name": "南华早报",
+      "url": "https://www.scmp.com/week-asia/economics/article/3374945/asean-canada-speed-trade-pact-over-trump-can-it-curb-us-reliance"
     }
   ],
   "finland_nordic": [
     {
-      "title": "芬兰总统斯图布：欧洲应直接与普京对话",
-      "summary": "芬兰总统亚历山大·斯图布在接受《金融时报》采访时表示，将俄乌谈判外包给美国是“不负责任的”，欧洲应直接与普京对话。此番表态凸显芬兰在安全政策上对欧洲自主外交的呼吁。",
-      "impact": "斯图布的言论反映北欧国家对美国主导谈判进程的担忧，可能推动欧盟内部关于对俄直接沟通的讨论；芬兰作为俄罗斯邻国，其立场对北欧安全架构具有风向标意义。",
-      "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20257532?origin=rss"
+      "title": "芬兰扩大“推回”法适用范围，以遏制工具化移民",
+      "summary": "芬兰将“推回”法扩展至应对工具化移民，允许边防人员在特定情况下拒绝寻求庇护者入境。该法此前已引发人权与欧盟法律一致性的争议。",
+      "impact": "芬兰在东部边境安全与欧盟庇护规则之间进一步偏向前者，可能获得国内安全派支持，但也面临欧盟机构与人权组织压力。若俄方继续以移民施压，该法执行尺度将成为关注焦点。",
+      "source_name": "Yle",
+      "url": "https://yle.fi/a/74-20257718?origin=rss"
     },
     {
-      "title": "芬兰就业部：失业率年底前将触底回升",
-      "summary": "芬兰就业部表示，失业率将在年底前迎来拐点，就业增长预计明年扩展至更多行业，新投资将带动工程、建筑和IT领域的需求。",
-      "impact": "若预测成真，芬兰劳动力市场将逐步走出低谷，但复苏力度取决于投资落地速度与外部需求；IT与工程行业的人才竞争可能加剧。",
-      "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20257445?origin=rss"
+      "title": "HS民调：芬兰联合党支持率创纪录新低，芬兰人党逼近",
+      "summary": "根据HS最新民调，总理奥尔波领导的民族联合党支持率跌至纪录低位，芬兰人党正在缩小差距。执政联盟内部力量对比出现微妙变化。",
+      "impact": "若支持率颓势延续，奥尔波政府在预算、移民与欧盟政策上的推进将更受掣肘，芬兰人党可能借势强化右翼议程。下一轮地方或全国选举的策略分化值得观察。",
+      "source_name": "Yle",
+      "url": "https://yle.fi/a/74-20257586?origin=rss"
     },
     {
-      "title": "芬兰减重手术门槛降低，减肥药物获取更难",
-      "summary": "芬兰新建议使减重手术更易获得，而肥胖药物获取难度增加。新指南还强调应以尊重态度对待肥胖人群，而非归咎于体重。",
-      "impact": "政策调整反映芬兰在肥胖治疗路径上向手术倾斜，可能影响医药市场格局；对肥胖人群的去污名化导向有助于改善公共健康干预效果。",
-      "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20257413?origin=rss"
-    },
-    {
-      "title": "芬兰今日中午测试FI-Alert应急预警系统",
-      "summary": "芬兰将于周二中午测试FI-Alert应急系统，11月底将进行更广泛的测试，警报将通过手机、应用程序、广播和电视发送。",
-      "impact": "此次测试旨在检验全国应急通信网络的覆盖与响应能力，对北欧国家应对混合威胁与危机沟通具有示范意义。",
-      "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20257359?origin=rss"
+      "title": "芬兰紧急警报测试称成功，但部分消息未达且系统无英文版",
+      "summary": "芬兰当局将全国紧急警报测试评价为成功，但承认部分消息未能送达，且系统没有英文版本。此次测试旨在检验大规模公共预警能力。",
+      "impact": "在跨境安全与移民增加的背景下，英文预警缺失可能影响外籍居民与游客安全，也暴露数字包容性短板。当局后续或需补足多语言与覆盖盲区。",
+      "source_name": "Yle",
+      "url": "https://yle.fi/a/74-20257609?origin=rss"
     }
   ],
   "quick_bites": [
-    "摩根大通称临时软件故障影响消费者银行业务，暂无恶意行为迹象。",
-    "伯克希尔·哈撒韦第三季度增持达美航空，同时减持美国银行。",
-    "新西兰元跌至六年低点，市场对新西兰经济前景担忧加剧。",
-    "韩国总统李在明将于明年1月访问日本，日韩关系持续回暖。",
-    "香港警方调查两间二手奢侈品店，涉1660万港元付款违约投诉。"
+    "印尼央行意外加息以捍卫盾币，印尼盾兑美元跌至历史新低，新兴市场资本外流压力升温。（日经亚洲）",
+    "腾讯98亿美元资本开支将其推入净债务状态，AI与算力投入正改变中国科技巨头的资产负债表。（日经亚洲）",
+    "香港“幻彩咏香江”灯光秀在维港落幕，结束22年历史，旅游当局同步启动扩展版冬季节庆。（南华早报）",
+    "Costco被分析师指受益于“末日式担忧”：微软宕机与全国航班停摆后，顾客加速囤积应急物资。（MarketWatch）",
+    "芬兰中部17岁少年Teemu每两周日在家里烤多达50个黑麦面包，把家庭厨房变成小生意。（Yle）"
   ],
   "email_sent": true
 }
