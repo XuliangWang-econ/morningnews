@@ -1,109 +1,109 @@
 {
-  "date_str": "2026年11月20日 星期五",
-  "headline_quote": "AI 盛宴的账单开始到期：创纪录的 Anthropic IPO 也托不住全球科技股；而在基辅的废墟与波兰上空的导弹之间，地缘政治的旧风险正被重新定价。",
+  "date_str": "2026年11月21日 星期六",
+  "headline_quote": "AI交易退潮引爆全球风险重定价：纳指转跌，资金从进攻转向防守。",
   "macro_markets": [
     {
-      "title": "Anthropic 创纪录 IPO 未能托住 AI 交易，全球科技股遭抛售",
-      "summary": "Anthropic 完成约 1073 亿美元的创纪录美股 IPO，首日开盘一度大涨 17%，但随后掉头向下，盘中跌幅约 10%，盘后续跌约 5%，股价逼近发行价（FT、Bloomberg 不同时点数据）。市场对 AI 资本开支与估值过热的担忧迅速蔓延，美股承压，亚洲科技股同步大跌，WSJ 称“AI 泡沫破裂”叙事正主导情绪。WSJ 另文追问 Anthropic 究竟值 2 万亿美元还是 1.5 万亿美元，凸显估值锚的混乱。",
-      "impact": "Bloomberg 警告这轮抛售已从科技蔓延至更广板块，带有互联网泡沫破裂前兆的警示意味；作为全球 AI 融资风向标，Anthropic 首日破发式走势可能令后续 AI 企业IPO窗口收窄，并迫使私募市场重新审视天文数字估值。后续关注数据中心投资节奏与企业盈利兑现能力。",
-      "source_name": "WSJ / FT / Bloomberg / MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS0gyWjhIVGZYS3A2TDJtbVdaZVJHdlo5Smt3RkhsMHJ2bUh6ZVlOLWE5cDhkV3hXcmFVZFRVTmgxdlJXQ3dLRWREYVljemhSVjkycmlFYzctSW44YlhybXNtOFNyYVVvMEw2bGFNSmFnMEJrd2xWMklDbHJ4RGNRNFVnX1VTNUR0QXA5V1BaRlo3Tmo2eUE3U2lCQko5c21rQVMxOGlB?oc=5"
+      "title": "AI交易退潮引发美股巨震：纳指全年转跌，科技股坠入熊市，Anthropic上市动荡放大4万亿美元回撤",
+      "summary": "美股科技板块经历自新冠疫情危机以来最差一周，纳指回吐全年涨幅转跌，标普500与道指被推入调整区间。WSJ称AI热潮正转为退潮，Anthropic上市首日交易动荡为华尔街4万亿美元AI市值蒸发画上注脚。Bloomberg称恐慌笼罩全球市场，Goldman认为抛售仍有延续空间。",
+      "impact": "市场正从AI乐观交易转向风险重定价，IPO窗口、估值锚与被动资金流向均受考验；后续关注Anthropic、Nvidia及信用利差是否继续恶化。",
+      "source_name": "Financial Times、WSJ、Bloomberg、BBC",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcXlaSEs0VF84U3VRbVowdTMxMm5kRktENGl6bGtweEtZWVJfVzZQUWY3eUkyamtzMFBJYVBhWFMwSW8zWTBxSm1BWTU2aEZVX2RGOFhENWg1dU5CQ0lDNU53bFZldFlmaEZvSElQakZ6Zk1lWmFvYkMtUHEyS3pRX2FLYVQ?oc=5"
     },
     {
-      "title": "通胀“病毒”扩散与避险需求角力：油价与债市脱钩，美债迎五个月最长涨势",
-      "summary": "FT 指出，油价对债市通胀预期的传统传导关系正在松动，“通胀病毒”正向更广泛资产类别扩散；WSJ 刊文称当下增配通胀保护是“无需犹豫”的选择。与此同时，避险资金涌入推动美债走强，有望录得五个月来最长连涨。",
-      "impact": "股债跷跷板重现，说明市场一边担忧通胀黏性、一边寻求避险，资产定价逻辑出现分裂。若 AI 抛售延续，资金可能在“避险买债”与“通胀对冲”之间反复切换，需关注美债收益率曲线形态及通胀保值债券（TIPS）资金流向。",
-      "source_name": "FT / Bloomberg / WSJ",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVdKYnk3ZUtXTER3VDhFcTRqcHdrbWZhS3BYY2hEQ1JFRFZ0VEZoNEtxS1ZuM0h0Zmhod0E0VS1qWWhPaHBXRl83bVRNZEpvMzdXQlhXNzBlRndqdFdGWk84VlNPcHJQSzVKLW0xY3AzbHFGUFVkLWdBanhvdUJSWG42T1cwRW9tMzFMR0pnbF83emtmRkNPVTIzMWxzVG4tc3Vfb3NEWmd2ZWZaaExz?oc=5"
-    },
-    {
-      "title": "AI 抛售蔓延至大宗商品：铜价跌势加剧，金属市场承压",
-      "summary": "Bloomberg 报道，AI 相关抛售在金属市场引发连锁反应，铜价大幅下挫且跌势持续恶化，反映市场正在重新定价数据中心、电网与制造业的需求前景。",
-      "impact": "铜被视为全球增长与电气化投资的晴雨表，此轮下跌显示资金正快速撤离 AI 基建主题。若跌势延续，矿商资本开支计划与主要产铜国财政将承压，也可能通过成本端反向影响新能源与数据中心建设进度。",
+      "title": "台湾禁止股票卖空以稳定市场",
+      "summary": "台湾宣布禁止股票卖空，作为平息市场波动的新举措。此举紧随全球科技股抛售与亚洲风险资产承压。",
+      "impact": "限制做空可短期抑制恐慌，但可能削弱对冲与流动性；显示监管层对跨市场抛售传染高度警惕。",
       "source_name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONHFkYW9abjlUcHNuc0xTR2JMOVlORUJqUGg2U0VBX1ROUUw4Tkdob19rQlJib3paR0NoUlZ1a0E2UHdZN3ltTFJSUnlSQ3dWVlVfNTBsaXg3Zm9RcmdRR2lmVmhKY05fNWMzOHVMbWRSLXl4QU9FZmNWVnF0QTF0MU15amhfTVdMOThWbm1sVTJqU3NFb1F4VlM3aV9rUXUyeXBHa2JtbWZxTTRBQnVqcEV1eUxoQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc0lVX2ZZa3c3NkJvd3dNbnNMN3Vzc1hNSVZaNEctQm1yV3l5Yi1qbnlqaGhuQl8tU0JScU9XSlV6dWVwNXBOYVhUejNZSjdGNmtuQ3Y5eXoxenUtZl9Xc3lNMC1aOWlEVHp3Vm9HUWJaSXRrOVU5T3VEV3dkNlBFYTdsWHdlZk80UzQycGxEdmJTazRqNUltVzVWdWUyMHhnVTAxWFBRa0MtcngzSlpiNWx3?oc=5"
     },
     {
-      "title": "科技融资与盈利双重承压：DayOne 暂停赴美 IPO，Intuit 指引加剧软件股忧虑",
-      "summary": "Bloomberg 称，新加坡数据中心运营商 DayOne 因数据中心与市场环境担忧暂停美国 IPO 计划；MarketWatch 报道 TurboTax 母公司 Intuit 发布疲弱展望，加深华尔街对传统软件公司的焦虑；FT 称贷款方正试图阻止 SpaceX 将价值 400 亿美元的芯片送入轨道。",
-      "impact": "一级市场融资窗口正在收窄，AI 与数据中心相关发行遇冷可能向私募估值传导；软件板块则同时面临 AI 颠覆与需求放缓的双重审视，资金对“AI 受益者”与“AI 受害者”的区分将更趋残酷。",
-      "source_name": "Bloomberg / MarketWatch / FT",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWVZLWWg4US0wTHJaZjFVUE1XYkpjdEN5YXE4MW1laU5DYlZ0djBNNndsQUVnY042M25rOS16TXdBS0FzSHgxdzFaa2NKYjJZdDBTa19WM1M0aExkcmpNVnhXWE1URkVSdmFlcjdvbUVtZEhFV3VXMjdpWVo4aUVoVGJqaHRrM1E2a24tN3RSejhOaDNhQXZVRWhDZF8tajE5Mk5XX1B5NmlDcjZTVHBoYWU1VFJJU3ZROW8yTERFUXc3VHg5VEY1WGo5QmM1dms?oc=5"
+      "title": "欧洲电力市场对经济发出警告",
+      "summary": "Bloomberg指出，欧洲电力市场正向其经济发出警示信号。电力价格与供应稳定性成为评估欧洲工业与通胀前景的关键变量。",
+      "impact": "若电力风险持续，欧洲制造业竞争力、居民账单与央行政策路径可能受压；能源密集型行业与电网投资是后续看点。",
+      "source_name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY2JUaUg3RElPRWI1WkdTa1FyT3lNSUJEYkMxb0lmZWwzNF9ka2pFYWJVaGhMZUZ6aFEwb1VqMmJVWTNqZ1J6NmRYTDFzbkQwcHhkQU1WT1NPQTN4QlFrc2ZXRGR2YzBDOEZQNE5pNXlZS0l6OXNRaTZ4dkc2b29JNi1NbUZOYWJST0lWS0RuMEtPY0RQOHdHeUJOeGh0WEZRMnE5Qy1icnRVaXc4dWc?oc=5"
+    },
+    {
+      "title": "花旗英国子公司资产被少计350亿美元",
+      "summary": "WSJ报道，花旗在英国子公司的资产被少计350亿美元。该问题涉及跨境子行资产统计与披露。",
+      "impact": "事件可能引发会计与监管审查，并影响市场对花旗资本充足率、风险控制与跨境报告质量的判断。",
+      "source_name": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQUt2OHExSjcwRHNmWnFlWTlYWU5sSmlVRmtSeURfa0pFMmZ5TEtTdGRlelEwLXV3SXI0TTU1SkZQNjhpMElnRzVidXdQWEdfdkRrbFdjYlppekVfc3pUMk1jUVdSODEzSzk1WXJ4QVJJSklkdEVEMnZGcXVDT2lLaUh6dGN4dVpYbWhpR0VqUlFRVkxraTJqR25NX1JKanRrcmNR?oc=5"
+    },
+    {
+      "title": "沃什希望美联储官员少发声，但官员近期反而更频繁表态",
+      "summary": "CNBC称，美联储主席沃什希望官员减少公开讲话，但近期多名美联储官员却更频繁地登上麦克风，而主席本人保持低调。",
+      "impact": "沟通策略分歧可能放大利率路径不确定性；市场将关注官员表态是否与主席立场一致，以及前瞻指引是否弱化。",
+      "source_name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
     }
   ],
   "global_affairs": [
     {
-      "title": "俄罗斯发动开战以来最大规模空袭之一，导弹落入波兰引发北约警觉",
-      "summary": "在乌克兰袭击克里米亚大桥后，俄罗斯周五对基辅等地发动大规模导弹与无人机袭击，打击电力设施，造成至少 8 人死亡，基辅三座桥梁遇袭；法国称空袭波及欧洲多国驻基辅使馆，正推动联合国安理会召开紧急会议。BBC 报道一枚俄罗斯导弹落入波兰境内，总理图斯克称其为来自莫斯科的“挑衅”，所幸无人伤亡、暂无损失报告。",
-      "impact": "战事外溢风险上升，波兰事件再次测试北约集体防御红线的模糊地带；欧洲使馆受损可能推动新一轮对俄制裁与防空援助。能源基础设施遭系统性打击，也令乌克兰冬季供电危机雪上加霜。",
-      "source_name": "BBC / SCMP / France 24",
-      "url": "https://www.scmp.com/news/world/europe/article/3375281/8-killed-ukraine-russia-hits-back-after-crimea-bridge-attacks"
+      "title": "俄乌冲突外溢风险升温：波兰称俄导弹与疑似无人机入境，泽连斯基称打击克里米亚大桥为‘公平回应’",
+      "summary": "France 24报道，两枚俄罗斯导弹和一架疑似无人机周五落入波兰，波兰总理图斯克称这可能是与欧洲军演同步的“有意挑衅”。BBC报道，泽连斯基称克里米亚大桥遭袭是对俄方109次空袭乌桥梁的“公平回应”，并在伦敦会见英国官员。",
+      "impact": "北约东翼防空与危机沟通再受考验，波兰事件可能推动盟友加强防空、对乌军援与对俄制裁；需关注是否触发北约磋商机制。",
+      "source_name": "France 24、BBC",
+      "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences"
     },
     {
-      "title": "特朗普与普京会晤谈乌克兰，俄方拒绝为基辅提供安全保障",
-      "summary": "特朗普在亚洲行期间与普京单独会晤，称双方拥有“非常好的关系”，乌克兰战争成为会谈焦点。但 BBC 指出，俄方在空袭升级的同时明确拒绝乌克兰安全保障的前景，外交让步迹象寥寥。",
-      "impact": "华盛顿推动的停火框架缺乏俄方实质回应，战争短期内难见外交出口；美俄关系回暖信号与欧洲安全焦虑并存，欧洲盟友对美方立场的不信任可能加深。",
-      "source_name": "CNBC / BBC",
-      "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html"
+      "title": "COP31气候谈判因化石燃料分歧陷入僵局",
+      "summary": "BBC报道，近200个国家在COP31上围绕化石燃料问题陷入僵局，难以达成新的全球气候协议。",
+      "impact": "化石燃料退出路径、气候融资与能源转型节奏仍是核心分歧；谈判拖延将影响全球气候政策可信度与投资者预期。",
+      "source_name": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "美中俄罕见联合质疑国际司法机构，分析称利好北京南海立场",
-      "summary": "SCMP 报道，中俄美三边峰会后发表联合声明，对国际司法机构权威提出罕见质疑；分析人士认为，这有助于北京拒绝 2016 年南海仲裁裁决。Nikkei 引述美国商会负责人警告，美中关系稳定不能仅靠双边峰会维系。此题与 APEC 期间美中贸易、台湾及科技分歧未解形成呼应。",
-      "impact": "联合声明可能削弱国际法院与仲裁机制的约束力，为南海、人权等议题的司法追责设置障碍；企业界则担忧政治关系波动直接冲击供应链与市场准入，“峰会红利”预期明显落空。",
-      "source_name": "SCMP / Nikkei / CNBC",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375277/how-beijings-south-china-sea-stance-benefits-rare-joint-warning-icc"
+      "title": "欧盟拟对大型科技公司征税以填补预算",
+      "summary": "SCMP报道，欧盟提出对全球最大数字公司征税的计划，以资助下一轮预算，并试图弥合成员国在长期融资上的分歧。欧洲理事会主席科斯塔公布的新支出提案削减2040亿欧元。",
+      "impact": "数字税将加剧美欧科技与贸易摩擦，并改变大型科技公司的合规成本；欧盟预算谈判与成员国分摊仍是后续焦点。",
+      "source_name": "SCMP",
+      "url": "https://www.scmp.com/news/world/europe/article/3375333/eu-eyes-tax-big-tech-boost-budget"
     },
     {
-      "title": "国际法院裁定缅甸对罗兴亚实施种族灭绝，马来西亚庇护空间收窄",
-      "summary": "France 24 报道，国际法院于 11 月 19 日作出历史性裁决，认定缅甸 2017 年对罗兴亚人犯下种族灭绝罪。长期收容罗兴亚难民的马来西亚，在仇恨言论上升的背景下正收紧庇护政策。",
-      "impact": "裁决为国际追责与难民安置提供法律依据，但执行仍取决于安理会；东南亚难民保护体系面临更大压力，地区人权与移民治理矛盾将进一步显性化。",
+      "title": "APEC深圳峰会落幕：中国展示区域领导力，但中美贸易与科技分歧未解",
+      "summary": "SCMP称，APEC深圳峰会展示中国作为区域领导者的角色，新华社将深圳崛起描述为“亚太奇迹”的样板。CNBC指出，特朗普结束亚洲行后，中美贸易、台湾与科技紧张仍未解决，会议具体成果有限。",
+      "impact": "亚太供应链与地缘政治风险仍高，企业需关注关税、出口管制与台海议题；峰会更多体现象征性外交而非实质突破。",
+      "source_name": "SCMP、CNBC",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375335/how-china-showcased-shenzhen-miracle-apec-cooperation-push"
+    },
+    {
+      "title": "法国将迎第六个周六抗议，生活成本与军费成焦点",
+      "summary": "France 24报道，法国准备迎接连续第六个周六的抗议，示威者预计围绕生活成本上升和政府处理社会动荡的方式集会。抗议也涉及教育、军费开支等议题，并蔓延至欧洲多地。",
+      "impact": "社会不满在法国总统选举前持续发酵，考验政府财政与安全议程；欧洲多地抗议反映生活成本与军费扩张的政治压力。",
       "source_name": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/focus/20261120-malaysia-s-unwanted-refugees-the-plight-of-the-rohingya"
-    },
-    {
-      "title": "意大利全国罢工瘫痪学校医院与交通，学生加入抗议生活成本",
-      "summary": "France 24 报道，意大利周五举行全国性罢工，学校、医院和地方交通受到干扰，工人与学生在全国数十座城市游行，要求提高工资、降低生活成本并加强社会保障；行动恰逢国际学生日。",
-      "impact": "欧洲生活成本危机与财政紧缩叠加，罢工潮存在向其他成员国蔓延的风险，将考验各国预算空间与欧盟财政规则的执行弹性。",
-      "source_name": "France 24",
-      "url": "https://www.france24.com/en/video/20261120-italy-strike-draws-workers-students-into-nationwide-protests-over-wages-and-living-costs"
+      "url": "https://www.france24.com/en/thousands-protest-overs-prices-education-military-spending-in-france-and-europe"
     }
   ],
   "finland_nordic": [
     {
-      "title": "芬兰军方订购 4.5 亿欧元炸药，强化弹药供应链",
-      "summary": "芬兰国防军宣布采购价值 4.5 亿欧元的炸药，供应商包括一家芬兰-挪威合资企业以及一家芬兰本土公司。这是芬兰近期扩大弹药与爆炸物产能的又一动作。",
-      "impact": "在俄乌战争与北约东翼防务强化背景下，芬兰正加速关键军用材料本土化，降低对外依赖；相关订单也将提振北欧防务产业链。",
+      "title": "芬兰湾发生无人机袭击：俄罗斯货船起火，赫尔辛基通报北约",
+      "summary": "France 24报道，周六一艘俄罗斯货船在芬兰湾国际水域遭无人机袭击后起火。芬兰当局称，赫尔辛基已通报北约，并对相关区域实施临时限制。",
+      "impact": "波罗的海与芬兰湾安全风险上升，北约海上监视与芬兰应急响应受关注；事件可能加剧俄芬及北约—俄罗斯紧张。",
+      "source_name": "France 24",
+      "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland"
+    },
+    {
+      "title": "芬兰军方订购4.5亿欧元炸药",
+      "summary": "Yle报道，芬兰军方正在订购价值4.5亿欧元的炸药，供应方包括一家芬兰—挪威合资企业和一家芬兰公司。",
+      "impact": "采购将增强芬兰弹药与国防工业储备，体现北欧防务合作深化；在地区安全紧张下，军事供应链与产能建设成为重点。",
       "source_name": "Yle",
       "url": "https://yle.fi/a/74-20257988?origin=rss"
     },
     {
-      "title": "俄罗斯就运动员入境限制召见芬兰副大使，赫尔辛基指俄将体育政治化",
-      "summary": "芬兰上周收紧对俄罗斯运动员的入境限制后，俄方召见芬兰副大使提出交涉。芬兰外交部回应称，“俄罗斯把体育当作宣传工具”。",
-      "impact": "双边关系进一步降温，体育与文化交流成为制裁与反制的新战场，也凸显芬兰在安全议题上对俄的强硬立场。",
+      "title": "俄罗斯就运动员入境限制斥责芬兰副大使",
+      "summary": "Yle报道，俄罗斯就芬兰对运动员的入境限制斥责芬兰副大使。芬兰外交部指出，俄罗斯将体育用作宣传工具。",
+      "impact": "芬俄关系在签证、边境与体育政治化议题上进一步紧张；事件可能影响两国人员往来与体育交流。",
       "source_name": "Yle",
       "url": "https://yle.fi/a/74-20258049?origin=rss"
-    },
-    {
-      "title": "芬兰本周：企业破产数创 21 世纪新高，移民局积压与警报测试失误引关注",
-      "summary": "Yle 周度盘点显示，芬兰企业破产数量升至本世纪最高水平，移民局（Migri）案件积压严重，全国短信警报测试出现故障；同时塞马环斑海豹重返旧栖息水域，成为少有的积极消息。",
-      "impact": "破产潮反映高利率与经济停滞对中小企业的冲击，移民积压影响劳动力供给与社会融合；警报系统故障则暴露民防通信短板，或推动应急体系整改。",
-      "source_name": "Yle",
-      "url": "https://yle.fi/a/74-20258181?origin=rss"
-    },
-    {
-      "title": "芬兰足协解雇国家队主帅弗里斯，20 场仅 8 胜",
-      "summary": "丹麦籍教练雅各布·弗里斯执教芬兰国家队 20 场比赛仅取得 8 场胜利，芬兰足协宣布与其解约。",
-      "impact": "芬兰足球进入重组期，需在欧国联与世界杯预选赛周期前敲定新帅；这也折射出小国足球在成绩压力下频繁换帅的困境。",
-      "source_name": "Yle",
-      "url": "https://yle.fi/a/74-20258124?origin=rss"
     }
   ],
   "quick_bites": [
-    "GameStop 已从迷因股转型为分析师眼中的“真正的公司”，Roaring Kitty 回归对其股价影响有限（MarketWatch）。",
-    "日本烟草股价大跌 10%，俄罗斯资产被没收波及约 90 万名投资者（Nikkei）。",
-    "韩国高考（Suneung）查处 111 名学生携带违禁智能设备作弊（BBC）。",
-    "香港拟将建筑安全违规最高罚款由 100 万港元提高至 300 万港元，回应大埔致命火灾（SCMP）。",
-    "白宫在系列技术故障后解除网络安全主管职务（BBC）。"
+    "芬兰国家足球队解雇主教练雅各布·弗里斯；其执教20场仅8胜。",
+    "芬兰极右组织因国内印刷商拒接订单，转向海外订购贴纸。",
+    "日本印章制造商通过X平台AI视频认证进军AI领域。",
+    "法国西南海岸一艘马耳他籍货船搁浅，19名船员安全，当局防范污染。",
+    "印度曼尼普尔疑似假酒中毒致11人死亡、180余人住院。"
   ],
   "email_sent": true
 }
