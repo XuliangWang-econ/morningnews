@@ -1,109 +1,95 @@
 {
-  "date_str": "2026年11月21日 星期六",
-  "headline_quote": "AI交易退潮引爆全球风险重定价：纳指转跌，资金从进攻转向防守。",
+  "date_str": "2026年11月22日 星期日",
+  "headline_quote": "AI交易退潮与金属市场剧震主导风险情绪，COP31无果而终；芬兰湾船只遇袭起火牵动北欧安全。",
   "macro_markets": [
     {
-      "title": "AI交易退潮引发美股巨震：纳指全年转跌，科技股坠入熊市，Anthropic上市动荡放大4万亿美元回撤",
-      "summary": "美股科技板块经历自新冠疫情危机以来最差一周，纳指回吐全年涨幅转跌，标普500与道指被推入调整区间。WSJ称AI热潮正转为退潮，Anthropic上市首日交易动荡为华尔街4万亿美元AI市值蒸发画上注脚。Bloomberg称恐慌笼罩全球市场，Goldman认为抛售仍有延续空间。",
-      "impact": "市场正从AI乐观交易转向风险重定价，IPO窗口、估值锚与被动资金流向均受考验；后续关注Anthropic、Nvidia及信用利差是否继续恶化。",
-      "source_name": "Financial Times、WSJ、Bloomberg、BBC",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcXlaSEs0VF84U3VRbVowdTMxMm5kRktENGl6bGtweEtZWVJfVzZQUWY3eUkyamtzMFBJYVBhWFMwSW8zWTBxSm1BWTU2aEZVX2RGOFhENWg1dU5CQ0lDNU53bFZldFlmaEZvSElQakZ6Zk1lWmFvYkMtUHEyS3pRX2FLYVQ?oc=5"
+      "title": "AI交易全面退潮：纳指年内转跌，中国AI板块蒸发1.7万亿美元",
+      "summary": "WSJ报道纳斯达克综指年内转为下跌，市场围绕“AI泡沫是否已破裂”展开激烈争论；Bloomberg称中国AI板块经历约1.7万亿美元回撤，热门交易转为亏损押注。FT并称AI服务器供应商在签约数月后提价最高45%，产业链成本压力上升。",
+      "impact": "AI资本开支、估值与融资链条面临再定价，债券市场也在评估AI交易风险；后续关注英伟达等龙头业绩、AI服务器涨价传导及全球流动性变化。",
+      "source_name": "Wall Street Journal / Bloomberg / Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RaUhWLVdDQi05aHVLU1hiMkdFRnIyYmNObm9fNV93R3Z5ZEt1b0QzTHdUSmVJOWZaNGlheDdnckJWNWNKcW5zNkMtOUJHWmg3Q1hNUkFyTUwxSFNlMUVacV95dGllbkM1MlUxV2FlUVl3YmRMdXpjdWxWemV1Zw?oc=5"
     },
     {
-      "title": "台湾禁止股票卖空以稳定市场",
-      "summary": "台湾宣布禁止股票卖空，作为平息市场波动的新举措。此举紧随全球科技股抛售与亚洲风险资产承压。",
-      "impact": "限制做空可短期抑制恐慌，但可能削弱对冲与流动性；显示监管层对跨市场抛售传染高度警惕。",
+      "title": "金属市场剧震：黄金重挫3.16%，铜价跌至4月以来低点",
+      "summary": "Comex黄金结算价下跌3.16%至3736.80美元/盎司；铜价受AI市场动荡与中国需求担忧拖累，跌至4月以来最低。Bloomberg称本周金属市场从挤仓到崩跌剧烈震荡。",
+      "impact": "避险与工业需求逻辑同时受挫，显示市场正在重估AI投资周期和中国需求；关注美元、实际利率及库存变化。",
+      "source_name": "Wall Street Journal / Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX1ZVcTNOb2gtUFpBRXIzbDNyaGpyVzJMZ2FTZ1FwbE1KR0dmTjNuNzYxVnNPVFNYaTlKeFhBMllWX3FNVi1zbzNSejNrSXFNMjNGSjkxeWtzVWlDUjFEMG5MU19VQmNWbzNMX0tsTDZSQnJkVWZWZDdGWlJLRm40NVJHQ2p1SWNsbmM1LUpLMDZnbHExRW8wbUsyc0hRLW5oaVRCLQ?oc=5"
+    },
+    {
+      "title": "中国下调融资保证金比例至80%，旨在提振股市流动性",
+      "summary": "Bloomberg报道中国将融资保证金要求下调至80%，以增加股票市场流动性。此举正值中国AI板块大幅回撤、市场风险偏好承压之际。",
+      "impact": "政策意在稳定杠杆资金与市场情绪，但能否扭转AI交易退潮仍待观察；关注两融余额、成交额与后续稳市场工具。",
       "source_name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc0lVX2ZZa3c3NkJvd3dNbnNMN3Vzc1hNSVZaNEctQm1yV3l5Yi1qbnlqaGhuQl8tU0JScU9XSlV6dWVwNXBOYVhUejNZSjdGNmtuQ3Y5eXoxenUtZl9Xc3lNMC1aOWlEVHp3Vm9HUWJaSXRrOVU5T3VEV3dkNlBFYTdsWHdlZk80UzQycGxEdmJTazRqNUltVzVWdWUyMHhnVTAxWFBRa0MtcngzSlpiNWx3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ0lsWGMtQzFaN3pHeFA3ZFVNLWdHN0lDcVZESDA4UFZUVlVpXzhTdllpOHhTZDBzX2pvT3dEdDNZS1laUnh0bzVWZS16WXZyYlVvTW5qU3VVOXVzSzFVTlRWbzB2eFhoS0VVVk14WGU0aGQxLUxaOG1Gb01lTURmMERJaDhEVkVoNXdxdFNLTVZLdXFGWjZ4WWJWajV4NmZaTEhuUmFLY1BzVHQxQTRoZ1l4WQ?oc=5"
     },
     {
-      "title": "欧洲电力市场对经济发出警告",
-      "summary": "Bloomberg指出，欧洲电力市场正向其经济发出警示信号。电力价格与供应稳定性成为评估欧洲工业与通胀前景的关键变量。",
-      "impact": "若电力风险持续，欧洲制造业竞争力、居民账单与央行政策路径可能受压；能源密集型行业与电网投资是后续看点。",
+      "title": "加州对英伟达调查涉及潜在刑事违法，AI龙头监管风险升温",
+      "summary": "Bloomberg报道加州对英伟达的调查涵盖潜在刑事法律违规。此时AI交易正遭遇猛烈回撤，投资者对AI产业链风险敏感度上升。",
+      "impact": "监管不确定性可能加大英伟达及AI供应链波动；关注调查范围、公司回应与法律进展。",
       "source_name": "Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY2JUaUg3RElPRWI1WkdTa1FyT3lNSUJEYkMxb0lmZWwzNF9ka2pFYWJVaGhMZUZ6aFEwb1VqMmJVWTNqZ1J6NmRYTDFzbkQwcHhkQU1WT1NPQTN4QlFrc2ZXRGR2YzBDOEZQNE5pNXlZS0l6OXNRaTZ4dkc2b29JNi1NbUZOYWJST0lWS0RuMEtPY0RQOHdHeUJOeGh0WEZRMnE5Qy1icnRVaXc4dWc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZKSUpVM0xWNVRuM3B0RjhyOTM0NUNoRmNYVnVKYm50andhaTFJVHZLenZrckE1aFZuMGhiSW42Mlh5c2lZcGc5eTg1NDQwWVRFQWxSOGtzWHk2S2pGLVpvM3N2enh4Mms5OTF0MHFXc0JnN3ZoYlB3ODJqX3FoSjJCTWlPOHQ2SjNOQ1Q3cjVNR0NWRVYxWVFEanpwZC1mSW5SeGpXSDRqX1d0TUVwdE1vYVJWUQ?oc=5"
     },
     {
-      "title": "花旗英国子公司资产被少计350亿美元",
-      "summary": "WSJ报道，花旗在英国子公司的资产被少计350亿美元。该问题涉及跨境子行资产统计与披露。",
-      "impact": "事件可能引发会计与监管审查，并影响市场对花旗资本充足率、风险控制与跨境报告质量的判断。",
-      "source_name": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQUt2OHExSjcwRHNmWnFlWTlYWU5sSmlVRmtSeURfa0pFMmZ5TEtTdGRlelEwLXV3SXI0TTU1SkZQNjhpMElnRzVidXdQWEdfdkRrbFdjYlppekVfc3pUMk1jUVdSODEzSzk1WXJ4QVJJSklkdEVEMnZGcXVDT2lLaUh6dGN4dVpYbWhpR0VqUlFRVkxraTJqR25NX1JKanRrcmNR?oc=5"
-    },
-    {
-      "title": "沃什希望美联储官员少发声，但官员近期反而更频繁表态",
-      "summary": "CNBC称，美联储主席沃什希望官员减少公开讲话，但近期多名美联储官员却更频繁地登上麦克风，而主席本人保持低调。",
-      "impact": "沟通策略分歧可能放大利率路径不确定性；市场将关注官员表态是否与主席立场一致，以及前瞻指引是否弱化。",
-      "source_name": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
+      "title": "美股惨烈一周后，MarketWatch择时模型称历史偏向未来两周上行",
+      "summary": "MarketWatch援引Norm Fosback的“季节性择时系统”称，在美股经历惨烈一周后，历史记录显示未来两周市场存在上行偏向。该模型长期跟踪记录位居前列。",
+      "impact": "为超跌反弹提供历史参照，但AI估值、金属市场动荡与监管风险仍可能压制风险偏好；关注技术面能否企稳。",
+      "source_name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories"
     }
   ],
   "global_affairs": [
     {
-      "title": "俄乌冲突外溢风险升温：波兰称俄导弹与疑似无人机入境，泽连斯基称打击克里米亚大桥为‘公平回应’",
-      "summary": "France 24报道，两枚俄罗斯导弹和一架疑似无人机周五落入波兰，波兰总理图斯克称这可能是与欧洲军演同步的“有意挑衅”。BBC报道，泽连斯基称克里米亚大桥遭袭是对俄方109次空袭乌桥梁的“公平回应”，并在伦敦会见英国官员。",
-      "impact": "北约东翼防空与危机沟通再受考验，波兰事件可能推动盟友加强防空、对乌军援与对俄制裁；需关注是否触发北约磋商机制。",
-      "source_name": "France 24、BBC",
-      "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences"
-    },
-    {
-      "title": "COP31气候谈判因化石燃料分歧陷入僵局",
-      "summary": "BBC报道，近200个国家在COP31上围绕化石燃料问题陷入僵局，难以达成新的全球气候协议。",
-      "impact": "化石燃料退出路径、气候融资与能源转型节奏仍是核心分歧；谈判拖延将影响全球气候政策可信度与投资者预期。",
-      "source_name": "BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "欧盟拟对大型科技公司征税以填补预算",
-      "summary": "SCMP报道，欧盟提出对全球最大数字公司征税的计划，以资助下一轮预算，并试图弥合成员国在长期融资上的分歧。欧洲理事会主席科斯塔公布的新支出提案削减2040亿欧元。",
-      "impact": "数字税将加剧美欧科技与贸易摩擦，并改变大型科技公司的合规成本；欧盟预算谈判与成员国分摊仍是后续焦点。",
-      "source_name": "SCMP",
-      "url": "https://www.scmp.com/news/world/europe/article/3375333/eu-eyes-tax-big-tech-boost-budget"
-    },
-    {
-      "title": "APEC深圳峰会落幕：中国展示区域领导力，但中美贸易与科技分歧未解",
-      "summary": "SCMP称，APEC深圳峰会展示中国作为区域领导者的角色，新华社将深圳崛起描述为“亚太奇迹”的样板。CNBC指出，特朗普结束亚洲行后，中美贸易、台湾与科技紧张仍未解决，会议具体成果有限。",
-      "impact": "亚太供应链与地缘政治风险仍高，企业需关注关税、出口管制与台海议题；峰会更多体现象征性外交而非实质突破。",
-      "source_name": "SCMP、CNBC",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375335/how-china-showcased-shenzhen-miracle-apec-cooperation-push"
-    },
-    {
-      "title": "法国将迎第六个周六抗议，生活成本与军费成焦点",
-      "summary": "France 24报道，法国准备迎接连续第六个周六的抗议，示威者预计围绕生活成本上升和政府处理社会动荡的方式集会。抗议也涉及教育、军费开支等议题，并蔓延至欧洲多地。",
-      "impact": "社会不满在法国总统选举前持续发酵，考验政府财政与安全议程；欧洲多地抗议反映生活成本与军费扩张的政治压力。",
+      "title": "COP31无果而终：欧盟拒签未提化石燃料文本，气候谈判分歧加深",
+      "summary": "COP31在分歧中结束，未能达成协议；欧盟拒绝接受未提及化石燃料的文本，谈判在化石燃料表述上陷入僵局。France 24称各方分歧扩大。",
+      "impact": "全球气候治理裂痕加深，能源转型政策不确定性上升；关注后续缔约方会议、欧盟气候议程及化石燃料退出承诺。",
       "source_name": "France 24",
-      "url": "https://www.france24.com/en/thousands-protest-overs-prices-education-military-spending-in-france-and-europe"
+      "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions"
+    },
+    {
+      "title": "韩国教育部长因AI作弊丑闻辞职，高考安全混乱发酵",
+      "summary": "韩国教育部长崔教镇因大学入学考试AI作弊丑闻辞职，并承认考前最后时刻的防AI作弊措施造成混乱。此前一名税务师考试状元承认使用微型摄像头和智能手机作弊。",
+      "impact": "AI作弊冲击考试安全与教育公信力，韩国可能收紧考场监管与AI检测；关注后续调查与制度修补。",
+      "source_name": "BBC News / France 24",
+      "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "中石油副总经理谢军因涉嫌腐败被查",
+      "summary": "中央纪委国家监委周日发布简短公告，中国石油天然气集团副总经理、页岩气业务重要人物谢军因涉嫌腐败接受调查。",
+      "impact": "能源国企反腐持续，或影响页岩气业务推进与国企治理预期；关注后续通报及行业人事调整。",
+      "source_name": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/politics/article/3375381/chinas-shale-gas-star-xie-jun-under-investigation-corruption-authorities"
+    },
+    {
+      "title": "日本企业加速重建稀土供应链，以应对中国出口限制",
+      "summary": "Nikkei Asia报道，在中国实施稀土出口管制的背景下，日本企业正加快重建稀土供应链，寻求替代来源与加工能力。",
+      "impact": "关键矿产供应链“去风险化”加速，日企成本与资本开支可能上升；关注日本政策支持及第三国合作进展。",
+      "source_name": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/materials/corporate-japan-races-to-revive-rare-earth-supply-chain-amid-china-curbs"
+    },
+    {
+      "title": "CNBC：中国借峰会外交扩大全球影响力",
+      "summary": "CNBC报道，中国国家主席习近平参与协调又一具有全球意义的峰会合影时刻，中国正利用多边峰会扩大全球影响力。",
+      "impact": "峰会外交凸显中国在多重地缘议题中的议程设置与斡旋能力；关注中美俄互动及全球南方合作走向。",
+      "source_name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html"
     }
   ],
   "finland_nordic": [
     {
-      "title": "芬兰湾发生无人机袭击：俄罗斯货船起火，赫尔辛基通报北约",
-      "summary": "France 24报道，周六一艘俄罗斯货船在芬兰湾国际水域遭无人机袭击后起火。芬兰当局称，赫尔辛基已通报北约，并对相关区域实施临时限制。",
-      "impact": "波罗的海与芬兰湾安全风险上升，北约海上监视与芬兰应急响应受关注；事件可能加剧俄芬及北约—俄罗斯紧张。",
-      "source_name": "France 24",
-      "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland"
-    },
-    {
-      "title": "芬兰军方订购4.5亿欧元炸药",
-      "summary": "Yle报道，芬兰军方正在订购价值4.5亿欧元的炸药，供应方包括一家芬兰—挪威合资企业和一家芬兰公司。",
-      "impact": "采购将增强芬兰弹药与国防工业储备，体现北欧防务合作深化；在地区安全紧张下，军事供应链与产能建设成为重点。",
-      "source_name": "Yle",
-      "url": "https://yle.fi/a/74-20257988?origin=rss"
-    },
-    {
-      "title": "俄罗斯就运动员入境限制斥责芬兰副大使",
-      "summary": "Yle报道，俄罗斯就芬兰对运动员的入境限制斥责芬兰副大使。芬兰外交部指出，俄罗斯将体育用作宣传工具。",
-      "impact": "芬俄关系在签证、边境与体育政治化议题上进一步紧张；事件可能影响两国人员往来与体育交流。",
-      "source_name": "Yle",
-      "url": "https://yle.fi/a/74-20258049?origin=rss"
+      "title": "芬兰湾船只遇袭后仍起火，芬兰国防军称乌克兰极可能涉案",
+      "summary": "BBC报道，一艘驶往俄罗斯的船只在芬兰湾遭无人机袭击后仍在燃烧；芬兰国防军表示，乌克兰很可能是袭击幕后。事件发生在波罗的海关键航运与安全区域。",
+      "impact": "波罗的海安全风险上升，芬兰与北约东翼对无人机及航运基础设施威胁保持警惕；关注俄方回应、航运保险成本与地区防空部署。",
+      "source_name": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
     }
   ],
   "quick_bites": [
-    "芬兰国家足球队解雇主教练雅各布·弗里斯；其执教20场仅8胜。",
-    "芬兰极右组织因国内印刷商拒接订单，转向海外订购贴纸。",
-    "日本印章制造商通过X平台AI视频认证进军AI领域。",
-    "法国西南海岸一艘马耳他籍货船搁浅，19名船员安全，当局防范污染。",
-    "印度曼尼普尔疑似假酒中毒致11人死亡、180余人住院。"
+    "印尼一家糖果零食工厂发生火灾，至少3人死亡、36人失踪，15人获救；消防员逾12小时仍在扑救。（BBC）",
+    "墨西哥FBI十大通缉毒枭之一Fausto Isidro “Chapo Isidro” Meza Flores在交火后被捕，其被控贩毒与酷刑。（BBC）",
+    "日本教育大臣关义弘因政治筹款聚会丑闻面临下台压力，反对党党首玉木雄一郎要求其辞职。（SCMP）",
+    "意大利前国家警察总长被发现死亡，曾因西西里黑手党相关爆炸案调查中的掩盖指控接受调查；总理梅洛尼表示震惊。（France 24）",
+    "阿根廷借贷成本因总统米莱支持率下滑而跳升，投资者担忧政策连续性与偿债前景。（FT）"
   ],
   "email_sent": true
 }
