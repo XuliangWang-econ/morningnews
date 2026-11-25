@@ -1,116 +1,116 @@
 {
-  "date_str": "2026年11月24日 星期二",
-  "headline_quote": "黄仁勋回归短暂托底AI交易，但科技股回吐、美联储鹰派信号与中东及太空地缘风险交织，市场进入高波动验证期。",
+  "date_str": "2026年11月25日 星期三",
+  "headline_quote": "AI交易信仰动摇，引发科技股与套利交易的连锁抛售；而10月通胀再度加速，又使美联储12月加息几乎成为定局。市场正同时接受估值与利率的双重考验。",
   "macro_markets": [
     {
-      "title": "黄仁勋回归Nvidia点燃涨势后迅速降温，科技股回吐涨幅",
-      "summary": "英伟达周一恢复黄仁勋CEO职位，曾带动公司市值增加约1万亿美元并提振AI交易；但周二科技股回落，市场对AI支出与数据中心风险的疑虑仍在。报道并称杠杆做空英伟达的ETF已爆仓。",
-      "impact": "“Jensen put”短期稳定了AI交易情绪，但并未消除估值与资本开支回报压力；后续关注英伟达业绩指引、AI数据中心投资节奏及华盛顿对华芯片政策。",
-      "source_name": "Bloomberg Markets / FT / WSJ / CNBC（综合）",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVVBVLTBQYkhINGhEXzM0b3k1ZjV2b25YWmVNMzFuVl9EbkhNWlV1OUtGVVk4YTRLV01lMFZXRGpDLURZVkVJZy15MkZQNUZxYnRhQV9pLXFRQl9EaHlzemVJTmFUQ1VhTUxNUXd0bGxwZm4yLUJMVXdPeHJ2OWdDSkFOTml2a3NRM3VWcThHWGpJVDNi?oc=5"
+      "title": "AI交易出现裂痕：美股科技股抛售加深，跌势扩散至套息交易",
+      "summary": "据FT报道，随着投资者对人工智能交易的信心减弱，美股跌势进一步加深，科技股领跌；WSJ称这轮由科技股主导的下跌正在动摇市场对AI主题的信任。彭博指出，抛售已波及此前不被看好的市场，并冲击外汇套息交易（carry trade）。MarketWatch数据显示，英伟达回吐了周一涨幅的一半以上，上周逢低买入的散户浮盈几乎全部蒸发。",
+      "impact": "高盛策略师认为现在抄底AI为时过早，并提示2018年的市场剧本对当下并不有利；WSJ专栏更警告，若AI泡沫破裂，其对经济的冲击可能超过互联网泡沫。后续需关注英伟达财报后的波动、年末流动性以及被动基金调仓的放大效应。",
+      "source_name": "Financial Times / 华尔街日报 / 彭博 / MarketWatch（综合报道）",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSU4xMm9XeS02RlVfRHptOVoyRXNfa2cxRmxISXhnOFBrVnYtSk94bnVDWklKQzVhODdtbEViRThXVkdIYWw4aUpLME9fc3cxQ01WZ0ZTejdGTXJZdnNESmxlRl9Tb2ZEaElSRExXTWs3Ymg5QmxjZVdZNDdnT3ZNSWV3bDE?oc=5"
     },
     {
-      "title": "Anthropic上市第四日跌破IPO发行价，AI新股热潮遇冷",
-      "summary": "Anthropic股价周二早盘跌破83美元IPO发行价，为登陆纳斯达克不到一周以来首次；Bloomberg称其第四个交易日下跌6%并低于发行价。",
-      "impact": "公开市场开始检验高估值AI公司的定价韧性，若破发持续，可能影响后续AI企业IPO节奏与私募估值锚定。",
-      "source_name": "Bloomberg Markets / MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0hkbFdEeDFKTWo1UXlkenJzS3l0QWpGSDdIWGxpbTdiMkpzVkl0bFN0d2RUSGxJS3FxNFNjeEVOeE9qUlB6X1ZKNldQdFA5b2NUam1pZjQzXzFZSFZYQ21mUXJlSzVvOWs5dS1lc3A2NG5zeGQ1RXlQR0c4QkxOUVNQUzNyYzBMT1A5emhvX2VNc2thcUJoSjhqYzZjM0Y2ZmdQellESkczaXc?oc=5"
+      "title": "英伟达剧烈震荡，考验美联储主席沃什“读市场信号”的思路",
+      "summary": "CNBC指出，过去一周英伟达股价的极端波动以及围绕该公司CEO黄仁勋的风波，凸显了美联储主席凯文·沃什面临的两难：他把市场价格视为政策信号的重要来源。彭博则称，英伟达仍面临曾令其市值蒸发约2万亿美元的结构性问题；同时，BBC报道美国司法部长回避了有关Nvidia调查以及特朗普在黄仁勋复职中作用的质询。",
+      "impact": "若市场把AI龙头的股价暴跌解读为金融条件被动收紧，可能与12月加息的决策逻辑发生冲突；围绕企业治理与政治干预的疑云，也将推高科技股的风险溢价。关注监管听证与国会问询的进展。",
+      "source_name": "CNBC / 彭博 / BBC（综合报道）",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html"
     },
     {
-      "title": "美联储Williams：利率可能需在更长时间内保持较高水平",
-      "summary": "有影响力的美联储官员John Williams表示，为应对通胀，利率可能需要在“更长时间内”维持较高水平；他对通胀到2027年更接近美联储2%目标抱有信心。",
-      "impact": "市场对降息路径的定价可能再度后移，美债收益率与美元短线敏感；后续关注PCE、就业数据及美联储官员密集表态。",
-      "source_name": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+      "title": "10月通胀加速回升，美联储下月加息几乎成定局",
+      "summary": "MarketWatch报道，美联储用来引导利率的核心通胀指标在10月以更快的速度上行，几乎可以确定央行将在下月加息。CNBC报道，纽约联储主席威廉姆斯（John Williams）表示，为应对通胀，利率可能“随时间推移”走高，但他对2027年通胀接近2%的目标抱有信心。",
+      "impact": "加息预期重新定价，将持续压制高估值的AI与成长板块，并推升美元与短端美债收益率，套息交易平仓压力也可能随之增大。重点跟踪12月议息会议前的就业与PCE数据，以及委员们对“更高更久”路径的表态分歧。",
+      "source_name": "MarketWatch / CNBC（综合报道）",
+      "url": "https://www.marketwatch.com/story/inflation-gets-worse-now-the-fed-no-choice-but-to-raise-u-s-interest-rates-8b0c2c1f?mod=mw_rss_topstories"
     },
     {
-      "title": "赛诺菲410亿美元收购Insmed，创近三年最大生物科技交易",
-      "summary": "法国药企赛诺菲周二同意以410亿美元收购美国生物科技公司Insmed，以帮助抵消关键药物专利到期的影响。该交易为近三年来规模最大的生物科技并购。",
-      "impact": "大型制药公司为“专利悬崖”补强管线，生物科技估值与并购潮有望升温；关注反垄断审查及交易融资安排。",
-      "source_name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-biggest-biotech-deal-in-nearly-three-years-carries-a-hefty-41-billion-price-tag-dd7fa228?mod=mw_rss_topstories"
+      "title": "高盛策略师：现在抄底AI为时过早；“2018剧本”对市场不利",
+      "summary": "彭博报道，高盛策略师明确表示，当前还不是买入AI板块回调的时机；同一机构的另一篇Taking Stock专栏则提示，如果重演2018年的政策与流动性环境，市场前景并不乐观。彭博另文将当前AI交易的脆弱性概括为“火鸡问题”，即估值建立在远期叙事之上，且缺乏即时盈利支撑。",
+      "impact": "卖方龙头的谨慎表态可能延长机构减仓周期，短线反弹的持续性因而存疑。投资者应从“叙事驱动”转向现金流与资本开支回报率的验证，关注数据中心订单、电力与算力供给瓶颈等硬指标。",
+      "source_name": "Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUTFsUHJaN0E0aXNKOXhvVWF5c01DVFJieW4yaEJfa1ZvMlFQSWs2UXNZWTEwRlFCcTFnOXJwY08ybWk0X0drZk1aWm1hbWl5LVhvNFZ3Wjd3RjhuU21qRHJmWGVfLURkaDRIUUVsaXg4bzM5UWpMUFFycmdXcWFSaFhVUzJjSHl0T1B6d0YwajN0dTJIZ0Rldk1FS2xWOFM3X3ZvRlJkdHVXRWRWWWRQTw?oc=5"
     },
     {
-      "title": "德国工业巨头联合成立稀土贸易公司，强化关键矿产供应链",
-      "summary": "FT报道，德国工业巨头推出稀土贸易公司，以应对关键矿产供应链风险与出口管制压力。",
-      "impact": "欧洲正加快降低对单一稀土来源的依赖，关键矿产的战略储备、贸易金融化与联合采购或成为新趋势。",
+      "title": "M&G呼吁削减印花税，阻止伦敦上市公司“迁往”纽约",
+      "summary": "据FT报道，资产管理公司M&G的负责人呼吁英国削减股票交易印花税，以遏制伦敦上市公司纷纷转赴纽约上市的趋势。该呼吁出现在伦敦一级市场持续低迷、多家重量级企业评估海外上市的背景下。",
+      "impact": "英国资本市场竞争力议题再度升温；若财政当局在税制上不作回应，伦敦作为欧洲融资枢纽的地位可能进一步被削弱。关注英国财政部的表态、富时350成分股中“迁册/转板”动向，以及相关咨询文件的落地节奏。",
       "source_name": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY1FET3Bucmh1X2NlUmNkcmdwQWVYZ25NMjVjR2NYeWpFVk53THJPRzd5Zy1ySmoyTXo1X25RWkpvbWwzSzNrS3gxZnNKNk1SY1ZxcTdoSFczV1BLcllTeHA5TjMtWVN5YXVkQUFaSlhucTZRRWd5RWh5d2gxeHZaOEw2RFg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZlNIaTlhSXZSRWJqRkMzTFo3TnhJMWhJdDVYcURqWlpPeW5aRmstamFnWGl3cE5mS3ZwRjE1Z3l2RkdweDIwclBuWmdNNFRhZVljRkQyTzF0VFg5WGs5N0IxSFVGWm5Qb2NfNkgwdEg5YVpUZndSbnl6Vkdnd0F6Yjc1Rlk?oc=5"
     }
   ],
   "global_affairs": [
     {
-      "title": "利雅得PIF塔一周内二度遇袭，沙特谴责“恐怖袭击”",
-      "summary": "目击者称，沙特首都利雅得80层的公共投资基金（PIF）塔周二再次遭袭，为几天内第二次。打击也门胡塞武装的联盟谴责这是一起“恐怖袭击”。",
-      "impact": "中东冲突外溢至沙特首都核心资产，地区安全与能源供应风险升温；后续关注胡塞武装回应、沙特防空能力及油价波动。",
+      "title": "美方在“习特会”一周后提议对华及14个经济体加征新关税",
+      "summary": "据SCMP报道，美国周三提议对包括中国在内的14个经济体加征与“工业产能过剩”相关的新关税，税率约20%。此举距习近平与特朗普在深圳会晤仅一周，被视为双边缓和气氛的迅速降温。",
+      "impact": "这说明贸易休战更多停留在表态层面，实际执行工具仍在加码。相关出口链、光伏与新能源、钢铁铝等产能敏感行业将首当其冲，企业需重新评估转口与原产地规则的风险敞口。",
       "source_name": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3375667/saudi-condemns-terrorist-attack-after-riyadh-skyscraper-hit-twice-week"
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit"
     },
     {
-      "title": "法国枪杀17岁少年Nahel的警察将因谋杀罪受审",
-      "summary": "凡尔赛上诉法院周二表示，2023年在巴黎郊区Nanterre枪杀17岁少年Nahel Merzouk的法国警察将因谋杀罪受审。事发时少年未遵照停车命令，事件曾引发全国性骚乱。",
-      "impact": "该案触及法国执法、族群关系与郊区治理等敏感议题，审判可能再度引发抗议；关注司法进程与社会稳定措施。",
-      "source_name": "France 24",
-      "url": "https://www.france24.com/en/video/20261124-french-police-officer-who-shot-teenager-to-face-murder-trial"
+      "title": "俄罗斯的官方统计数据遭泄露：约70万俄军阵亡，克宫拒绝置评",
+      "summary": "据France 24报道，俄罗斯及国际媒体援引俄联邦统计机构被黑客窃取的数据称，迄今约有70万俄军士兵在乌克兰战场阵亡；克宫发言人佩斯科夫周三拒绝就此置评。BBC同时依据俄方自身数据指出，这场全面入侵已使俄罗斯损失近50万人，并从根本上改变了该国的死亡结构。",
+      "impact": "伤亡规模的披露将影响俄国内征兵与社会情绪，也可能成为未来谈判中双方衡量承受力的参照。相关数据真伪尚难独立核实，但在信息战中已具备显著舆论效应。",
+      "source_name": "BBC / France 24（综合报道）",
+      "url": "https://www.france24.com/en/europe/20261125-kremlin-declines-comment-reports-700-000-russian-soldiers-killed-ukraine-war"
     },
     {
-      "title": "泄露数据估算俄乌战争以来逾50万俄军阵亡",
-      "summary": "多家媒体基于黑客从俄罗斯联邦统计局Rosstat获取的大数据集估算，自俄乌战争开始以来已有超过50万俄罗斯士兵死亡。数据由白俄罗斯活动组织Cyber Partisans与乌方获取。",
-      "impact": "该估算若获更多独立验证，将凸显俄方人力损失与动员压力，影响战争可持续性与和谈舆论；相关数据仍需谨慎核实。",
-      "source_name": "France 24",
-      "url": "https://www.france24.com/en/video/20261124-leaked-data-suggests-500-000-russian-soldiers-killed-since-start-of-ukraine-invasion"
-    },
-    {
-      "title": "北约秘书长就俄罗斯核卫星报道誓言防御太空威胁",
-      "summary": "德国媒体报道称，俄罗斯计划在未来数周发射一枚携带核弹头的卫星。北约秘书长就此誓言将防御太空威胁。",
-      "impact": "太空军事化与核威慑风险再度成为欧洲安全议程，可能推动北约太空监视、导弹防御与相关预算升温；关注北约后续声明与俄方回应。",
+      "title": "乌方称击中俄萨瓦斯列卡机场5架军机",
+      "summary": "BBC报道，乌克兰方面称对俄罗斯萨瓦斯列卡（Savasleyka）空军基地实施打击，击中5架军用飞机。该基地驻有用于向乌克兰发射高超音速导弹和滑翔炸弹的作战飞机。",
+      "impact": "若战果得到确认，将削弱俄军对乌纵深目标的远程打击节奏，也显示乌方无人机与远程打击能力仍在持续升级。后续需关注俄方对等报复及对乌克兰能源基础设施的冬季打击。",
       "source_name": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "中国对上海市委书记陈吉宁展开调查",
-      "summary": "据Nikkei Asia报道，中国对上海市委书记陈吉宁展开调查。素材未披露更多官方细节。",
-      "impact": "上海是中国金融与外资枢纽，若相关消息获官方确认，可能影响地方政治预期与外资情绪；关注官方通报及后续人事安排。",
+      "title": "胡塞武装推进至距亚丁约60公里，也门政府军构筑防线",
+      "summary": "France 24援引也门军方官员称，伊朗支持的胡塞武装已推进至距也门国际承认政府所在地亚丁约60公里处；与之作战的部队已在城外建立加固防线，准备防守该市。",
+      "impact": "亚丁一旦告急，曼德海峡与红海航线的安全溢价将再度上升，对航运费率、保险费率与油价构成上行压力。地区调解方与域外海军的应对，将成为下一阶段的关键变量。",
+      "source_name": "France 24",
+      "url": "https://www.france24.com/en/video/20261125-houthi-rebels-close-in-on-aden-yemeni-forces-dig-in-behind-fortified-line"
+    },
+    {
+      "title": "中国空间站迎来首位外籍航天员：一名巴基斯坦飞行员",
+      "summary": "据Nikkei Asia报道，中国首次将一名外籍航天员送入本国空间站，该航天员为巴基斯坦飞行员。此举标志着中国载人航天合作首次向第三方国家开放。",
+      "impact": "航天合作正成为北京拓展南亚与全球南方影响力的新工具，也与中美在技术人才和标准制定上的竞争相呼应。关注后续载荷合作、训练体系输出以及相关国家的跟进意愿。",
       "source_name": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/china-places-shanghai-party-chief-chen-jining-under-investigation"
+      "url": "https://asia.nikkei.com/business/aerospace-defense-industries/china-sends-first-foreign-national-a-pakistani-pilot-to-its-space-station"
     }
   ],
   "finland_nordic": [
     {
-      "title": "芬兰失业率仍高于10%，青年失业率达四分之一",
-      "summary": "最新数据显示，芬兰失业率仍保持在10%以上；15至24岁人群中，每四人就有一人失业。",
-      "impact": "劳动力市场疲软将拖累内需与财政收支，青年失业高企增加结构性压力；关注政府就业改革、技能培训与移民政策。",
+      "title": "芬兰月薪中位数3700欧元，性别薪酬差距依然明显",
+      "summary": "Yle援引最新报告称，芬兰月薪中位数为3700欧元；收入最高的群体是中年男性，全职工作的女性收入比男性同行低近500欧元。",
+      "impact": "薪酬透明度与同工同酬仍是芬兰劳动力市场的核心议题，也可能影响正在进行的集体谈判与公共部门招聘竞争力。企业需留意欧盟薪酬透明指令的本地化落地。",
       "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20258745?origin=rss"
+      "url": "https://yle.fi/a/74-20258904?origin=rss"
     },
     {
-      "title": "芬兰市政税差距扩大：最高与最低相差逾2400欧元/年",
-      "summary": "Yle报道，明年居住地市政税将显著影响居民税负，最高税率与最低税率市政区之间的年度差额超过2400欧元。",
-      "impact": "地方财政差异与人口流动可能进一步分化，居住选择对家庭可支配收入影响上升；关注市政合并与财政均衡机制。",
+      "title": "拉赫蒂一所学校给七年级学生排8小时课，被指违反芬兰法律",
+      "summary": "Yle报道，拉赫蒂一所学校部分13岁学生周一上了8小时课，比法定上限多出1小时，被指违反芬兰基础教育法。",
+      "impact": "事件反映出师资短缺背景下的排课压力与学生作息保障之间的矛盾，可能促使地区教育主管复核课时安排与补偿机制。家长与教师工会的后续反应值得关注。",
       "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20258730?origin=rss"
+      "url": "https://yle.fi/a/74-20258850?origin=rss"
     },
     {
-      "title": "芬兰招募“网络士兵”加入新兵训练，反制信息战",
-      "summary": "芬兰推出新的义务兵训练项目，招募“网络士兵”，训练设计旨在应对信息战。",
-      "impact": "北欧安全环境趋紧下，网络防御正被纳入兵役与总体安全体系；关注项目规模、选拔标准及与北约网络防御的协同。",
+      "title": "极夜降临芬兰最北的乌茨约基，下一次日出要等到1月17日",
+      "summary": "Yle报道，芬兰最北部的乌茨约基（Utsjoki）已进入极夜（卡莫斯）期，太阳下一次升起将在1月17日。",
+      "impact": "极夜对当地居民心理健康、旅游与交通物流均有现实影响；拉普兰地区正以“极夜体验”作为冬季旅游卖点，相关配套服务与照明安全成为地方治理重点。",
       "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20258670?origin=rss"
+      "url": "https://yle.fi/a/74-20258879?origin=rss"
     },
     {
-      "title": "日本Advantage Partners投资芬兰e-甲烷项目",
-      "summary": "Nikkei Asia报道，日本基金Advantage Partners将投资芬兰的e-甲烷（电制甲烷）项目。",
-      "impact": "北欧绿色能源与合成燃料项目持续吸引亚洲资本，反映氢能与e-甲烷跨境供应链合作升温；关注项目融资规模与承购协议。",
-      "source_name": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/business-deals/japan-fund-advantage-partners-to-invest-in-finland-e-methane-project"
+      "title": "芬兰最长寿男性108岁，是最后一位在世的冬季战争男性老兵",
+      "summary": "Yle报道，现年108岁的伊尔马里·科皮宁（Ilmari Koppinen）是芬兰最年长的男性，也是最后一位在世的冬季战争男性老兵。",
+      "impact": "随着这一代人的谢幕，芬兰战时记忆的活体传承进入最后阶段，国防与历史教育机构或加快口述史与档案数字化工作。",
+      "source_name": "Yle News",
+      "url": "https://yle.fi/a/74-20258938?origin=rss"
     }
   ],
   "quick_bites": [
-    "特朗普称“说服”英伟达重聘黄仁勋引发反弹；BBC称黄仁勋回归曾令公司市值增加约1万亿美元。",
-    "英国首相Burnham推动欧盟重置协议，重新点燃Brexit辩论，France 24称其试图争取公众支持。",
-    "华为称已拥有本土芯片设计工具，以应对美国相关限制（Nikkei Asia）。",
-    "芬兰再次测试FI-Alert手机紧急警报系统，10秒警报除关机外无法避开（Yle News）。",
-    "FT报道中国引导家庭将储蓄转向股市而非房地产后，市场出现下跌。"
+    "WSJ：铜价随着AI交易的剧烈波动而大幅下挫，但铜的实物供应依然偏紧，说明需求叙事与现货基本面出现背离。",
+    "SCMP：香港政府营运的城市售票系统（Urbtix）遭黑客入侵，约130万用户数据泄露，近期本地网络攻击事件明显增多。",
+    "SCMP：日本福冈一名自行车停车场管理员遇刺身亡，嫌疑人逃逸，附近商场紧急疏散，警方随后逮捕一名49岁当地男子。",
+    "MarketWatch：美光在最新财年将CEO桑杰·梅赫罗特拉的安保预算上调约2000%，相关支出达76.47万美元，其总薪酬包为3970万美元。",
+    "Yle：芬兰总统及其配偶将于11月27日晚参加英语姆明朗读马拉松，共读托芙·扬松小说《姆明与大洪水》（原文素材为《彗星来到姆明谷》）。"
   ],
   "email_sent": true
 }
