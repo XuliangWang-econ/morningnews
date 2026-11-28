@@ -1,109 +1,116 @@
 {
-  "date_str": "2026年11月27日 星期五",
-  "headline_quote": "中国盘中罕见发声托市提振A股，AI交易情绪回稳带动美股期货与亚股反弹；欧洲预算分歧与乌克兰冬季困境构成地缘暗流。",
+  "date_str": "2026年11月28日 星期六",
+  "headline_quote": "标普500指数陷入回调，特朗普AI干预与英伟达震荡考验美联储；法国评级展望遭下调，台湾地方选举国民党失守科技重镇，芬兰总理呼吁欧盟预算削减2500亿欧元。",
   "macro_markets": [
     {
-      "title": "中国国务院罕见盘中发声稳市场，A股应声走高",
-      "summary": "中国国务院在交易时段发表罕见声明，强调将加大市场支持力度，释放稳预期信号。受此提振，中国股市明显走高，亚洲市场整体风险偏好回暖。",
-      "impact": "盘中声明属非常规操作，显示政策层对资本市场稳定的重视程度上升。短期提振情绪，但市场关注后续是否有实质性资金与改革措施跟进，以判断反弹可持续性。",
-      "source_name": "Bloomberg / WSJ",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQak5CQ2hzYk9WT0pEN2JpTjdqdU81V2pWSkxEVmdVcy11NDhqX0RfRngwU3ZXczl6dXFkZXg3aEpPakM2ZTY4QXNJVlpiVEJ2MUs0bUF0MzVJUXd3dWtvWFJna2U2aVhYbTNmM3o1UmZBaGxZRzVCS0JwS1FMYVlUSmltWE1GTkkwdmhxMG5xYi1sNDBDLURIVExoODFYVVhHZkdaa1VyUnFTLTNw?oc=5"
+      "title": "标普500指数进入回调区间，历史显示未必演变为熊市或衰退",
+      "summary": "11月抛售潮已将标普500指数推入回调区间。CNBC指出，历史数据表明回调并不总是导致熊市或经济衰退。与此同时，WSJ报道美国民众对股市的敞口达到历史最高水平，市场波动对家庭财富的影响更为直接。",
+      "impact": "回调是否演变为更深度的下跌，将取决于美联储主席凯文·沃什对市场信号的解读以及AI交易能否企稳。散户高敞口意味着市场情绪放大效应增强，政策制定者面临更大压力。",
+      "source_name": "CNBC / Wall Street Journal",
+      "url": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html"
     },
     {
-      "title": "AI交易情绪回稳，美股期货与亚股同步反弹",
-      "summary": "经历11月抛售后，AI相关交易情绪趋于稳定，美股期货走高，亚洲股市跟随上涨。标普500指数此前已进入技术性回调区间，但历史数据显示回调未必演变为熊市或衰退。",
-      "impact": "市场在感恩节后缩短交易时段内风险偏好回升，科技股与贵金属同步走强。关键看点在于英伟达等AI龙头波动加剧背景下，单一股票ETF风险暴露及AI资本开支与收入增长不匹配的结构性隐忧。",
-      "source_name": "Bloomberg / CNBC / WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd2ZFa0FGcTRjb19HbGxhWGxZc05LTXQ2WUJDTTQzc2hYNGVrbE5GQWtlcERpWGdVZmptNEFUM0ltY0ZobVhoaVo1Qzl4ZTFuNlBDSXFNaG9ETXFDOGdYSGppVVh1cW10TFJ5RG9sVVNYZmUzMHk2VlROMG9yVDM3UzRtM1VSbXlaYWlSN01McUlncVljREZvOGY5UzZaSjc3R3MzdWJUOF9oS3ZLU2c3bmV0MA?oc=5"
+      "title": "特朗普干预英伟达引发市场代价，AI博弈搅动感恩节周华尔街",
+      "summary": "FT报道特朗普对英伟达的干预给美国股市带来了成本。Bloomberg称特朗普的AI策略引发了华尔街感恩节周的剧烈波动。CNBC分析指出，英伟达的剧烈震荡正在考验美联储主席凯文·沃什解读市场信号的能力。",
+      "impact": "政治干预与企业战略的交织增加了科技股的不确定性。英伟达作为AI风向标，其波动通过指数传导至整体市场，美联储在政治压力与市场信号之间的平衡难度加大。",
+      "source_name": "Financial Times / Bloomberg / CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUjltZWJOXzNQRVU0WXZNN3VaLUN5OW9YVk9odVhDSlU2eVM5Q0QzUzltSG1rMVpyTDJrdlZCQVgxaW9tSlU2YVZhdUhKbExLeVg3NFRpZ1ItNTZ3ODQySkktdlY0WmFEd29BbHJJR0MwWllqMlVhUDhFdTJIU1ZsRmZ0MTE?oc=5"
     },
     {
-      "title": "美债收益率在缩短交易时段走高，避险需求随股市反弹降温",
-      "summary": "美国国债收益率在感恩节后缩短的交易时段内上升，股市上涨削弱了避险资产需求。贵金属则因AI交易复苏带动风险偏好而同步走强。",
-      "impact": "收益率上行反映市场对经济软着陆与风险资产的信心有所恢复，但债市波动仍受制于美联储政策路径预期。后续关注通胀数据与利率决议信号对收益率曲线的重新定价。",
-      "source_name": "WSJ / Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTW1zSXpjNUxaVHZQNEZGUnVUWHAzRmlkRzBrd01SbllIUmVUQUVHZFZ5WHlRcmxmd0tWODJwTGRvSGZXRWtIQXd4MEx0LVY5Qi1PazkyX0YyeGZ2TXhlaTNRLVpvUk1rTlB0Qk93bktRRi1UU0R6dU1XOWdjam5MTFByT0h2UG4wMkJTSFhpa0VsRlJlMkVoZUZZcFBfVFUwdzdiSk1LTkM5MC10?oc=5"
+      "title": "标普下调法国评级展望至负面，选举前预警财政风险",
+      "summary": "标普维持法国A+信用评级，但将展望从稳定下调至负面，警告预算赤字削减不力可能导致降级。Bloomberg称此为选举前的预警信号，FT同步报道了该决定。",
+      "impact": "法国与德国国债利差可能走阔，欧元承压。评级展望下调反映市场对法国政治碎片化与财政纪律的担忧，若选举后新政府无法推进改革，降级风险将进一步上升。",
+      "source_name": "Bloomberg / Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQWZXMlNNYkZqRTNXdU8yamZKc2JjQVZWMWQ1TGJueHVOZml3ckVIMXVPdlNsakdFTWY3SThWT05IZ051RWQ1amd0cF95dVdrM196UVRLdHZrVjJWNlk1V2ZrS1NRbndaLWJtUFdOXzVTTzlNSDhuNllyVnB3aUlCQUFqRmYxXzVXWnIycFBjWUpPWVVjeW9oRmFlRWwzTVhlVmY0VElWT2JPdmlad2RDMGpB?oc=5"
     },
     {
-      "title": "日本车企在华销量骤降，半导体出口首超油气成新“石油”",
-      "summary": "受中国市场下滑拖累，日本汽车制造商销量出现崩塌式下降。与此同时，2026年半导体出口首次超过石油和天然气，AI热潮推动芯片需求成为全球贸易新支柱。",
-      "impact": "日本车企在华困境凸显地缘政治与本土竞争双重压力，产业链转移与市场份额重构加速。半导体取代油气成为最大出口品类，标志着全球贸易结构从能源驱动向算力驱动转型，相关出口管制与供应链安全议题将更趋敏感。",
-      "source_name": "Financial Times / CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZkpMc3l2cncwaEc5YzJBVmlxQmo2RTF2NEF1SUpfZWxXNzlGMXF2VnBxd2djY3dsMGJpdkd5OXVybUFmZlIwYzJmY09QS0poRzhBREhrVTQ4b29ob2x5WlRHd1RtNnB1NXZUMEhXUG01QzBBVlhZaHpTT1l4WG9HcUlBb3o?oc=5"
+      "title": "铝供应紧张再度将LME推向危机边缘",
+      "summary": "Bloomberg报道，铝供应挤压使伦敦金属交易所（LME）再次濒临危机。此前LME曾因镍逼空事件声誉受损，此次铝市场紧张局势引发对交易所风控能力的关注。",
+      "impact": "铝价波动可能传导至制造业成本，LME的保证金与库存管理机制面临考验。若危机升级，可能引发对大宗商品交易所监管框架的进一步改革讨论。",
+      "source_name": "Bloomberg Markets",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNVo4NjhmZTBhMVRFVHhjVV9sWG9Pd0oxalVPMW1iZE5iYllscG40WG5rUmhWQU5PdGRfcWtRbXZZUi1ZUi1IRGUweHhHX2o5bGVCNTRmZEZzZTRya1h6QTluM0RZOEU2M2lNTWktYWNKWldhaUZQQV80WEFhT0VXbTRZdWdyN2hRUGFYYnlqNDVEWlotTGVvUkxCS3VJLWhzc1ViS2p5LW9LR1g1NWRjUTd5TUFGLW15bG80?oc=5"
+    },
+    {
+      "title": "北京释放更多市场支持信号，中国股市获提振",
+      "summary": "WSJ报道，在中国政府释放进一步支持市场的信号后，中国股市受到提振。Bloomberg另援引新华社数据称，1-10月中国进口物流下降0.6%。",
+      "impact": "政策托底预期短期利好A股与港股情绪，但进口物流数据疲软反映内需仍待修复。市场关注后续财政与货币政策的协同力度，以及房地产领域的风险化解进展。",
+      "source_name": "Wall Street Journal / Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmhhWlFIZ3RHR2RNUGZseElzdWpzZmIzN3Y4cnU5MzY2VjhhYWFVWWdiZmRvZTBXSS1JVTEwaE5HV0xKRERvWTV5dk9ITFJDM1RqTWRBb05kSlZSaFhfeXFMZGE1WDlNWmI5V0hWT2Z5dVRLb2NDQXRRaTBLaUNHd1NYYlBVbUc3SHFRblp3dlBXY3hwWS0tN09OVVV2Zk1XNDU5ZnNTTQ?oc=5"
     }
   ],
   "global_affairs": [
     {
-      "title": "泽连斯基批评特朗普与普京“奇怪友谊”，称美国未对俄施压足够",
-      "summary": "乌克兰总统泽连斯基在接受BBC采访时表达对美方的不满，批评特朗普与普京之间“奇怪的友谊”，并指美国在结束战争的和平谈判中未对俄罗斯施加足够压力。",
-      "impact": "此番表态反映乌方对美俄互动的不安，可能影响未来和平谈判的信任基础与谈判节奏。美乌关系张力上升，欧洲安全架构与对俄制裁协调面临新的不确定性。",
+      "title": "乌克兰称至少9名平民死亡，俄罗斯击落超1200架无人机",
+      "summary": "SCMP报道，周六乌克兰各地至少9名平民丧生，北部切尔尼戈夫地区尼任市一处企业遭袭致7死7伤。俄罗斯方面称夜间击落了近创纪录数量的乌克兰无人机，超过1200架。",
+      "impact": "无人机大规模互袭显示冲突烈度未减，双方均在消耗战中寻求突破。平民伤亡加剧人道主义压力，可能影响西方盟友对乌援助的舆论环境。",
+      "source_name": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376148/ukraine-reports-least-9-killed-russia-shoots-down-over-1200-drones"
+    },
+    {
+      "title": "台湾地方选举：国民党守住台北与新北，但丢失新竹与宜兰",
+      "summary": "SCMP与Nikkei Asia报道，国民党候选人李四川击败民进党苏巧慧，延续该党在新北市21年的执政权。但国民党同时丢失了新竹县与宜兰县，其中新竹是科技重镇，国民党在此连续执政25年后失守。",
+      "impact": "选举结果被视为2028年大选前哨战，国民党在传统优势区域出现松动，民进党在科技选民中的吸引力上升。地方版图变化可能影响后续政策资源分配与两岸议题论述。",
+      "source_name": "South China Morning Post / Nikkei Asia",
+      "url": "https://www.scmp.com/news/china/politics/article/3376147/taiwan-elections-kmt-loses-25-year-hold-hsinchu-tech-hub-magistrate-vote"
+    },
+    {
+      "title": "以色列空袭加沙医疗诊所致两名无国界医生死亡",
+      "summary": "BBC与France 24报道，以色列周五夜间对加沙城一处医疗诊所发动空袭，造成两名无国界医生组织成员死亡。以军称目标为“哈马斯恐怖分子”，世界卫生组织予以谴责。",
+      "impact": "医疗设施遭袭进一步加剧加沙人道危机，国际社会对以军行动合法性的质疑升温。援助组织在冲突区域的安全保障问题再度凸显，可能影响停火谈判氛围。",
+      "source_name": "BBC News / France 24",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "阿根廷阻止福克兰群岛石油钻探的请求被驳回",
+      "summary": "BBC报道，阿根廷试图阻止英国与以色列合资企业在福克兰群岛（马尔维纳斯群岛）进行油气勘探的请求被驳回。该合资企业即将启动勘探作业，阿根廷以主权主张为由提出反对。",
+      "impact": "能源勘探与主权争议交织，英阿关系可能再度紧张。若勘探取得商业发现，将改变南大西洋能源格局，并强化英国在该地区的经济存在。",
       "source_name": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "印尼、菲律宾与阿联酋将启动加入CPTPP谈判",
-      "summary": "印度尼西亚、菲律宾和阿联酋将开始就加入《全面与进步跨太平洋伙伴关系协定》（CPTPP）展开谈判，标志着该贸易协定扩员进程进一步推进。",
-      "impact": "三国加入将显著扩大CPTPP的经济与地缘覆盖范围，增强其在亚太贸易规则制定中的分量。谈判进程可能涉及市场准入、国有企业与数字贸易等敏感议题，对区域供应链重组与中美贸易格局产生外溢影响。",
-      "source_name": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/indonesia-philippines-and-uae-to-begin-talks-on-joining-cptpp-trade-pact"
-    },
-    {
-      "title": "香港提前七个月完成殖民时期法律“历史性” overhaul",
-      "summary": "香港当局提前七个月完成对殖民时期法律的适应性修改，移除殖民时代引用与过时条款，北京称之为履行主权回归的象征性里程碑。",
-      "impact": "法律体系与内地及“一国两制”框架的衔接进一步深化，象征意义大于短期实质经济影响，但对外资与国际法律界而言，普通法传统与本地法律现代化的平衡仍是关注焦点。",
-      "source_name": "South China Morning Post",
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3376093/hong-kong-completes-historic-overhaul-colonial-era-laws-7-months-early"
-    },
-    {
-      "title": "美国东岸感恩节风暴致近百万户断电、航班大面积取消",
-      "summary": "严重风暴袭击美国东海岸，带来暴雨、强风与沿海洪水，近百万家庭断电，数百架航班取消、数千架延误，正值全年最繁忙出行时段之一。",
-      "impact": "极端天气对交通与电力基础设施造成短期冲击，可能影响感恩节消费与物流数据。气候韧性议题再度凸显，保险与公用事业板块面临重新定价压力。",
+      "title": "法国全国抗议针对女性的暴力，社会运动叠加生活成本示威",
+      "summary": "France 24报道，周六法国各地举行示威，谴责针对女性的暴力，女权组织、工会、学生及黄背心活动人士参与。抗议正值更广泛的社会动荡之际，生活成本示威已进入新阶段。",
+      "impact": "多重社会运动合流对马克龙政府构成压力，治安与性别暴力议题成为政治动员焦点。抗议规模与持续时间将影响法国国内议程及2027年总统选举前的政治格局。",
       "source_name": "France 24",
-      "url": "https://www.france24.com/en/video/20261127-us-thanksgiving-storms-cause-flooding-and-travel-chaos"
-    },
-    {
-      "title": "印度警方从德里诈骗园区解救164名马来西亚与印尼公民",
-      "summary": "印度警方表示解救164名被贩运至印度并被迫从事网络诈骗的外国公民，受害者来自马来西亚和印尼，案件涉及跨国诈骗团伙。",
-      "impact": "案件揭示东南亚至南亚的跨国人口贩运与网络诈骗产业链仍在扩张，区域执法合作与受害者保护机制面临考验。对相关国家外交与劳务输出监管形成压力。",
-      "source_name": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3376096/indian-police-rescue-164-malaysians-and-indonesians-delhi-scam-ring"
+      "url": "https://www.france24.com/en/bill-at-the-heart-of-gender-based-violence-protests"
     }
   ],
   "finland_nordic": [
     {
-      "title": "芬兰总理奥尔波呼吁欧盟预算削减2500亿欧元，布鲁塞尔谈判陷僵局",
-      "summary": "芬兰总理彼得里·奥尔波表示欧盟拟议的长期预算规模仍然过大，呼吁削减2500亿欧元。各国领导人在布鲁塞尔就支出优先事项发生冲突，谈判复杂化。",
-      "impact": "芬兰在欧盟预算问题上采取财政鹰派立场，反映北欧国家在净出资国角色与凝聚力政策之间的张力。预算僵局可能拖延欧盟长期投资计划，影响气候、防务与竞争力基金的落地节奏。",
+      "title": "芬兰总理奥尔波呼吁欧盟预算削减2500亿欧元，布鲁塞尔峰会分歧加剧",
+      "summary": "Yle报道，芬兰总理彼得里·奥尔波表示欧盟拟议的长期预算仍然过大，呼吁削减2500亿欧元。布鲁塞尔谈判因支出优先事项分歧而复杂化，各国领导人发生冲突。",
+      "impact": "芬兰在欧盟预算谈判中持紧缩立场，反映净出资国对财政纪律的诉求。若分歧无法弥合，可能延迟多年期财政框架的通过，影响欧盟气候与竞争力投资计划。",
       "source_name": "Yle News",
       "url": "https://yle.fi/a/74-20259445?origin=rss"
     },
     {
-      "title": "俄罗斯逃兵拍摄非法越境芬兰“攻略”视频成趋势",
-      "summary": "芬兰边防局表示，俄罗斯逃兵拍摄并发布非法越境进入芬兰的“教学”视频呈增长趋势，被形容为“某种Tripadvisor”。",
-      "impact": "视频传播可能刺激更多非法越境尝试，加大芬兰东部边境管控压力。此事与芬兰关闭部分边境口岸的安全政策形成呼应，也折射俄罗斯社会动员与逃兵问题的外溢效应。",
+      "title": "俄罗斯逃兵拍摄非法越境芬兰的“攻略”视频，边境管理局称呈增长趋势",
+      "summary": "Yle报道，俄罗斯逃兵拍摄并发布非法穿越边境进入芬兰的“教学”视频，芬兰边境管理局称此类视频呈增长趋势，形成一种“ Tripadvisor式”的越境指南。",
+      "impact": "非法越境视频的传播可能鼓励更多逃避动员的俄罗斯人尝试入境，芬兰边境管控压力上升。赫尔辛基需在人道庇护与边境安全之间寻求平衡，同时应对来自俄罗斯的混合威胁。",
       "source_name": "Yle News",
       "url": "https://yle.fi/a/74-20259406?origin=rss"
     },
     {
-      "title": "芬兰新药社会支出十年增长近十倍",
-      "summary": "芬兰报销处方药的患者年度自付上限制度下，社会为新药承担的支出在十年内增长近十倍。",
-      "impact": "药品支出膨胀对芬兰公共医疗财政可持续性构成压力，可能推动报销范围与定价谈判改革。北欧福利模式在高价创新药时代的成本控制难题进一步显现。",
+      "title": "埃斯波交响乐团：11国音乐家组成的芬兰国际乐团",
+      "summary": "Yle报道，来自11个国家的音乐家汇聚埃斯波交响乐团，共同的热爱帮助成员在芬兰找到归属感与社区认同。乐团以英语排练、意大利语提示和拉丁曲调运作。",
+      "impact": "文化融合案例展现芬兰社会的多元面貌，移民融入通过艺术社群得以实现。此类民间交流有助于缓解劳动力短缺，并丰富本地文化生态。",
       "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20259295?origin=rss"
+      "url": "https://yle.fi/a/74-20259206?origin=rss"
     },
     {
-      "title": "本周芬兰要闻：最后一位冬季战争老兵、性别薪酬差距与七年级学生负担",
-      "summary": "芬兰本周头条包括最后一位冬季战争老兵的相关报道、性别薪酬差距问题以及七年级学生负担过重的教育议题。",
-      "impact": "冬季战争老兵凋零象征历史记忆的代际交接；性别薪酬差距与教育负担议题则指向芬兰社会平等与福利体系的持续性挑战，可能影响政策辩论与预算分配。",
+      "title": "于韦斯屈莱市为日托儿童投石砸车买单645欧元",
+      "summary": "Yle报道，于韦斯屈莱市日托中心的儿童向一辆汽车投掷石块，造成损失，该市最终支付了645欧元的维修账单。事件凸显儿童玩耍意外引发的公共责任问题。",
+      "impact": "小额赔偿背后涉及市政责任与保险机制，也引发对日托中心监管与儿童行为管理的讨论。此类事件虽小，但反映地方财政在意外支出上的处理流程。",
       "source_name": "Yle News",
-      "url": "https://yle.fi/a/74-20259428?origin=rss"
+      "url": "https://yle.fi/a/74-20259351?origin=rss"
     }
   ],
   "quick_bites": [
-    "法国对一名德国籍男子发出逮捕令，其涉嫌供应移民走私船只并致人死亡，涉及英吉利海峡偷渡调查。",
-    "台湾地方选举临近，城市选战受到中美双方关注，涉及两岸关系与外部势力博弈。",
-    "西班牙大选最后一场辩论中住房问题主导选情，领导人激烈交锋。",
-    "芬兰于韦斯屈莱市因日托儿童投石砸车，市政府承担645欧元维修账单。",
-    "黑色星期五演变：从排队抢购到数周线上促销，消费者转向AI比价与谨慎消费。"
+    "OpenAI反诉苹果窃取商业机密，称苹果通过前员工获取敏感信息，科技巨头法律战升级。（FT / BBC）",
+    "Anthropic上市首周股价剧烈波动后跳涨，AI独角兽IPO表现引发市场关注。（Bloomberg）",
+    "西班牙首相桑切斯与对手在选前最后集会中争取选票，民调显示选情胶着。（BBC）",
+    "阿富汗爆炸致10名学生死亡、超100人受伤，内政部称系附近炸药库疏忽所致。（BBC）",
+    "澳大利亚州选举保守派大胜工党，被Nikkei视为联邦选举的“预演”。（Nikkei Asia）"
   ],
   "email_sent": true
 }
